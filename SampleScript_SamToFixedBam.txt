@@ -1,0 +1,38 @@
+java -Xmx2g -jar /opt/picard-1.138/bin/picard.jar SortSam \
+I=BWA_output/sample1.sam \
+O=BWA_output/sample1.sorted.bam \
+SO=coordinate \
+VALIDATION_STRINGENCY=LENIENT \
+TMP_DIR=tmp_WT \
+CREATE_INDEX=true
+
+
+
+java -Xmx2g -jar /opt/picard-1.138/bin/picard.jar MarkDuplicates \
+I=BWA_output/sample1.sorted.bam \
+O=bam_output/sample1.sorted.MarkDup.bam \
+VALIDATION_STRINGENCY=SILENT \
+METRICS_FILE=MarkDup_metrics \
+TMP_DIR=tmp \
+CREATE_INDEX=true
+
+java -Xmx2g -jar /opt/picard-1.138/bin/picard.jar AddOrReplaceReadGroups \
+I=bam_output/sample1.sorted.MarkDup.bam \
+O=bam_output/sample1.sorted.MarkDup.fixed.bam \
+RGLB=bar \
+RGID=id \
+RGPL=Illumina \
+RGPU=platform \
+RGSM=sample1 \
+SO=coordinate \
+VALIDATION_STRINGENCY=SILENT \
+TMP_DIR=tmp \
+CREATE_INDEX=true
+
+java -Xmx2g -jar /opt/picard-1.138/bin/picard.jar FixMateInformation \
+SO=coordinate \
+I=bam_output/sample1.sorted.MarkDup.fixed.bam \
+O=bam_output/sample1.sorted.MarkDup.realn.fixed.bam \
+VALIDATION_STRINGENCY=LENIENT \
+TMP_DIR=tmp/flx \
+CREATE_INDEX=true
