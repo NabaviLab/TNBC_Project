@@ -1,0 +1,80 @@
+[bwa_index] Pack FASTA... 35.96 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=6191387966, availableWord=447648912
+[BWTIncConstructFromPacked] 10 iterations done. 99999998 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199999998 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 299999998 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 399999998 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 499999998 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 599999998 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 699999998 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 799999998 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 899999998 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 999999998 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1099999998 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1199999998 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1299999998 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1399999998 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1499999998 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1599999998 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1699999998 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1799999998 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1899999998 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 1999999998 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 2099999998 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 2199999998 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2299999998 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2399999998 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2499999998 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2599999998 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2699999998 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2799999998 characters processed.
+[BWTIncConstructFromPacked] 290 iterations done. 2899999998 characters processed.
+[BWTIncConstructFromPacked] 300 iterations done. 2999999998 characters processed.
+[BWTIncConstructFromPacked] 310 iterations done. 3099999998 characters processed.
+[BWTIncConstructFromPacked] 320 iterations done. 3199999998 characters processed.
+[BWTIncConstructFromPacked] 330 iterations done. 3299999998 characters processed.
+[BWTIncConstructFromPacked] 340 iterations done. 3399999998 characters processed.
+[BWTIncConstructFromPacked] 350 iterations done. 3499999998 characters processed.
+[BWTIncConstructFromPacked] 360 iterations done. 3599999998 characters processed.
+[BWTIncConstructFromPacked] 370 iterations done. 3699999998 characters processed.
+[BWTIncConstructFromPacked] 380 iterations done. 3799999998 characters processed.
+[BWTIncConstructFromPacked] 390 iterations done. 3899999998 characters processed.
+[BWTIncConstructFromPacked] 400 iterations done. 3999999998 characters processed.
+[BWTIncConstructFromPacked] 410 iterations done. 4099999998 characters processed.
+[BWTIncConstructFromPacked] 420 iterations done. 4199999998 characters processed.
+[BWTIncConstructFromPacked] 430 iterations done. 4299999998 characters processed.
+[BWTIncConstructFromPacked] 440 iterations done. 4399999998 characters processed.
+[BWTIncConstructFromPacked] 450 iterations done. 4499999998 characters processed.
+[BWTIncConstructFromPacked] 460 iterations done. 4599999998 characters processed.
+[BWTIncConstructFromPacked] 470 iterations done. 4699999998 characters processed.
+[BWTIncConstructFromPacked] 480 iterations done. 4799999998 characters processed.
+[BWTIncConstructFromPacked] 490 iterations done. 4899999998 characters processed.
+[BWTIncConstructFromPacked] 500 iterations done. 4999999998 characters processed.
+[BWTIncConstructFromPacked] 510 iterations done. 5099999998 characters processed.
+[BWTIncConstructFromPacked] 520 iterations done. 5199999998 characters processed.
+[BWTIncConstructFromPacked] 530 iterations done. 5299999998 characters processed.
+[BWTIncConstructFromPacked] 540 iterations done. 5399999998 characters processed.
+[BWTIncConstructFromPacked] 550 iterations done. 5499999998 characters processed.
+[BWTIncConstructFromPacked] 560 iterations done. 5596003406 characters processed.
+[BWTIncConstructFromPacked] 570 iterations done. 5681458862 characters processed.
+[BWTIncConstructFromPacked] 580 iterations done. 5757407918 characters processed.
+[BWTIncConstructFromPacked] 590 iterations done. 5824907614 characters processed.
+[BWTIncConstructFromPacked] 600 iterations done. 5884897502 characters processed.
+[BWTIncConstructFromPacked] 610 iterations done. 5938212670 characters processed.
+[BWTIncConstructFromPacked] 620 iterations done. 5985595326 characters processed.
+[BWTIncConstructFromPacked] 630 iterations done. 6027705102 characters processed.
+[BWTIncConstructFromPacked] 640 iterations done. 6065128334 characters processed.
+[BWTIncConstructFromPacked] 650 iterations done. 6098386190 characters processed.
+[BWTIncConstructFromPacked] 660 iterations done. 6127941854 characters processed.
+[BWTIncConstructFromPacked] 670 iterations done. 6154206942 characters processed.
+[BWTIncConstructFromPacked] 680 iterations done. 6177547390 characters processed.
+[bwa_index] 3615.90 seconds elapse.
+[bwa_index] Update BWT... 22.01 sec
+[bwa_index] Pack forward-only FASTA... 19.18 sec
+[bwa_index] Construct SA from BWT and Occ... 855.64 sec
+[main] Version: 0.7.12-r1039
+[main] CMD: bwa index hg19/genome.fa
+[main] Real time: 4849.216 sec; CPU: 4548.694 sec
+/opt/gridengine/default/spool/compute-1-4/job_scripts/124701: line 31: BWA_Output/p_DS_bkm_085-N.sam: No such file or directory
+/opt/gridengine/default/spool/compute-1-4/job_scripts/124701: line 33: BWA_Output/p_DS_bkm_085-T.sam: No such file or directory
