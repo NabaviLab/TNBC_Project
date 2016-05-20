@@ -1,0 +1,641 @@
+[Tue May 17 10:59:54 EDT 2016] picard.sam.SortSam INPUT=p_DS_bkm_114-N.sam OUTPUT=p_DS_bkm_114-N/p_DS_bkm_114-N.sorted.bam SORT_ORDER=coordinate TMP_DIR=[tmp_WT] VALIDATION_STRINGENCY=LENIENT CREATE_INDEX=true    VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue May 17 10:59:54 EDT 2016] Executing as abdelrahman@compute-1-2.local on Linux 2.6.32-279.14.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_45-b14; Picard version: 2.3.0(9a00c87b7ffdb01cfb5a0d6e76556146196babb8_1463071327) IntelDeflater
+INFO	2016-05-17 11:04:51	SortSam	Read    10,000,000 records.  Elapsed time: 00:04:55s.  Time for last 10,000,000:  295s.  Last read position: chr1:18,021,641
+INFO	2016-05-17 11:09:41	SortSam	Read    20,000,000 records.  Elapsed time: 00:09:45s.  Time for last 10,000,000:  290s.  Last read position: chr1:235,618,829
+INFO	2016-05-17 11:15:00	SortSam	Read    30,000,000 records.  Elapsed time: 00:15:04s.  Time for last 10,000,000:  319s.  Last read position: chr7:43,958,995
+INFO	2016-05-17 11:20:06	SortSam	Read    40,000,000 records.  Elapsed time: 00:20:10s.  Time for last 10,000,000:  306s.  Last read position: chr10:98,188,291
+INFO	2016-05-17 11:24:50	SortSam	Read    50,000,000 records.  Elapsed time: 00:24:54s.  Time for last 10,000,000:  283s.  Last read position: chr20:37,638,969
+INFO	2016-05-17 11:29:54	SortSam	Read    60,000,000 records.  Elapsed time: 00:29:59s.  Time for last 10,000,000:  304s.  Last read position: chr10:23,481,514
+INFO	2016-05-17 11:35:01	SortSam	Read    70,000,000 records.  Elapsed time: 00:35:06s.  Time for last 10,000,000:  306s.  Last read position: chr16:15,095,510
+INFO	2016-05-17 11:40:17	SortSam	Read    80,000,000 records.  Elapsed time: 00:40:21s.  Time for last 10,000,000:  315s.  Last read position: chr11:105,881,280
+INFO	2016-05-17 11:45:24	SortSam	Read    90,000,000 records.  Elapsed time: 00:45:28s.  Time for last 10,000,000:  306s.  Last read position: chr13:114,780,782
+INFO	2016-05-17 11:50:32	SortSam	Read   100,000,000 records.  Elapsed time: 00:50:36s.  Time for last 10,000,000:  308s.  Last read position: chr1:36,926,855
+INFO	2016-05-17 11:55:27	SortSam	Read   110,000,000 records.  Elapsed time: 00:55:31s.  Time for last 10,000,000:  294s.  Last read position: chr9:105,767,325
+INFO	2016-05-17 12:00:27	SortSam	Read   120,000,000 records.  Elapsed time: 01:00:32s.  Time for last 10,000,000:  300s.  Last read position: chr12:7,294,659
+INFO	2016-05-17 12:05:27	SortSam	Read   130,000,000 records.  Elapsed time: 01:05:32s.  Time for last 10,000,000:  300s.  Last read position: chr1:29,319,943
+INFO	2016-05-17 12:10:53	SortSam	Read   140,000,000 records.  Elapsed time: 01:10:57s.  Time for last 10,000,000:  325s.  Last read position: chr1:202,609,886
+INFO	2016-05-17 12:11:13	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2016-05-17 12:15:53	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 01:15:58s.  Time for last 10,000,000:  209s.  Last read position: chr1:169,764,203
+INFO	2016-05-17 12:18:50	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 01:18:55s.  Time for last 10,000,000:  177s.  Last read position: chr2:162,197,333
+INFO	2016-05-17 12:21:10	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 01:21:15s.  Time for last 10,000,000:  140s.  Last read position: chr3:126,161,207
+INFO	2016-05-17 12:23:30	SortSam	Wrote    40,000,000 records from a sorting collection.  Elapsed time: 01:23:34s.  Time for last 10,000,000:  139s.  Last read position: chr5:53,752,194
+INFO	2016-05-17 12:25:24	SortSam	Wrote    50,000,000 records from a sorting collection.  Elapsed time: 01:25:29s.  Time for last 10,000,000:  114s.  Last read position: chr6:90,458,992
+INFO	2016-05-17 12:27:26	SortSam	Wrote    60,000,000 records from a sorting collection.  Elapsed time: 01:27:30s.  Time for last 10,000,000:  121s.  Last read position: chr8:19,687,952
+INFO	2016-05-17 12:29:10	SortSam	Wrote    70,000,000 records from a sorting collection.  Elapsed time: 01:29:15s.  Time for last 10,000,000:  104s.  Last read position: chr10:468,939
+INFO	2016-05-17 12:30:50	SortSam	Wrote    80,000,000 records from a sorting collection.  Elapsed time: 01:30:55s.  Time for last 10,000,000:  100s.  Last read position: chr11:64,981,707
+INFO	2016-05-17 12:32:35	SortSam	Wrote    90,000,000 records from a sorting collection.  Elapsed time: 01:32:40s.  Time for last 10,000,000:  104s.  Last read position: chr12:112,512,423
+INFO	2016-05-17 12:34:41	SortSam	Wrote   100,000,000 records from a sorting collection.  Elapsed time: 01:34:46s.  Time for last 10,000,000:  126s.  Last read position: chr15:43,996,046
+INFO	2016-05-17 12:36:40	SortSam	Wrote   110,000,000 records from a sorting collection.  Elapsed time: 01:36:45s.  Time for last 10,000,000:  119s.  Last read position: chr17:7,727,530
+INFO	2016-05-17 12:38:28	SortSam	Wrote   120,000,000 records from a sorting collection.  Elapsed time: 01:38:32s.  Time for last 10,000,000:  107s.  Last read position: chr19:7,992,927
+INFO	2016-05-17 12:40:02	SortSam	Wrote   130,000,000 records from a sorting collection.  Elapsed time: 01:40:06s.  Time for last 10,000,000:   93s.  Last read position: chr20:61,488,737
+INFO	2016-05-17 12:41:42	SortSam	Wrote   140,000,000 records from a sorting collection.  Elapsed time: 01:41:47s.  Time for last 10,000,000:  100s.  Last read position: chrX:153,228,842
+[Tue May 17 12:42:02 EDT 2016] picard.sam.SortSam done. Elapsed time: 102.14 minutes.
+Runtime.totalMemory()=1021837312
+[Tue May 17 12:42:04 EDT 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[p_DS_bkm_114-N/p_DS_bkm_114-N.sorted.bam] OUTPUT=p_DS_bkm_114-N/p_DS_bkm_114-N.sorted.MarkDup.bam METRICS_FILE=MarkDup_metrics TMP_DIR=[tmp] VALIDATION_STRINGENCY=SILENT CREATE_INDEX=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 REMOVE_SEQUENCING_DUPLICATES=false TAGGING_POLICY=DontTag REMOVE_DUPLICATES=false ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates READ_NAME_REGEX=<optimized capture of last three ':' separated fields as numeric values> OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue May 17 12:42:04 EDT 2016] Executing as abdelrahman@compute-1-2.local on Linux 2.6.32-279.14.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_45-b14; Picard version: 2.3.0(9a00c87b7ffdb01cfb5a0d6e76556146196babb8_1463071327) IntelDeflater
+INFO	2016-05-17 12:42:04	MarkDuplicates	Start of doWork freeMemory: 502229304; totalMemory: 506462208; maxMemory: 13362528256
+INFO	2016-05-17 12:42:04	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2016-05-17 12:42:04	MarkDuplicates	Will retain up to 51394339 data points before spilling to disk.
+INFO	2016-05-17 12:42:10	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:06s.  Time for last 1,000,000:    6s.  Last read position: chr1:11,740,343
+INFO	2016-05-17 12:42:10	MarkDuplicates	Tracking 3715 as yet unmatched pairs. 408 records in RAM.
+INFO	2016-05-17 12:42:16	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    5s.  Last read position: chr1:23,409,833
+INFO	2016-05-17 12:42:16	MarkDuplicates	Tracking 6444 as yet unmatched pairs. 554 records in RAM.
+INFO	2016-05-17 12:42:21	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:17s.  Time for last 1,000,000:    5s.  Last read position: chr1:34,046,362
+INFO	2016-05-17 12:42:21	MarkDuplicates	Tracking 9304 as yet unmatched pairs. 803 records in RAM.
+INFO	2016-05-17 12:42:28	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:    6s.  Last read position: chr1:44,450,486
+INFO	2016-05-17 12:42:28	MarkDuplicates	Tracking 12009 as yet unmatched pairs. 866 records in RAM.
+INFO	2016-05-17 12:42:33	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    5s.  Last read position: chr1:62,588,647
+INFO	2016-05-17 12:42:33	MarkDuplicates	Tracking 15300 as yet unmatched pairs. 1002 records in RAM.
+INFO	2016-05-17 12:42:38	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    5s.  Last read position: chr1:92,185,451
+INFO	2016-05-17 12:42:38	MarkDuplicates	Tracking 19803 as yet unmatched pairs. 1137 records in RAM.
+INFO	2016-05-17 12:42:44	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    5s.  Last read position: chr1:114,437,453
+INFO	2016-05-17 12:42:44	MarkDuplicates	Tracking 23638 as yet unmatched pairs. 1074 records in RAM.
+INFO	2016-05-17 12:42:51	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    6s.  Last read position: chr1:151,381,039
+INFO	2016-05-17 12:42:51	MarkDuplicates	Tracking 28476 as yet unmatched pairs. 1193 records in RAM.
+INFO	2016-05-17 12:42:56	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:    4s.  Last read position: chr1:156,811,214
+INFO	2016-05-17 12:42:56	MarkDuplicates	Tracking 30423 as yet unmatched pairs. 1115 records in RAM.
+INFO	2016-05-17 12:43:03	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:59s.  Time for last 1,000,000:    7s.  Last read position: chr1:169,764,203
+INFO	2016-05-17 12:43:03	MarkDuplicates	Tracking 32827 as yet unmatched pairs. 996 records in RAM.
+INFO	2016-05-17 12:43:07	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    3s.  Last read position: chr1:191,940,263
+INFO	2016-05-17 12:43:07	MarkDuplicates	Tracking 36094 as yet unmatched pairs. 777 records in RAM.
+INFO	2016-05-17 12:43:15	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    8s.  Last read position: chr1:207,755,424
+INFO	2016-05-17 12:43:15	MarkDuplicates	Tracking 39069 as yet unmatched pairs. 664 records in RAM.
+INFO	2016-05-17 12:43:19	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:    3s.  Last read position: chr1:228,680,791
+INFO	2016-05-17 12:43:19	MarkDuplicates	Tracking 42466 as yet unmatched pairs. 406 records in RAM.
+INFO	2016-05-17 12:43:25	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:01:21s.  Time for last 1,000,000:    6s.  Last read position: chr2:1,657,411
+INFO	2016-05-17 12:43:25	MarkDuplicates	Tracking 46069 as yet unmatched pairs. 6141 records in RAM.
+INFO	2016-05-17 12:43:29	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:01:25s.  Time for last 1,000,000:    4s.  Last read position: chr2:27,463,812
+INFO	2016-05-17 12:43:29	MarkDuplicates	Tracking 49569 as yet unmatched pairs. 6322 records in RAM.
+INFO	2016-05-17 12:43:40	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:   11s.  Last read position: chr2:45,530,563
+INFO	2016-05-17 12:43:40	MarkDuplicates	Tracking 70064 as yet unmatched pairs. 4853 records in RAM.
+INFO	2016-05-17 12:43:44	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:    3s.  Last read position: chr2:72,960,240
+INFO	2016-05-17 12:43:44	MarkDuplicates	Tracking 73636 as yet unmatched pairs. 4637 records in RAM.
+INFO	2016-05-17 12:43:48	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:    4s.  Last read position: chr2:98,350,134
+INFO	2016-05-17 12:43:48	MarkDuplicates	Tracking 78330 as yet unmatched pairs. 4188 records in RAM.
+INFO	2016-05-17 12:43:52	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:01:48s.  Time for last 1,000,000:    3s.  Last read position: chr2:128,394,472
+INFO	2016-05-17 12:43:52	MarkDuplicates	Tracking 81709 as yet unmatched pairs. 3832 records in RAM.
+INFO	2016-05-17 12:43:58	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:01:54s.  Time for last 1,000,000:    6s.  Last read position: chr2:162,197,333
+INFO	2016-05-17 12:43:58	MarkDuplicates	Tracking 88163 as yet unmatched pairs. 2865 records in RAM.
+INFO	2016-05-17 12:44:02	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:01:58s.  Time for last 1,000,000:    3s.  Last read position: chr2:179,457,528
+INFO	2016-05-17 12:44:02	MarkDuplicates	Tracking 90741 as yet unmatched pairs. 2551 records in RAM.
+INFO	2016-05-17 12:44:15	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:   12s.  Last read position: chr2:202,027,723
+INFO	2016-05-17 12:44:15	MarkDuplicates	Tracking 93295 as yet unmatched pairs. 1985 records in RAM.
+INFO	2016-05-17 12:44:18	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:02:14s.  Time for last 1,000,000:    3s.  Last read position: chr2:220,033,389
+INFO	2016-05-17 12:44:18	MarkDuplicates	Tracking 95501 as yet unmatched pairs. 1319 records in RAM.
+INFO	2016-05-17 12:44:23	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    4s.  Last read position: chr2:238,253,398
+INFO	2016-05-17 12:44:23	MarkDuplicates	Tracking 97907 as yet unmatched pairs. 399 records in RAM.
+INFO	2016-05-17 12:44:27	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:02:23s.  Time for last 1,000,000:    3s.  Last read position: chr3:13,190,488
+INFO	2016-05-17 12:44:27	MarkDuplicates	Tracking 99724 as yet unmatched pairs. 6193 records in RAM.
+INFO	2016-05-17 12:44:31	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:02:27s.  Time for last 1,000,000:    3s.  Last read position: chr3:39,175,639
+INFO	2016-05-17 12:44:31	MarkDuplicates	Tracking 102320 as yet unmatched pairs. 5685 records in RAM.
+INFO	2016-05-17 12:44:37	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:02:33s.  Time for last 1,000,000:    6s.  Last read position: chr3:49,152,666
+INFO	2016-05-17 12:44:37	MarkDuplicates	Tracking 103791 as yet unmatched pairs. 5269 records in RAM.
+INFO	2016-05-17 12:44:42	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:    4s.  Last read position: chr3:57,356,477
+INFO	2016-05-17 12:44:42	MarkDuplicates	Tracking 105145 as yet unmatched pairs. 4749 records in RAM.
+INFO	2016-05-17 12:44:52	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:02:48s.  Time for last 1,000,000:   10s.  Last read position: chr3:107,096,615
+INFO	2016-05-17 12:44:52	MarkDuplicates	Tracking 108810 as yet unmatched pairs. 3735 records in RAM.
+INFO	2016-05-17 12:44:56	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:02:51s.  Time for last 1,000,000:    3s.  Last read position: chr3:126,161,207
+INFO	2016-05-17 12:44:56	MarkDuplicates	Tracking 110549 as yet unmatched pairs. 2838 records in RAM.
+INFO	2016-05-17 12:45:01	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:02:57s.  Time for last 1,000,000:    5s.  Last read position: chr3:146,177,421
+INFO	2016-05-17 12:45:01	MarkDuplicates	Tracking 112535 as yet unmatched pairs. 2091 records in RAM.
+INFO	2016-05-17 12:45:05	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:03:01s.  Time for last 1,000,000:    4s.  Last read position: chr3:182,740,330
+INFO	2016-05-17 12:45:05	MarkDuplicates	Tracking 115264 as yet unmatched pairs. 941 records in RAM.
+INFO	2016-05-17 12:45:13	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:03:08s.  Time for last 1,000,000:    7s.  Last read position: chr4:882,801
+INFO	2016-05-17 12:45:13	MarkDuplicates	Tracking 116946 as yet unmatched pairs. 8298 records in RAM.
+INFO	2016-05-17 12:45:17	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:03:13s.  Time for last 1,000,000:    4s.  Last read position: chr4:25,674,684
+INFO	2016-05-17 12:45:17	MarkDuplicates	Tracking 118897 as yet unmatched pairs. 7430 records in RAM.
+INFO	2016-05-17 12:45:28	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:03:24s.  Time for last 1,000,000:   10s.  Last read position: chr4:68,376,844
+INFO	2016-05-17 12:45:28	MarkDuplicates	Tracking 123932 as yet unmatched pairs. 5443 records in RAM.
+INFO	2016-05-17 12:45:31	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:03:27s.  Time for last 1,000,000:    3s.  Last read position: chr4:89,589,524
+INFO	2016-05-17 12:45:31	MarkDuplicates	Tracking 125971 as yet unmatched pairs. 4076 records in RAM.
+INFO	2016-05-17 12:45:37	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:03:32s.  Time for last 1,000,000:    5s.  Last read position: chr4:123,274,284
+INFO	2016-05-17 12:45:37	MarkDuplicates	Tracking 128113 as yet unmatched pairs. 2893 records in RAM.
+INFO	2016-05-17 12:45:41	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:03:36s.  Time for last 1,000,000:    3s.  Last read position: chr4:164,069,425
+INFO	2016-05-17 12:45:41	MarkDuplicates	Tracking 130455 as yet unmatched pairs. 1448 records in RAM.
+INFO	2016-05-17 12:45:48	MarkDuplicates	Read    39,000,000 records.  Elapsed time: 00:03:44s.  Time for last 1,000,000:    7s.  Last read position: chr5:10,393,915
+INFO	2016-05-17 12:45:48	MarkDuplicates	Tracking 132680 as yet unmatched pairs. 8785 records in RAM.
+INFO	2016-05-17 12:45:52	MarkDuplicates	Read    40,000,000 records.  Elapsed time: 00:03:48s.  Time for last 1,000,000:    3s.  Last read position: chr5:53,752,194
+INFO	2016-05-17 12:45:52	MarkDuplicates	Tracking 135088 as yet unmatched pairs. 7297 records in RAM.
+INFO	2016-05-17 12:46:02	MarkDuplicates	Read    41,000,000 records.  Elapsed time: 00:03:58s.  Time for last 1,000,000:   10s.  Last read position: chr5:79,733,583
+INFO	2016-05-17 12:46:02	MarkDuplicates	Tracking 136560 as yet unmatched pairs. 5623 records in RAM.
+INFO	2016-05-17 12:46:06	MarkDuplicates	Read    42,000,000 records.  Elapsed time: 00:04:02s.  Time for last 1,000,000:    3s.  Last read position: chr5:123,976,949
+INFO	2016-05-17 12:46:06	MarkDuplicates	Tracking 138708 as yet unmatched pairs. 3779 records in RAM.
+INFO	2016-05-17 12:46:10	MarkDuplicates	Read    43,000,000 records.  Elapsed time: 00:04:06s.  Time for last 1,000,000:    4s.  Last read position: chr5:140,431,961
+INFO	2016-05-17 12:46:10	MarkDuplicates	Tracking 140017 as yet unmatched pairs. 2815 records in RAM.
+INFO	2016-05-17 12:46:14	MarkDuplicates	Read    44,000,000 records.  Elapsed time: 00:04:10s.  Time for last 1,000,000:    3s.  Last read position: chr5:153,835,567
+INFO	2016-05-17 12:46:14	MarkDuplicates	Tracking 140852 as yet unmatched pairs. 1765 records in RAM.
+INFO	2016-05-17 12:46:20	MarkDuplicates	Read    45,000,000 records.  Elapsed time: 00:04:16s.  Time for last 1,000,000:    6s.  Last read position: chr5:178,460,228
+INFO	2016-05-17 12:46:20	MarkDuplicates	Tracking 141979 as yet unmatched pairs. 329 records in RAM.
+INFO	2016-05-17 12:46:26	MarkDuplicates	Read    46,000,000 records.  Elapsed time: 00:04:22s.  Time for last 1,000,000:    5s.  Last read position: chr6:24,843,310
+INFO	2016-05-17 12:46:26	MarkDuplicates	Tracking 143462 as yet unmatched pairs. 9800 records in RAM.
+INFO	2016-05-17 12:46:32	MarkDuplicates	Read    47,000,000 records.  Elapsed time: 00:04:27s.  Time for last 1,000,000:    5s.  Last read position: chr6:31,760,205
+INFO	2016-05-17 12:46:32	MarkDuplicates	Tracking 143988 as yet unmatched pairs. 8966 records in RAM.
+INFO	2016-05-17 12:46:36	MarkDuplicates	Read    48,000,000 records.  Elapsed time: 00:04:32s.  Time for last 1,000,000:    4s.  Last read position: chr6:39,387,718
+INFO	2016-05-17 12:46:36	MarkDuplicates	Tracking 144423 as yet unmatched pairs. 7963 records in RAM.
+INFO	2016-05-17 12:46:49	MarkDuplicates	Read    49,000,000 records.  Elapsed time: 00:04:45s.  Time for last 1,000,000:   13s.  Last read position: chr6:55,196,541
+INFO	2016-05-17 12:46:49	MarkDuplicates	Tracking 145202 as yet unmatched pairs. 6906 records in RAM.
+INFO	2016-05-17 12:46:53	MarkDuplicates	Read    50,000,000 records.  Elapsed time: 00:04:49s.  Time for last 1,000,000:    3s.  Last read position: chr6:90,458,992
+INFO	2016-05-17 12:46:53	MarkDuplicates	Tracking 146401 as yet unmatched pairs. 5277 records in RAM.
+INFO	2016-05-17 12:46:59	MarkDuplicates	Read    51,000,000 records.  Elapsed time: 00:04:55s.  Time for last 1,000,000:    6s.  Last read position: chr6:127,476,456
+INFO	2016-05-17 12:46:59	MarkDuplicates	Tracking 147376 as yet unmatched pairs. 3249 records in RAM.
+INFO	2016-05-17 12:48:06	MarkDuplicates	Read    52,000,000 records.  Elapsed time: 00:06:01s.  Time for last 1,000,000:   66s.  Last read position: chr6:152,555,036
+INFO	2016-05-17 12:48:06	MarkDuplicates	Tracking 148260 as yet unmatched pairs. 1601 records in RAM.
+INFO	2016-05-17 12:48:11	MarkDuplicates	Read    53,000,000 records.  Elapsed time: 00:06:07s.  Time for last 1,000,000:    5s.  Last read position: chr7:4,259,932
+INFO	2016-05-17 12:48:11	MarkDuplicates	Tracking 148757 as yet unmatched pairs. 11895 records in RAM.
+INFO	2016-05-17 12:48:15	MarkDuplicates	Read    54,000,000 records.  Elapsed time: 00:06:11s.  Time for last 1,000,000:    4s.  Last read position: chr7:32,909,774
+INFO	2016-05-17 12:48:15	MarkDuplicates	Tracking 149647 as yet unmatched pairs. 10308 records in RAM.
+INFO	2016-05-17 12:48:21	MarkDuplicates	Read    55,000,000 records.  Elapsed time: 00:06:17s.  Time for last 1,000,000:    6s.  Last read position: chr7:70,231,083
+INFO	2016-05-17 12:48:21	MarkDuplicates	Tracking 150488 as yet unmatched pairs. 8058 records in RAM.
+INFO	2016-05-17 12:48:25	MarkDuplicates	Read    56,000,000 records.  Elapsed time: 00:06:21s.  Time for last 1,000,000:    3s.  Last read position: chr7:96,639,061
+INFO	2016-05-17 12:48:25	MarkDuplicates	Tracking 150876 as yet unmatched pairs. 5986 records in RAM.
+INFO	2016-05-17 12:48:33	MarkDuplicates	Read    57,000,000 records.  Elapsed time: 00:06:29s.  Time for last 1,000,000:    7s.  Last read position: chr7:105,987,337
+INFO	2016-05-17 12:48:33	MarkDuplicates	Tracking 151019 as yet unmatched pairs. 4570 records in RAM.
+INFO	2016-05-17 12:48:37	MarkDuplicates	Read    58,000,000 records.  Elapsed time: 00:06:33s.  Time for last 1,000,000:    4s.  Last read position: chr7:133,876,365
+INFO	2016-05-17 12:48:37	MarkDuplicates	Tracking 151784 as yet unmatched pairs. 2603 records in RAM.
+INFO	2016-05-17 12:48:41	MarkDuplicates	Read    59,000,000 records.  Elapsed time: 00:06:37s.  Time for last 1,000,000:    4s.  Last read position: chr7:150,500,457
+INFO	2016-05-17 12:48:41	MarkDuplicates	Tracking 152185 as yet unmatched pairs. 991 records in RAM.
+INFO	2016-05-17 12:48:54	MarkDuplicates	Read    60,000,000 records.  Elapsed time: 00:06:50s.  Time for last 1,000,000:   12s.  Last read position: chr8:19,687,952
+INFO	2016-05-17 12:48:54	MarkDuplicates	Tracking 152391 as yet unmatched pairs. 9749 records in RAM.
+INFO	2016-05-17 12:48:59	MarkDuplicates	Read    61,000,000 records.  Elapsed time: 00:06:54s.  Time for last 1,000,000:    4s.  Last read position: chr8:39,581,112
+INFO	2016-05-17 12:48:59	MarkDuplicates	Tracking 152535 as yet unmatched pairs. 8015 records in RAM.
+INFO	2016-05-17 12:49:04	MarkDuplicates	Read    62,000,000 records.  Elapsed time: 00:07:00s.  Time for last 1,000,000:    5s.  Last read position: chr8:74,912,026
+INFO	2016-05-17 12:49:04	MarkDuplicates	Tracking 152842 as yet unmatched pairs. 5496 records in RAM.
+INFO	2016-05-17 12:49:08	MarkDuplicates	Read    63,000,000 records.  Elapsed time: 00:07:03s.  Time for last 1,000,000:    3s.  Last read position: chr8:110,453,329
+INFO	2016-05-17 12:49:08	MarkDuplicates	Tracking 153068 as yet unmatched pairs. 3020 records in RAM.
+INFO	2016-05-17 12:49:13	MarkDuplicates	Read    64,000,000 records.  Elapsed time: 00:07:09s.  Time for last 1,000,000:    5s.  Last read position: chr8:144,802,437
+INFO	2016-05-17 12:49:13	MarkDuplicates	Tracking 153069 as yet unmatched pairs. 606 records in RAM.
+INFO	2016-05-17 12:49:17	MarkDuplicates	Read    65,000,000 records.  Elapsed time: 00:07:13s.  Time for last 1,000,000:    4s.  Last read position: chr9:21,326,977
+INFO	2016-05-17 12:49:17	MarkDuplicates	Tracking 152712 as yet unmatched pairs. 9729 records in RAM.
+INFO	2016-05-17 12:49:24	MarkDuplicates	Read    66,000,000 records.  Elapsed time: 00:07:19s.  Time for last 1,000,000:    6s.  Last read position: chr9:72,926,209
+INFO	2016-05-17 12:49:24	MarkDuplicates	Tracking 152639 as yet unmatched pairs. 7073 records in RAM.
+INFO	2016-05-17 12:49:27	MarkDuplicates	Read    67,000,000 records.  Elapsed time: 00:07:23s.  Time for last 1,000,000:    3s.  Last read position: chr9:100,317,790
+INFO	2016-05-17 12:49:27	MarkDuplicates	Tracking 152622 as yet unmatched pairs. 4972 records in RAM.
+INFO	2016-05-17 12:49:38	MarkDuplicates	Read    68,000,000 records.  Elapsed time: 00:07:33s.  Time for last 1,000,000:   10s.  Last read position: chr9:123,313,091
+INFO	2016-05-17 12:49:38	MarkDuplicates	Tracking 152431 as yet unmatched pairs. 3116 records in RAM.
+INFO	2016-05-17 12:49:42	MarkDuplicates	Read    69,000,000 records.  Elapsed time: 00:07:38s.  Time for last 1,000,000:    4s.  Last read position: chr9:133,805,087
+INFO	2016-05-17 12:49:42	MarkDuplicates	Tracking 151981 as yet unmatched pairs. 1435 records in RAM.
+INFO	2016-05-17 12:49:48	MarkDuplicates	Read    70,000,000 records.  Elapsed time: 00:07:44s.  Time for last 1,000,000:    5s.  Last read position: chr10:468,939
+INFO	2016-05-17 12:49:48	MarkDuplicates	Tracking 151519 as yet unmatched pairs. 15854 records in RAM.
+INFO	2016-05-17 12:49:52	MarkDuplicates	Read    71,000,000 records.  Elapsed time: 00:07:48s.  Time for last 1,000,000:    4s.  Last read position: chr10:28,970,258
+INFO	2016-05-17 12:49:52	MarkDuplicates	Tracking 151138 as yet unmatched pairs. 13381 records in RAM.
+INFO	2016-05-17 12:49:58	MarkDuplicates	Read    72,000,000 records.  Elapsed time: 00:07:54s.  Time for last 1,000,000:    6s.  Last read position: chr10:67,679,880
+INFO	2016-05-17 12:49:58	MarkDuplicates	Tracking 151076 as yet unmatched pairs. 8055 records in RAM.
+INFO	2016-05-17 12:50:02	MarkDuplicates	Read    73,000,000 records.  Elapsed time: 00:07:58s.  Time for last 1,000,000:    4s.  Last read position: chr10:88,635,737
+INFO	2016-05-17 12:50:02	MarkDuplicates	Tracking 150560 as yet unmatched pairs. 6041 records in RAM.
+INFO	2016-05-17 12:50:08	MarkDuplicates	Read    74,000,000 records.  Elapsed time: 00:08:04s.  Time for last 1,000,000:    6s.  Last read position: chr10:102,777,178
+INFO	2016-05-17 12:50:08	MarkDuplicates	Tracking 149854 as yet unmatched pairs. 3906 records in RAM.
+INFO	2016-05-17 12:50:13	MarkDuplicates	Read    75,000,000 records.  Elapsed time: 00:08:08s.  Time for last 1,000,000:    4s.  Last read position: chr10:122,626,596
+INFO	2016-05-17 12:50:13	MarkDuplicates	Tracking 149224 as yet unmatched pairs. 1641 records in RAM.
+INFO	2016-05-17 12:50:24	MarkDuplicates	Read    76,000,000 records.  Elapsed time: 00:08:19s.  Time for last 1,000,000:   10s.  Last read position: chr11:1,482,000
+INFO	2016-05-17 12:50:24	MarkDuplicates	Tracking 148244 as yet unmatched pairs. 16024 records in RAM.
+INFO	2016-05-17 12:50:27	MarkDuplicates	Read    77,000,000 records.  Elapsed time: 00:08:23s.  Time for last 1,000,000:    3s.  Last read position: chr11:10,328,180
+INFO	2016-05-17 12:50:27	MarkDuplicates	Tracking 147679 as yet unmatched pairs. 14597 records in RAM.
+INFO	2016-05-17 12:50:31	MarkDuplicates	Read    78,000,000 records.  Elapsed time: 00:08:27s.  Time for last 1,000,000:    3s.  Last read position: chr11:36,248,822
+INFO	2016-05-17 12:50:31	MarkDuplicates	Tracking 146707 as yet unmatched pairs. 12034 records in RAM.
+INFO	2016-05-17 12:50:36	MarkDuplicates	Read    79,000,000 records.  Elapsed time: 00:08:32s.  Time for last 1,000,000:    5s.  Last read position: chr11:59,344,053
+INFO	2016-05-17 12:50:36	MarkDuplicates	Tracking 146131 as yet unmatched pairs. 9774 records in RAM.
+INFO	2016-05-17 12:50:40	MarkDuplicates	Read    80,000,000 records.  Elapsed time: 00:08:36s.  Time for last 1,000,000:    3s.  Last read position: chr11:64,981,707
+INFO	2016-05-17 12:50:40	MarkDuplicates	Tracking 145468 as yet unmatched pairs. 8317 records in RAM.
+INFO	2016-05-17 12:50:47	MarkDuplicates	Read    81,000,000 records.  Elapsed time: 00:08:42s.  Time for last 1,000,000:    6s.  Last read position: chr11:72,470,391
+INFO	2016-05-17 12:50:47	MarkDuplicates	Tracking 144758 as yet unmatched pairs. 6837 records in RAM.
+INFO	2016-05-17 12:50:50	MarkDuplicates	Read    82,000,000 records.  Elapsed time: 00:08:46s.  Time for last 1,000,000:    3s.  Last read position: chr11:100,978,965
+INFO	2016-05-17 12:50:50	MarkDuplicates	Tracking 143697 as yet unmatched pairs. 4116 records in RAM.
+INFO	2016-05-17 12:50:57	MarkDuplicates	Read    83,000,000 records.  Elapsed time: 00:08:52s.  Time for last 1,000,000:    6s.  Last read position: chr11:118,642,571
+INFO	2016-05-17 12:50:57	MarkDuplicates	Tracking 142741 as yet unmatched pairs. 1914 records in RAM.
+INFO	2016-05-17 12:51:02	MarkDuplicates	Read    84,000,000 records.  Elapsed time: 00:08:57s.  Time for last 1,000,000:    4s.  Last read position: chr12:459,799
+INFO	2016-05-17 12:51:02	MarkDuplicates	Tracking 141973 as yet unmatched pairs. 17982 records in RAM.
+INFO	2016-05-17 12:51:15	MarkDuplicates	Read    85,000,000 records.  Elapsed time: 00:09:10s.  Time for last 1,000,000:   13s.  Last read position: chr12:11,463,174
+INFO	2016-05-17 12:51:15	MarkDuplicates	Tracking 141236 as yet unmatched pairs. 16387 records in RAM.
+INFO	2016-05-17 12:51:19	MarkDuplicates	Read    86,000,000 records.  Elapsed time: 00:09:15s.  Time for last 1,000,000:    4s.  Last read position: chr12:43,846,292
+INFO	2016-05-17 12:51:19	MarkDuplicates	Tracking 139928 as yet unmatched pairs. 13486 records in RAM.
+INFO	2016-05-17 12:51:24	MarkDuplicates	Read    87,000,000 records.  Elapsed time: 00:09:19s.  Time for last 1,000,000:    4s.  Last read position: chr12:53,589,641
+INFO	2016-05-17 12:51:24	MarkDuplicates	Tracking 138865 as yet unmatched pairs. 11644 records in RAM.
+INFO	2016-05-17 12:51:28	MarkDuplicates	Read    88,000,000 records.  Elapsed time: 00:09:24s.  Time for last 1,000,000:    4s.  Last read position: chr12:59,271,295
+INFO	2016-05-17 12:51:28	MarkDuplicates	Tracking 138192 as yet unmatched pairs. 10259 records in RAM.
+INFO	2016-05-17 12:51:35	MarkDuplicates	Read    89,000,000 records.  Elapsed time: 00:09:31s.  Time for last 1,000,000:    7s.  Last read position: chr12:96,131,699
+INFO	2016-05-17 12:51:35	MarkDuplicates	Tracking 136127 as yet unmatched pairs. 6115 records in RAM.
+INFO	2016-05-17 12:51:39	MarkDuplicates	Read    90,000,000 records.  Elapsed time: 00:09:34s.  Time for last 1,000,000:    3s.  Last read position: chr12:112,512,423
+INFO	2016-05-17 12:51:39	MarkDuplicates	Tracking 134648 as yet unmatched pairs. 3454 records in RAM.
+INFO	2016-05-17 12:51:47	MarkDuplicates	Read    91,000,000 records.  Elapsed time: 00:09:42s.  Time for last 1,000,000:    7s.  Last read position: chr12:125,609,554
+INFO	2016-05-17 12:51:47	MarkDuplicates	Tracking 133408 as yet unmatched pairs. 1240 records in RAM.
+INFO	2016-05-17 12:51:51	MarkDuplicates	Read    92,000,000 records.  Elapsed time: 00:09:47s.  Time for last 1,000,000:    4s.  Last read position: chr13:33,017,205
+INFO	2016-05-17 12:51:51	MarkDuplicates	Tracking 131763 as yet unmatched pairs. 7903 records in RAM.
+INFO	2016-05-17 12:51:58	MarkDuplicates	Read    93,000,000 records.  Elapsed time: 00:09:54s.  Time for last 1,000,000:    7s.  Last read position: chr13:75,930,217
+INFO	2016-05-17 12:51:58	MarkDuplicates	Tracking 129369 as yet unmatched pairs. 3789 records in RAM.
+INFO	2016-05-17 12:52:02	MarkDuplicates	Read    94,000,000 records.  Elapsed time: 00:09:58s.  Time for last 1,000,000:    3s.  Last read position: chr13:114,776,380
+INFO	2016-05-17 12:52:02	MarkDuplicates	Tracking 127190 as yet unmatched pairs. 104 records in RAM.
+INFO	2016-05-17 12:52:07	MarkDuplicates	Read    95,000,000 records.  Elapsed time: 00:10:02s.  Time for last 1,000,000:    4s.  Last read position: chr14:24,906,258
+INFO	2016-05-17 12:52:07	MarkDuplicates	Tracking 126215 as yet unmatched pairs. 10789 records in RAM.
+INFO	2016-05-17 12:52:20	MarkDuplicates	Read    96,000,000 records.  Elapsed time: 00:10:16s.  Time for last 1,000,000:   13s.  Last read position: chr14:58,934,483
+INFO	2016-05-17 12:52:20	MarkDuplicates	Tracking 123909 as yet unmatched pairs. 7182 records in RAM.
+INFO	2016-05-17 12:52:24	MarkDuplicates	Read    97,000,000 records.  Elapsed time: 00:10:20s.  Time for last 1,000,000:    3s.  Last read position: chr14:76,045,782
+INFO	2016-05-17 12:52:24	MarkDuplicates	Tracking 122283 as yet unmatched pairs. 4641 records in RAM.
+INFO	2016-05-17 12:52:29	MarkDuplicates	Read    98,000,000 records.  Elapsed time: 00:10:25s.  Time for last 1,000,000:    5s.  Last read position: chr14:101,506,636
+INFO	2016-05-17 12:52:29	MarkDuplicates	Tracking 120015 as yet unmatched pairs. 1186 records in RAM.
+INFO	2016-05-17 12:52:33	MarkDuplicates	Read    99,000,000 records.  Elapsed time: 00:10:29s.  Time for last 1,000,000:    3s.  Last read position: chr15:33,938,533
+INFO	2016-05-17 12:52:33	MarkDuplicates	Tracking 118238 as yet unmatched pairs. 11204 records in RAM.
+INFO	2016-05-17 12:52:41	MarkDuplicates	Read   100,000,000 records.  Elapsed time: 00:10:37s.  Time for last 1,000,000:    7s.  Last read position: chr15:43,996,046
+INFO	2016-05-17 12:52:41	MarkDuplicates	Tracking 116761 as yet unmatched pairs. 9106 records in RAM.
+INFO	2016-05-17 12:52:45	MarkDuplicates	Read   101,000,000 records.  Elapsed time: 00:10:41s.  Time for last 1,000,000:    4s.  Last read position: chr15:63,088,284
+INFO	2016-05-17 12:52:45	MarkDuplicates	Tracking 114837 as yet unmatched pairs. 6272 records in RAM.
+INFO	2016-05-17 12:52:54	MarkDuplicates	Read   102,000,000 records.  Elapsed time: 00:10:50s.  Time for last 1,000,000:    8s.  Last read position: chr15:76,301,555
+INFO	2016-05-17 12:52:54	MarkDuplicates	Tracking 113066 as yet unmatched pairs. 3824 records in RAM.
+INFO	2016-05-17 12:52:59	MarkDuplicates	Read   103,000,000 records.  Elapsed time: 00:10:54s.  Time for last 1,000,000:    4s.  Last read position: chr15:93,567,758
+INFO	2016-05-17 12:52:59	MarkDuplicates	Tracking 111216 as yet unmatched pairs. 1168 records in RAM.
+INFO	2016-05-17 12:55:41	MarkDuplicates	Read   104,000,000 records.  Elapsed time: 00:13:37s.  Time for last 1,000,000:  162s.  Last read position: chr16:3,265,623
+INFO	2016-05-17 12:55:41	MarkDuplicates	Tracking 109439 as yet unmatched pairs. 15303 records in RAM.
+INFO	2016-05-17 12:55:45	MarkDuplicates	Read   105,000,000 records.  Elapsed time: 00:13:41s.  Time for last 1,000,000:    4s.  Last read position: chr16:21,272,636
+INFO	2016-05-17 12:55:45	MarkDuplicates	Tracking 107153 as yet unmatched pairs. 12274 records in RAM.
+INFO	2016-05-17 12:55:50	MarkDuplicates	Read   106,000,000 records.  Elapsed time: 00:13:46s.  Time for last 1,000,000:    4s.  Last read position: chr16:31,437,352
+INFO	2016-05-17 12:55:50	MarkDuplicates	Tracking 105278 as yet unmatched pairs. 9880 records in RAM.
+INFO	2016-05-17 12:55:54	MarkDuplicates	Read   107,000,000 records.  Elapsed time: 00:13:50s.  Time for last 1,000,000:    4s.  Last read position: chr16:66,946,963
+INFO	2016-05-17 12:55:54	MarkDuplicates	Tracking 101954 as yet unmatched pairs. 4783 records in RAM.
+INFO	2016-05-17 12:56:02	MarkDuplicates	Read   108,000,000 records.  Elapsed time: 00:13:57s.  Time for last 1,000,000:    7s.  Last read position: chr16:75,512,669
+INFO	2016-05-17 12:56:02	MarkDuplicates	Tracking 100369 as yet unmatched pairs. 2593 records in RAM.
+INFO	2016-05-17 12:56:06	MarkDuplicates	Read   109,000,000 records.  Elapsed time: 00:14:02s.  Time for last 1,000,000:    4s.  Last read position: chr17:1,985,101
+INFO	2016-05-17 12:56:06	MarkDuplicates	Tracking 97972 as yet unmatched pairs. 18334 records in RAM.
+INFO	2016-05-17 12:56:10	MarkDuplicates	Read   110,000,000 records.  Elapsed time: 00:14:06s.  Time for last 1,000,000:    4s.  Last read position: chr17:7,727,530
+INFO	2016-05-17 12:56:10	MarkDuplicates	Tracking 96590 as yet unmatched pairs. 16601 records in RAM.
+INFO	2016-05-17 12:56:15	MarkDuplicates	Read   111,000,000 records.  Elapsed time: 00:14:11s.  Time for last 1,000,000:    5s.  Last read position: chr17:19,318,201
+INFO	2016-05-17 12:56:15	MarkDuplicates	Tracking 94798 as yet unmatched pairs. 14381 records in RAM.
+INFO	2016-05-17 12:56:19	MarkDuplicates	Read   112,000,000 records.  Elapsed time: 00:14:15s.  Time for last 1,000,000:    3s.  Last read position: chr17:34,398,376
+INFO	2016-05-17 12:56:19	MarkDuplicates	Tracking 92295 as yet unmatched pairs. 11164 records in RAM.
+INFO	2016-05-17 12:56:26	MarkDuplicates	Read   113,000,000 records.  Elapsed time: 00:14:22s.  Time for last 1,000,000:    6s.  Last read position: chr17:41,004,701
+INFO	2016-05-17 12:56:26	MarkDuplicates	Tracking 90833 as yet unmatched pairs. 9372 records in RAM.
+INFO	2016-05-17 12:56:33	MarkDuplicates	Read   114,000,000 records.  Elapsed time: 00:14:29s.  Time for last 1,000,000:    6s.  Last read position: chr17:49,067,227
+INFO	2016-05-17 12:56:33	MarkDuplicates	Tracking 88695 as yet unmatched pairs. 6764 records in RAM.
+INFO	2016-05-17 12:56:39	MarkDuplicates	Read   115,000,000 records.  Elapsed time: 00:14:35s.  Time for last 1,000,000:    6s.  Last read position: chr17:66,202,278
+INFO	2016-05-17 12:56:39	MarkDuplicates	Tracking 86097 as yet unmatched pairs. 3601 records in RAM.
+INFO	2016-05-17 12:56:43	MarkDuplicates	Read   116,000,000 records.  Elapsed time: 00:14:39s.  Time for last 1,000,000:    4s.  Last read position: chr17:77,528,878
+INFO	2016-05-17 12:56:43	MarkDuplicates	Tracking 84100 as yet unmatched pairs. 1141 records in RAM.
+INFO	2016-05-17 12:56:49	MarkDuplicates	Read   117,000,000 records.  Elapsed time: 00:14:45s.  Time for last 1,000,000:    5s.  Last read position: chr18:12,673,264
+INFO	2016-05-17 12:56:49	MarkDuplicates	Tracking 81714 as yet unmatched pairs. 8627 records in RAM.
+INFO	2016-05-17 12:56:53	MarkDuplicates	Read   118,000,000 records.  Elapsed time: 00:14:49s.  Time for last 1,000,000:    4s.  Last read position: chr18:47,566,468
+INFO	2016-05-17 12:56:53	MarkDuplicates	Tracking 77585 as yet unmatched pairs. 3679 records in RAM.
+INFO	2016-05-17 12:57:04	MarkDuplicates	Read   119,000,000 records.  Elapsed time: 00:14:59s.  Time for last 1,000,000:   10s.  Last read position: chr19:1,496,420
+INFO	2016-05-17 12:57:04	MarkDuplicates	Tracking 74063 as yet unmatched pairs. 20108 records in RAM.
+INFO	2016-05-17 12:57:08	MarkDuplicates	Read   120,000,000 records.  Elapsed time: 00:15:03s.  Time for last 1,000,000:    3s.  Last read position: chr19:7,992,927
+INFO	2016-05-17 12:57:08	MarkDuplicates	Tracking 71776 as yet unmatched pairs. 17594 records in RAM.
+INFO	2016-05-17 12:57:13	MarkDuplicates	Read   121,000,000 records.  Elapsed time: 00:15:08s.  Time for last 1,000,000:    4s.  Last read position: chr19:12,996,079
+INFO	2016-05-17 12:57:13	MarkDuplicates	Tracking 69750 as yet unmatched pairs. 15295 records in RAM.
+INFO	2016-05-17 12:57:16	MarkDuplicates	Read   122,000,000 records.  Elapsed time: 00:15:12s.  Time for last 1,000,000:    3s.  Last read position: chr19:19,031,357
+INFO	2016-05-17 12:57:16	MarkDuplicates	Tracking 67917 as yet unmatched pairs. 13229 records in RAM.
+INFO	2016-05-17 12:57:23	MarkDuplicates	Read   123,000,000 records.  Elapsed time: 00:15:19s.  Time for last 1,000,000:    6s.  Last read position: chr19:37,644,295
+INFO	2016-05-17 12:57:23	MarkDuplicates	Tracking 63906 as yet unmatched pairs. 8832 records in RAM.
+INFO	2016-05-17 12:57:27	MarkDuplicates	Read   124,000,000 records.  Elapsed time: 00:15:22s.  Time for last 1,000,000:    3s.  Last read position: chr19:43,092,977
+INFO	2016-05-17 12:57:27	MarkDuplicates	Tracking 62048 as yet unmatched pairs. 6746 records in RAM.
+INFO	2016-05-17 12:57:31	MarkDuplicates	Read   125,000,000 records.  Elapsed time: 00:15:27s.  Time for last 1,000,000:    4s.  Last read position: chr19:49,632,014
+INFO	2016-05-17 12:57:31	MarkDuplicates	Tracking 59603 as yet unmatched pairs. 4040 records in RAM.
+INFO	2016-05-17 12:57:38	MarkDuplicates	Read   126,000,000 records.  Elapsed time: 00:15:34s.  Time for last 1,000,000:    6s.  Last read position: chr19:55,085,607
+INFO	2016-05-17 12:57:38	MarkDuplicates	Tracking 57587 as yet unmatched pairs. 1789 records in RAM.
+INFO	2016-05-17 12:57:42	MarkDuplicates	Read   127,000,000 records.  Elapsed time: 00:15:38s.  Time for last 1,000,000:    3s.  Last read position: chr20:2,847,046
+INFO	2016-05-17 12:57:42	MarkDuplicates	Tracking 55569 as yet unmatched pairs. 10633 records in RAM.
+INFO	2016-05-17 12:57:48	MarkDuplicates	Read   128,000,000 records.  Elapsed time: 00:15:44s.  Time for last 1,000,000:    5s.  Last read position: chr20:30,914,512
+INFO	2016-05-17 12:57:48	MarkDuplicates	Tracking 52403 as yet unmatched pairs. 6567 records in RAM.
+INFO	2016-05-17 12:57:52	MarkDuplicates	Read   129,000,000 records.  Elapsed time: 00:15:47s.  Time for last 1,000,000:    3s.  Last read position: chr20:43,940,534
+INFO	2016-05-17 12:57:52	MarkDuplicates	Tracking 49639 as yet unmatched pairs. 3567 records in RAM.
+INFO	2016-05-17 12:58:01	MarkDuplicates	Read   130,000,000 records.  Elapsed time: 00:15:57s.  Time for last 1,000,000:    9s.  Last read position: chr20:61,488,737
+INFO	2016-05-17 12:58:01	MarkDuplicates	Tracking 47172 as yet unmatched pairs. 841 records in RAM.
+INFO	2016-05-17 12:58:05	MarkDuplicates	Read   131,000,000 records.  Elapsed time: 00:16:01s.  Time for last 1,000,000:    4s.  Last read position: chr21:38,126,383
+INFO	2016-05-17 12:58:05	MarkDuplicates	Tracking 41114 as yet unmatched pairs. 2247 records in RAM.
+INFO	2016-05-17 12:58:11	MarkDuplicates	Read   132,000,000 records.  Elapsed time: 00:16:07s.  Time for last 1,000,000:    5s.  Last read position: chr22:19,918,542
+INFO	2016-05-17 12:58:11	MarkDuplicates	Tracking 38354 as yet unmatched pairs. 7461 records in RAM.
+INFO	2016-05-17 12:58:15	MarkDuplicates	Read   133,000,000 records.  Elapsed time: 00:16:11s.  Time for last 1,000,000:    3s.  Last read position: chr22:31,493,068
+INFO	2016-05-17 12:58:15	MarkDuplicates	Tracking 36045 as yet unmatched pairs. 5014 records in RAM.
+INFO	2016-05-17 12:58:21	MarkDuplicates	Read   134,000,000 records.  Elapsed time: 00:16:16s.  Time for last 1,000,000:    5s.  Last read position: chr22:42,392,813
+INFO	2016-05-17 12:58:21	MarkDuplicates	Tracking 33193 as yet unmatched pairs. 2020 records in RAM.
+INFO	2016-05-17 12:58:27	MarkDuplicates	Read   135,000,000 records.  Elapsed time: 00:16:22s.  Time for last 1,000,000:    5s.  Last read position: chrX:13,798,991
+INFO	2016-05-17 12:58:27	MarkDuplicates	Tracking 29483 as yet unmatched pairs. 22097 records in RAM.
+INFO	2016-05-17 12:58:32	MarkDuplicates	Read   136,000,000 records.  Elapsed time: 00:16:28s.  Time for last 1,000,000:    5s.  Last read position: chrX:44,919,828
+INFO	2016-05-17 12:58:32	MarkDuplicates	Tracking 25064 as yet unmatched pairs. 17657 records in RAM.
+INFO	2016-05-17 12:58:36	MarkDuplicates	Read   137,000,000 records.  Elapsed time: 00:16:32s.  Time for last 1,000,000:    3s.  Last read position: chrX:64,753,528
+INFO	2016-05-17 12:58:36	MarkDuplicates	Tracking 21582 as yet unmatched pairs. 14148 records in RAM.
+INFO	2016-05-17 12:58:43	MarkDuplicates	Read   138,000,000 records.  Elapsed time: 00:16:39s.  Time for last 1,000,000:    6s.  Last read position: chrX:100,417,769
+INFO	2016-05-17 12:58:43	MarkDuplicates	Tracking 16674 as yet unmatched pairs. 9215 records in RAM.
+INFO	2016-05-17 12:58:47	MarkDuplicates	Read   139,000,000 records.  Elapsed time: 00:16:42s.  Time for last 1,000,000:    3s.  Last read position: chrX:127,585,065
+INFO	2016-05-17 12:58:47	MarkDuplicates	Tracking 12418 as yet unmatched pairs. 4939 records in RAM.
+INFO	2016-05-17 12:58:50	MarkDuplicates	Read   140,000,000 records.  Elapsed time: 00:16:46s.  Time for last 1,000,000:    3s.  Last read position: chrX:153,228,842
+INFO	2016-05-17 12:58:50	MarkDuplicates	Tracking 8232 as yet unmatched pairs. 736 records in RAM.
+INFO	2016-05-17 12:58:57	MarkDuplicates	Read 140275622 records. 0 pairs never matched.
+INFO	2016-05-17 13:00:09	MarkDuplicates	After buildSortedReadEndLists freeMemory: 10307170160; totalMemory: 10398203904; maxMemory: 13362528256
+INFO	2016-05-17 13:00:09	MarkDuplicates	Will retain up to 417579008 duplicate indices before spilling to disk.
+INFO	2016-05-17 13:00:10	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2016-05-17 13:01:28	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2016-05-17 13:02:43	MarkDuplicates	Sorting list of duplicate records.
+INFO	2016-05-17 13:02:45	MarkDuplicates	After generateDuplicateIndexes freeMemory: 6941734832; totalMemory: 10370416640; maxMemory: 13362528256
+INFO	2016-05-17 13:02:45	MarkDuplicates	Marking 15331220 records as duplicates.
+INFO	2016-05-17 13:02:45	MarkDuplicates	Found 2688 optical duplicate clusters.
+INFO	2016-05-17 13:02:46	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2016-05-17 13:05:02	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:02:16s.  Time for last 10,000,000:  136s.  Last read position: chr1:169,764,203
+INFO	2016-05-17 13:07:20	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:04:33s.  Time for last 10,000,000:  137s.  Last read position: chr2:162,197,333
+INFO	2016-05-17 13:09:52	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:07:05s.  Time for last 10,000,000:  151s.  Last read position: chr3:126,161,207
+INFO	2016-05-17 13:12:15	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:09:28s.  Time for last 10,000,000:  142s.  Last read position: chr5:53,752,194
+INFO	2016-05-17 13:14:38	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:11:52s.  Time for last 10,000,000:  143s.  Last read position: chr6:90,458,992
+INFO	2016-05-17 13:17:05	MarkDuplicates	Written    60,000,000 records.  Elapsed time: 00:14:18s.  Time for last 10,000,000:  146s.  Last read position: chr8:19,687,952
+INFO	2016-05-17 13:19:30	MarkDuplicates	Written    70,000,000 records.  Elapsed time: 00:16:44s.  Time for last 10,000,000:  145s.  Last read position: chr10:468,939
+INFO	2016-05-17 13:22:13	MarkDuplicates	Written    80,000,000 records.  Elapsed time: 00:19:26s.  Time for last 10,000,000:  162s.  Last read position: chr11:64,981,707
+INFO	2016-05-17 13:25:00	MarkDuplicates	Written    90,000,000 records.  Elapsed time: 00:22:13s.  Time for last 10,000,000:  166s.  Last read position: chr12:112,512,423
+INFO	2016-05-17 13:27:22	MarkDuplicates	Written   100,000,000 records.  Elapsed time: 00:24:36s.  Time for last 10,000,000:  142s.  Last read position: chr15:43,996,046
+INFO	2016-05-17 13:29:47	MarkDuplicates	Written   110,000,000 records.  Elapsed time: 00:27:00s.  Time for last 10,000,000:  144s.  Last read position: chr17:7,727,530
+INFO	2016-05-17 13:32:21	MarkDuplicates	Written   120,000,000 records.  Elapsed time: 00:29:35s.  Time for last 10,000,000:  154s.  Last read position: chr19:7,992,927
+INFO	2016-05-17 13:34:49	MarkDuplicates	Written   130,000,000 records.  Elapsed time: 00:32:03s.  Time for last 10,000,000:  148s.  Last read position: chr20:61,488,737
+INFO	2016-05-17 13:37:03	MarkDuplicates	Written   140,000,000 records.  Elapsed time: 00:34:16s.  Time for last 10,000,000:  133s.  Last read position: chrX:153,228,842
+INFO	2016-05-17 13:37:09	MarkDuplicates	Before output close freeMemory: 10393847288; totalMemory: 10491527168; maxMemory: 13362528256
+INFO	2016-05-17 13:37:14	MarkDuplicates	After output close freeMemory: 10385457728; totalMemory: 10483138560; maxMemory: 13362528256
+[Tue May 17 13:37:14 EDT 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 55.18 minutes.
+Runtime.totalMemory()=10483138560
+[Tue May 17 13:37:15 EDT 2016] picard.sam.AddOrReplaceReadGroups INPUT=p_DS_bkm_114-N/p_DS_bkm_114-N.sorted.MarkDup.bam OUTPUT=p_DS_bkm_114-N/p_DS_bkm_114-N.sorted.MarkDup.fixed.bam SORT_ORDER=coordinate RGID=id RGLB=bar RGPL=Illumina RGPU=platform RGSM=sample1 TMP_DIR=[tmp] VALIDATION_STRINGENCY=SILENT CREATE_INDEX=true    VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue May 17 13:37:15 EDT 2016] Executing as abdelrahman@compute-1-2.local on Linux 2.6.32-279.14.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_45-b14; Picard version: 2.3.0(9a00c87b7ffdb01cfb5a0d6e76556146196babb8_1463071327) IntelDeflater
+INFO	2016-05-17 13:37:15	AddOrReplaceReadGroups	Created read group ID=id PL=Illumina LB=bar SM=sample1
+
+INFO	2016-05-17 13:37:29	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:13s.  Time for last 1,000,000:   13s.  Last read position: chr1:11,740,343
+INFO	2016-05-17 13:37:43	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:27s.  Time for last 1,000,000:   13s.  Last read position: chr1:23,409,833
+INFO	2016-05-17 13:38:00	AddOrReplaceReadGroups	Processed     3,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:   16s.  Last read position: chr1:34,046,362
+INFO	2016-05-17 13:38:13	AddOrReplaceReadGroups	Processed     4,000,000 records.  Elapsed time: 00:00:57s.  Time for last 1,000,000:   13s.  Last read position: chr1:44,450,486
+INFO	2016-05-17 13:38:30	AddOrReplaceReadGroups	Processed     5,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:   17s.  Last read position: chr1:62,588,647
+INFO	2016-05-17 13:38:43	AddOrReplaceReadGroups	Processed     6,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:   12s.  Last read position: chr1:92,185,451
+INFO	2016-05-17 13:39:00	AddOrReplaceReadGroups	Processed     7,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:   16s.  Last read position: chr1:114,437,453
+INFO	2016-05-17 13:39:13	AddOrReplaceReadGroups	Processed     8,000,000 records.  Elapsed time: 00:01:57s.  Time for last 1,000,000:   13s.  Last read position: chr1:151,381,039
+INFO	2016-05-17 13:39:32	AddOrReplaceReadGroups	Processed     9,000,000 records.  Elapsed time: 00:02:16s.  Time for last 1,000,000:   18s.  Last read position: chr1:156,811,214
+INFO	2016-05-17 13:39:45	AddOrReplaceReadGroups	Processed    10,000,000 records.  Elapsed time: 00:02:29s.  Time for last 1,000,000:   13s.  Last read position: chr1:169,764,203
+INFO	2016-05-17 13:40:02	AddOrReplaceReadGroups	Processed    11,000,000 records.  Elapsed time: 00:02:46s.  Time for last 1,000,000:   17s.  Last read position: chr1:191,940,263
+INFO	2016-05-17 13:40:16	AddOrReplaceReadGroups	Processed    12,000,000 records.  Elapsed time: 00:03:00s.  Time for last 1,000,000:   14s.  Last read position: chr1:207,755,424
+INFO	2016-05-17 13:40:33	AddOrReplaceReadGroups	Processed    13,000,000 records.  Elapsed time: 00:03:17s.  Time for last 1,000,000:   16s.  Last read position: chr1:228,680,791
+INFO	2016-05-17 13:40:47	AddOrReplaceReadGroups	Processed    14,000,000 records.  Elapsed time: 00:03:32s.  Time for last 1,000,000:   14s.  Last read position: chr2:1,657,411
+INFO	2016-05-17 13:41:04	AddOrReplaceReadGroups	Processed    15,000,000 records.  Elapsed time: 00:03:48s.  Time for last 1,000,000:   16s.  Last read position: chr2:27,463,812
+INFO	2016-05-17 13:41:17	AddOrReplaceReadGroups	Processed    16,000,000 records.  Elapsed time: 00:04:01s.  Time for last 1,000,000:   13s.  Last read position: chr2:45,530,563
+INFO	2016-05-17 13:41:34	AddOrReplaceReadGroups	Processed    17,000,000 records.  Elapsed time: 00:04:18s.  Time for last 1,000,000:   16s.  Last read position: chr2:72,960,240
+INFO	2016-05-17 13:41:46	AddOrReplaceReadGroups	Processed    18,000,000 records.  Elapsed time: 00:04:31s.  Time for last 1,000,000:   12s.  Last read position: chr2:98,350,134
+INFO	2016-05-17 13:42:00	AddOrReplaceReadGroups	Processed    19,000,000 records.  Elapsed time: 00:04:44s.  Time for last 1,000,000:   13s.  Last read position: chr2:128,394,472
+INFO	2016-05-17 13:42:13	AddOrReplaceReadGroups	Processed    20,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:   13s.  Last read position: chr2:162,197,333
+INFO	2016-05-17 13:42:29	AddOrReplaceReadGroups	Processed    21,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:   16s.  Last read position: chr2:179,457,528
+INFO	2016-05-17 13:42:42	AddOrReplaceReadGroups	Processed    22,000,000 records.  Elapsed time: 00:05:26s.  Time for last 1,000,000:   12s.  Last read position: chr2:202,027,723
+INFO	2016-05-17 13:42:57	AddOrReplaceReadGroups	Processed    23,000,000 records.  Elapsed time: 00:05:42s.  Time for last 1,000,000:   15s.  Last read position: chr2:220,033,389
+INFO	2016-05-17 13:43:10	AddOrReplaceReadGroups	Processed    24,000,000 records.  Elapsed time: 00:05:54s.  Time for last 1,000,000:   12s.  Last read position: chr2:238,253,398
+INFO	2016-05-17 13:43:26	AddOrReplaceReadGroups	Processed    25,000,000 records.  Elapsed time: 00:06:10s.  Time for last 1,000,000:   15s.  Last read position: chr3:13,190,488
+INFO	2016-05-17 13:43:39	AddOrReplaceReadGroups	Processed    26,000,000 records.  Elapsed time: 00:06:23s.  Time for last 1,000,000:   12s.  Last read position: chr3:39,175,639
+INFO	2016-05-17 13:43:52	AddOrReplaceReadGroups	Processed    27,000,000 records.  Elapsed time: 00:06:36s.  Time for last 1,000,000:   13s.  Last read position: chr3:49,152,666
+INFO	2016-05-17 13:44:08	AddOrReplaceReadGroups	Processed    28,000,000 records.  Elapsed time: 00:06:52s.  Time for last 1,000,000:   16s.  Last read position: chr3:57,356,477
+INFO	2016-05-17 13:44:21	AddOrReplaceReadGroups	Processed    29,000,000 records.  Elapsed time: 00:07:05s.  Time for last 1,000,000:   12s.  Last read position: chr3:107,096,615
+INFO	2016-05-17 13:44:37	AddOrReplaceReadGroups	Processed    30,000,000 records.  Elapsed time: 00:07:22s.  Time for last 1,000,000:   16s.  Last read position: chr3:126,161,207
+INFO	2016-05-17 13:44:50	AddOrReplaceReadGroups	Processed    31,000,000 records.  Elapsed time: 00:07:34s.  Time for last 1,000,000:   12s.  Last read position: chr3:146,177,421
+INFO	2016-05-17 13:45:06	AddOrReplaceReadGroups	Processed    32,000,000 records.  Elapsed time: 00:07:50s.  Time for last 1,000,000:   16s.  Last read position: chr3:182,740,330
+INFO	2016-05-17 13:45:19	AddOrReplaceReadGroups	Processed    33,000,000 records.  Elapsed time: 00:08:03s.  Time for last 1,000,000:   12s.  Last read position: chr4:882,801
+INFO	2016-05-17 13:45:36	AddOrReplaceReadGroups	Processed    34,000,000 records.  Elapsed time: 00:08:20s.  Time for last 1,000,000:   17s.  Last read position: chr4:25,674,684
+INFO	2016-05-17 13:45:50	AddOrReplaceReadGroups	Processed    35,000,000 records.  Elapsed time: 00:08:34s.  Time for last 1,000,000:   14s.  Last read position: chr4:68,376,844
+INFO	2016-05-17 13:46:06	AddOrReplaceReadGroups	Processed    36,000,000 records.  Elapsed time: 00:08:50s.  Time for last 1,000,000:   15s.  Last read position: chr4:89,589,524
+INFO	2016-05-17 13:46:19	AddOrReplaceReadGroups	Processed    37,000,000 records.  Elapsed time: 00:09:03s.  Time for last 1,000,000:   13s.  Last read position: chr4:123,274,284
+INFO	2016-05-17 13:46:39	AddOrReplaceReadGroups	Processed    38,000,000 records.  Elapsed time: 00:09:23s.  Time for last 1,000,000:   20s.  Last read position: chr4:164,069,425
+INFO	2016-05-17 13:46:54	AddOrReplaceReadGroups	Processed    39,000,000 records.  Elapsed time: 00:09:38s.  Time for last 1,000,000:   15s.  Last read position: chr5:10,393,915
+INFO	2016-05-17 13:47:17	AddOrReplaceReadGroups	Processed    40,000,000 records.  Elapsed time: 00:10:01s.  Time for last 1,000,000:   22s.  Last read position: chr5:53,752,194
+INFO	2016-05-17 13:47:31	AddOrReplaceReadGroups	Processed    41,000,000 records.  Elapsed time: 00:10:15s.  Time for last 1,000,000:   14s.  Last read position: chr5:79,733,583
+INFO	2016-05-17 13:47:49	AddOrReplaceReadGroups	Processed    42,000,000 records.  Elapsed time: 00:10:33s.  Time for last 1,000,000:   17s.  Last read position: chr5:123,976,949
+INFO	2016-05-17 13:48:06	AddOrReplaceReadGroups	Processed    43,000,000 records.  Elapsed time: 00:10:50s.  Time for last 1,000,000:   16s.  Last read position: chr5:140,431,961
+INFO	2016-05-17 13:48:18	AddOrReplaceReadGroups	Processed    44,000,000 records.  Elapsed time: 00:11:02s.  Time for last 1,000,000:   12s.  Last read position: chr5:153,835,567
+INFO	2016-05-17 13:48:36	AddOrReplaceReadGroups	Processed    45,000,000 records.  Elapsed time: 00:11:20s.  Time for last 1,000,000:   17s.  Last read position: chr5:178,460,228
+INFO	2016-05-17 13:48:49	AddOrReplaceReadGroups	Processed    46,000,000 records.  Elapsed time: 00:11:33s.  Time for last 1,000,000:   12s.  Last read position: chr6:24,843,310
+INFO	2016-05-17 13:49:02	AddOrReplaceReadGroups	Processed    47,000,000 records.  Elapsed time: 00:11:46s.  Time for last 1,000,000:   13s.  Last read position: chr6:31,760,205
+INFO	2016-05-17 13:49:16	AddOrReplaceReadGroups	Processed    48,000,000 records.  Elapsed time: 00:12:00s.  Time for last 1,000,000:   13s.  Last read position: chr6:39,387,718
+INFO	2016-05-17 13:49:29	AddOrReplaceReadGroups	Processed    49,000,000 records.  Elapsed time: 00:12:13s.  Time for last 1,000,000:   12s.  Last read position: chr6:55,196,541
+INFO	2016-05-17 13:49:46	AddOrReplaceReadGroups	Processed    50,000,000 records.  Elapsed time: 00:12:30s.  Time for last 1,000,000:   16s.  Last read position: chr6:90,458,992
+INFO	2016-05-17 13:49:59	AddOrReplaceReadGroups	Processed    51,000,000 records.  Elapsed time: 00:12:43s.  Time for last 1,000,000:   13s.  Last read position: chr6:127,476,456
+INFO	2016-05-17 13:50:16	AddOrReplaceReadGroups	Processed    52,000,000 records.  Elapsed time: 00:13:01s.  Time for last 1,000,000:   17s.  Last read position: chr6:152,555,036
+INFO	2016-05-17 13:50:30	AddOrReplaceReadGroups	Processed    53,000,000 records.  Elapsed time: 00:13:14s.  Time for last 1,000,000:   13s.  Last read position: chr7:4,259,932
+INFO	2016-05-17 13:50:46	AddOrReplaceReadGroups	Processed    54,000,000 records.  Elapsed time: 00:13:30s.  Time for last 1,000,000:   16s.  Last read position: chr7:32,909,774
+INFO	2016-05-17 13:50:59	AddOrReplaceReadGroups	Processed    55,000,000 records.  Elapsed time: 00:13:43s.  Time for last 1,000,000:   12s.  Last read position: chr7:70,231,083
+INFO	2016-05-17 13:51:16	AddOrReplaceReadGroups	Processed    56,000,000 records.  Elapsed time: 00:14:00s.  Time for last 1,000,000:   16s.  Last read position: chr7:96,639,061
+INFO	2016-05-17 13:51:28	AddOrReplaceReadGroups	Processed    57,000,000 records.  Elapsed time: 00:14:12s.  Time for last 1,000,000:   12s.  Last read position: chr7:105,987,337
+INFO	2016-05-17 13:51:44	AddOrReplaceReadGroups	Processed    58,000,000 records.  Elapsed time: 00:14:28s.  Time for last 1,000,000:   15s.  Last read position: chr7:133,876,365
+INFO	2016-05-17 13:51:57	AddOrReplaceReadGroups	Processed    59,000,000 records.  Elapsed time: 00:14:41s.  Time for last 1,000,000:   12s.  Last read position: chr7:150,500,457
+INFO	2016-05-17 13:52:10	AddOrReplaceReadGroups	Processed    60,000,000 records.  Elapsed time: 00:14:54s.  Time for last 1,000,000:   12s.  Last read position: chr8:19,687,952
+INFO	2016-05-17 13:52:23	AddOrReplaceReadGroups	Processed    61,000,000 records.  Elapsed time: 00:15:07s.  Time for last 1,000,000:   12s.  Last read position: chr8:39,581,112
+INFO	2016-05-17 13:52:36	AddOrReplaceReadGroups	Processed    62,000,000 records.  Elapsed time: 00:15:20s.  Time for last 1,000,000:   12s.  Last read position: chr8:74,912,026
+INFO	2016-05-17 13:52:48	AddOrReplaceReadGroups	Processed    63,000,000 records.  Elapsed time: 00:15:33s.  Time for last 1,000,000:   12s.  Last read position: chr8:110,453,329
+INFO	2016-05-17 13:53:02	AddOrReplaceReadGroups	Processed    64,000,000 records.  Elapsed time: 00:15:46s.  Time for last 1,000,000:   13s.  Last read position: chr8:144,802,437
+INFO	2016-05-17 13:53:18	AddOrReplaceReadGroups	Processed    65,000,000 records.  Elapsed time: 00:16:02s.  Time for last 1,000,000:   16s.  Last read position: chr9:21,326,977
+INFO	2016-05-17 13:53:33	AddOrReplaceReadGroups	Processed    66,000,000 records.  Elapsed time: 00:16:17s.  Time for last 1,000,000:   14s.  Last read position: chr9:72,926,209
+INFO	2016-05-17 13:53:49	AddOrReplaceReadGroups	Processed    67,000,000 records.  Elapsed time: 00:16:33s.  Time for last 1,000,000:   16s.  Last read position: chr9:100,317,790
+INFO	2016-05-17 13:54:03	AddOrReplaceReadGroups	Processed    68,000,000 records.  Elapsed time: 00:16:47s.  Time for last 1,000,000:   13s.  Last read position: chr9:123,313,091
+INFO	2016-05-17 13:54:19	AddOrReplaceReadGroups	Processed    69,000,000 records.  Elapsed time: 00:17:03s.  Time for last 1,000,000:   16s.  Last read position: chr9:133,805,087
+INFO	2016-05-17 13:54:32	AddOrReplaceReadGroups	Processed    70,000,000 records.  Elapsed time: 00:17:16s.  Time for last 1,000,000:   12s.  Last read position: chr10:468,939
+INFO	2016-05-17 13:54:48	AddOrReplaceReadGroups	Processed    71,000,000 records.  Elapsed time: 00:17:32s.  Time for last 1,000,000:   16s.  Last read position: chr10:28,970,258
+INFO	2016-05-17 13:55:02	AddOrReplaceReadGroups	Processed    72,000,000 records.  Elapsed time: 00:17:46s.  Time for last 1,000,000:   13s.  Last read position: chr10:67,679,880
+INFO	2016-05-17 13:55:18	AddOrReplaceReadGroups	Processed    73,000,000 records.  Elapsed time: 00:18:02s.  Time for last 1,000,000:   16s.  Last read position: chr10:88,635,737
+INFO	2016-05-17 13:55:31	AddOrReplaceReadGroups	Processed    74,000,000 records.  Elapsed time: 00:18:15s.  Time for last 1,000,000:   12s.  Last read position: chr10:102,777,178
+INFO	2016-05-17 13:55:47	AddOrReplaceReadGroups	Processed    75,000,000 records.  Elapsed time: 00:18:31s.  Time for last 1,000,000:   16s.  Last read position: chr10:122,626,596
+INFO	2016-05-17 13:56:00	AddOrReplaceReadGroups	Processed    76,000,000 records.  Elapsed time: 00:18:44s.  Time for last 1,000,000:   13s.  Last read position: chr11:1,482,000
+INFO	2016-05-17 13:56:17	AddOrReplaceReadGroups	Processed    77,000,000 records.  Elapsed time: 00:19:01s.  Time for last 1,000,000:   16s.  Last read position: chr11:10,328,180
+INFO	2016-05-17 13:56:31	AddOrReplaceReadGroups	Processed    78,000,000 records.  Elapsed time: 00:19:15s.  Time for last 1,000,000:   13s.  Last read position: chr11:36,248,822
+INFO	2016-05-17 13:56:49	AddOrReplaceReadGroups	Processed    79,000,000 records.  Elapsed time: 00:19:33s.  Time for last 1,000,000:   18s.  Last read position: chr11:59,344,053
+INFO	2016-05-17 13:57:02	AddOrReplaceReadGroups	Processed    80,000,000 records.  Elapsed time: 00:19:46s.  Time for last 1,000,000:   13s.  Last read position: chr11:64,981,707
+INFO	2016-05-17 13:57:20	AddOrReplaceReadGroups	Processed    81,000,000 records.  Elapsed time: 00:20:04s.  Time for last 1,000,000:   17s.  Last read position: chr11:72,470,391
+INFO	2016-05-17 13:57:34	AddOrReplaceReadGroups	Processed    82,000,000 records.  Elapsed time: 00:20:18s.  Time for last 1,000,000:   13s.  Last read position: chr11:100,978,965
+INFO	2016-05-17 13:57:50	AddOrReplaceReadGroups	Processed    83,000,000 records.  Elapsed time: 00:20:34s.  Time for last 1,000,000:   16s.  Last read position: chr11:118,642,571
+INFO	2016-05-17 13:58:03	AddOrReplaceReadGroups	Processed    84,000,000 records.  Elapsed time: 00:20:47s.  Time for last 1,000,000:   12s.  Last read position: chr12:459,799
+INFO	2016-05-17 13:58:20	AddOrReplaceReadGroups	Processed    85,000,000 records.  Elapsed time: 00:21:04s.  Time for last 1,000,000:   17s.  Last read position: chr12:11,463,174
+INFO	2016-05-17 13:58:33	AddOrReplaceReadGroups	Processed    86,000,000 records.  Elapsed time: 00:21:17s.  Time for last 1,000,000:   12s.  Last read position: chr12:43,846,292
+INFO	2016-05-17 13:58:50	AddOrReplaceReadGroups	Processed    87,000,000 records.  Elapsed time: 00:21:34s.  Time for last 1,000,000:   16s.  Last read position: chr12:53,589,641
+INFO	2016-05-17 13:59:03	AddOrReplaceReadGroups	Processed    88,000,000 records.  Elapsed time: 00:21:47s.  Time for last 1,000,000:   12s.  Last read position: chr12:59,271,295
+INFO	2016-05-17 13:59:20	AddOrReplaceReadGroups	Processed    89,000,000 records.  Elapsed time: 00:22:04s.  Time for last 1,000,000:   17s.  Last read position: chr12:96,131,699
+INFO	2016-05-17 13:59:32	AddOrReplaceReadGroups	Processed    90,000,000 records.  Elapsed time: 00:22:16s.  Time for last 1,000,000:   12s.  Last read position: chr12:112,512,423
+INFO	2016-05-17 13:59:50	AddOrReplaceReadGroups	Processed    91,000,000 records.  Elapsed time: 00:22:35s.  Time for last 1,000,000:   18s.  Last read position: chr12:125,609,554
+INFO	2016-05-17 14:00:03	AddOrReplaceReadGroups	Processed    92,000,000 records.  Elapsed time: 00:22:48s.  Time for last 1,000,000:   13s.  Last read position: chr13:33,017,205
+INFO	2016-05-17 14:00:20	AddOrReplaceReadGroups	Processed    93,000,000 records.  Elapsed time: 00:23:04s.  Time for last 1,000,000:   16s.  Last read position: chr13:75,930,217
+INFO	2016-05-17 14:00:32	AddOrReplaceReadGroups	Processed    94,000,000 records.  Elapsed time: 00:23:16s.  Time for last 1,000,000:   12s.  Last read position: chr13:114,776,380
+INFO	2016-05-17 14:00:46	AddOrReplaceReadGroups	Processed    95,000,000 records.  Elapsed time: 00:23:30s.  Time for last 1,000,000:   13s.  Last read position: chr14:24,906,258
+INFO	2016-05-17 14:00:59	AddOrReplaceReadGroups	Processed    96,000,000 records.  Elapsed time: 00:23:43s.  Time for last 1,000,000:   13s.  Last read position: chr14:58,934,483
+INFO	2016-05-17 14:01:12	AddOrReplaceReadGroups	Processed    97,000,000 records.  Elapsed time: 00:23:56s.  Time for last 1,000,000:   13s.  Last read position: chr14:76,045,782
+INFO	2016-05-17 14:01:29	AddOrReplaceReadGroups	Processed    98,000,000 records.  Elapsed time: 00:24:13s.  Time for last 1,000,000:   16s.  Last read position: chr14:101,506,636
+INFO	2016-05-17 14:01:41	AddOrReplaceReadGroups	Processed    99,000,000 records.  Elapsed time: 00:24:26s.  Time for last 1,000,000:   12s.  Last read position: chr15:33,938,533
+INFO	2016-05-17 14:01:57	AddOrReplaceReadGroups	Processed   100,000,000 records.  Elapsed time: 00:24:41s.  Time for last 1,000,000:   15s.  Last read position: chr15:43,996,046
+INFO	2016-05-17 14:02:10	AddOrReplaceReadGroups	Processed   101,000,000 records.  Elapsed time: 00:24:54s.  Time for last 1,000,000:   12s.  Last read position: chr15:63,088,284
+INFO	2016-05-17 14:02:26	AddOrReplaceReadGroups	Processed   102,000,000 records.  Elapsed time: 00:25:10s.  Time for last 1,000,000:   15s.  Last read position: chr15:76,301,555
+INFO	2016-05-17 14:02:40	AddOrReplaceReadGroups	Processed   103,000,000 records.  Elapsed time: 00:25:24s.  Time for last 1,000,000:   13s.  Last read position: chr15:93,567,758
+INFO	2016-05-17 14:02:53	AddOrReplaceReadGroups	Processed   104,000,000 records.  Elapsed time: 00:25:37s.  Time for last 1,000,000:   12s.  Last read position: chr16:3,265,623
+INFO	2016-05-17 14:03:05	AddOrReplaceReadGroups	Processed   105,000,000 records.  Elapsed time: 00:25:50s.  Time for last 1,000,000:   12s.  Last read position: chr16:21,272,636
+INFO	2016-05-17 14:03:22	AddOrReplaceReadGroups	Processed   106,000,000 records.  Elapsed time: 00:26:06s.  Time for last 1,000,000:   16s.  Last read position: chr16:31,437,352
+INFO	2016-05-17 14:03:35	AddOrReplaceReadGroups	Processed   107,000,000 records.  Elapsed time: 00:26:19s.  Time for last 1,000,000:   13s.  Last read position: chr16:66,946,963
+INFO	2016-05-17 14:03:52	AddOrReplaceReadGroups	Processed   108,000,000 records.  Elapsed time: 00:26:36s.  Time for last 1,000,000:   16s.  Last read position: chr16:75,512,669
+INFO	2016-05-17 14:04:05	AddOrReplaceReadGroups	Processed   109,000,000 records.  Elapsed time: 00:26:49s.  Time for last 1,000,000:   12s.  Last read position: chr17:1,985,101
+INFO	2016-05-17 14:04:22	AddOrReplaceReadGroups	Processed   110,000,000 records.  Elapsed time: 00:27:06s.  Time for last 1,000,000:   16s.  Last read position: chr17:7,727,530
+INFO	2016-05-17 14:04:35	AddOrReplaceReadGroups	Processed   111,000,000 records.  Elapsed time: 00:27:19s.  Time for last 1,000,000:   12s.  Last read position: chr17:19,318,201
+INFO	2016-05-17 14:04:51	AddOrReplaceReadGroups	Processed   112,000,000 records.  Elapsed time: 00:27:35s.  Time for last 1,000,000:   15s.  Last read position: chr17:34,398,376
+INFO	2016-05-17 14:05:04	AddOrReplaceReadGroups	Processed   113,000,000 records.  Elapsed time: 00:27:48s.  Time for last 1,000,000:   13s.  Last read position: chr17:41,004,701
+INFO	2016-05-17 14:05:23	AddOrReplaceReadGroups	Processed   114,000,000 records.  Elapsed time: 00:28:07s.  Time for last 1,000,000:   19s.  Last read position: chr17:49,067,227
+INFO	2016-05-17 14:05:36	AddOrReplaceReadGroups	Processed   115,000,000 records.  Elapsed time: 00:28:20s.  Time for last 1,000,000:   12s.  Last read position: chr17:66,202,278
+INFO	2016-05-17 14:05:52	AddOrReplaceReadGroups	Processed   116,000,000 records.  Elapsed time: 00:28:36s.  Time for last 1,000,000:   16s.  Last read position: chr17:77,528,878
+INFO	2016-05-17 14:06:06	AddOrReplaceReadGroups	Processed   117,000,000 records.  Elapsed time: 00:28:50s.  Time for last 1,000,000:   14s.  Last read position: chr18:12,673,264
+INFO	2016-05-17 14:06:23	AddOrReplaceReadGroups	Processed   118,000,000 records.  Elapsed time: 00:29:07s.  Time for last 1,000,000:   16s.  Last read position: chr18:47,566,468
+INFO	2016-05-17 14:06:36	AddOrReplaceReadGroups	Processed   119,000,000 records.  Elapsed time: 00:29:20s.  Time for last 1,000,000:   12s.  Last read position: chr19:1,496,420
+INFO	2016-05-17 14:06:49	AddOrReplaceReadGroups	Processed   120,000,000 records.  Elapsed time: 00:29:33s.  Time for last 1,000,000:   13s.  Last read position: chr19:7,992,927
+INFO	2016-05-17 14:07:01	AddOrReplaceReadGroups	Processed   121,000,000 records.  Elapsed time: 00:29:45s.  Time for last 1,000,000:   12s.  Last read position: chr19:12,996,079
+INFO	2016-05-17 14:07:15	AddOrReplaceReadGroups	Processed   122,000,000 records.  Elapsed time: 00:29:59s.  Time for last 1,000,000:   13s.  Last read position: chr19:19,031,357
+INFO	2016-05-17 14:07:28	AddOrReplaceReadGroups	Processed   123,000,000 records.  Elapsed time: 00:30:12s.  Time for last 1,000,000:   13s.  Last read position: chr19:37,644,295
+INFO	2016-05-17 14:07:41	AddOrReplaceReadGroups	Processed   124,000,000 records.  Elapsed time: 00:30:25s.  Time for last 1,000,000:   12s.  Last read position: chr19:43,092,977
+INFO	2016-05-17 14:07:54	AddOrReplaceReadGroups	Processed   125,000,000 records.  Elapsed time: 00:30:38s.  Time for last 1,000,000:   12s.  Last read position: chr19:49,632,014
+INFO	2016-05-17 14:08:08	AddOrReplaceReadGroups	Processed   126,000,000 records.  Elapsed time: 00:30:52s.  Time for last 1,000,000:   13s.  Last read position: chr19:55,085,607
+INFO	2016-05-17 14:08:24	AddOrReplaceReadGroups	Processed   127,000,000 records.  Elapsed time: 00:31:08s.  Time for last 1,000,000:   16s.  Last read position: chr20:2,847,046
+INFO	2016-05-17 14:08:37	AddOrReplaceReadGroups	Processed   128,000,000 records.  Elapsed time: 00:31:21s.  Time for last 1,000,000:   12s.  Last read position: chr20:30,914,512
+INFO	2016-05-17 14:08:50	AddOrReplaceReadGroups	Processed   129,000,000 records.  Elapsed time: 00:31:34s.  Time for last 1,000,000:   12s.  Last read position: chr20:43,940,534
+INFO	2016-05-17 14:09:03	AddOrReplaceReadGroups	Processed   130,000,000 records.  Elapsed time: 00:31:47s.  Time for last 1,000,000:   12s.  Last read position: chr20:61,488,737
+INFO	2016-05-17 14:09:19	AddOrReplaceReadGroups	Processed   131,000,000 records.  Elapsed time: 00:32:03s.  Time for last 1,000,000:   16s.  Last read position: chr21:38,126,383
+INFO	2016-05-17 14:09:32	AddOrReplaceReadGroups	Processed   132,000,000 records.  Elapsed time: 00:32:16s.  Time for last 1,000,000:   12s.  Last read position: chr22:19,918,542
+INFO	2016-05-17 14:09:48	AddOrReplaceReadGroups	Processed   133,000,000 records.  Elapsed time: 00:32:32s.  Time for last 1,000,000:   16s.  Last read position: chr22:31,493,068
+INFO	2016-05-17 14:10:01	AddOrReplaceReadGroups	Processed   134,000,000 records.  Elapsed time: 00:32:45s.  Time for last 1,000,000:   12s.  Last read position: chr22:42,392,813
+INFO	2016-05-17 14:10:15	AddOrReplaceReadGroups	Processed   135,000,000 records.  Elapsed time: 00:32:59s.  Time for last 1,000,000:   13s.  Last read position: chrX:13,798,991
+INFO	2016-05-17 14:10:32	AddOrReplaceReadGroups	Processed   136,000,000 records.  Elapsed time: 00:33:16s.  Time for last 1,000,000:   16s.  Last read position: chrX:44,919,828
+INFO	2016-05-17 14:10:45	AddOrReplaceReadGroups	Processed   137,000,000 records.  Elapsed time: 00:33:29s.  Time for last 1,000,000:   13s.  Last read position: chrX:64,753,528
+INFO	2016-05-17 14:11:02	AddOrReplaceReadGroups	Processed   138,000,000 records.  Elapsed time: 00:33:46s.  Time for last 1,000,000:   16s.  Last read position: chrX:100,417,769
+INFO	2016-05-17 14:11:15	AddOrReplaceReadGroups	Processed   139,000,000 records.  Elapsed time: 00:33:59s.  Time for last 1,000,000:   13s.  Last read position: chrX:127,585,065
+INFO	2016-05-17 14:11:33	AddOrReplaceReadGroups	Processed   140,000,000 records.  Elapsed time: 00:34:17s.  Time for last 1,000,000:   17s.  Last read position: chrX:153,228,842
+[Tue May 17 14:11:42 EDT 2016] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 34.45 minutes.
+Runtime.totalMemory()=426770432
+[Tue May 17 14:11:43 EDT 2016] picard.sam.FixMateInformation INPUT=[p_DS_bkm_114-N/p_DS_bkm_114-N.sorted.MarkDup.fixed.bam] OUTPUT=p_DS_bkm_114-N/p_DS_bkm_114-N.sorted.MarkDup.realn.fixed.bam SORT_ORDER=coordinate TMP_DIR=[tmp/flx] VALIDATION_STRINGENCY=LENIENT CREATE_INDEX=true    ASSUME_SORTED=false ADD_MATE_CIGAR=true IGNORE_MISSING_MATES=true VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue May 17 14:11:43 EDT 2016] Executing as abdelrahman@compute-1-2.local on Linux 2.6.32-279.14.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_45-b14; Picard version: 2.3.0(9a00c87b7ffdb01cfb5a0d6e76556146196babb8_1463071327) IntelDeflater
+INFO	2016-05-17 14:11:43	FixMateInformation	Sorting input into queryname order.
+INFO	2016-05-17 14:41:12	FixMateInformation	Sorting by queryname complete.
+INFO	2016-05-17 14:41:12	FixMateInformation	Output will be sorted by coordinate
+INFO	2016-05-17 14:41:12	FixMateInformation	Traversing query name sorted records and fixing up mate pair information.
+INFO	2016-05-17 14:41:28	FixMateInformation	Processed     1,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:   15s.  Last read position: chr7:96,746,993
+INFO	2016-05-17 14:41:44	FixMateInformation	Processed     2,000,000 records.  Elapsed time: 00:00:31s.  Time for last 1,000,000:   15s.  Last read position: chr5:176,759,023
+INFO	2016-05-17 14:41:58	FixMateInformation	Processed     3,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:   13s.  Last read position: chr20:6,011,989
+INFO	2016-05-17 14:42:11	FixMateInformation	Processed     4,000,000 records.  Elapsed time: 00:00:59s.  Time for last 1,000,000:   13s.  Last read position: chr17:28,473,541
+INFO	2016-05-17 14:42:27	FixMateInformation	Processed     5,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:   15s.  Last read position: chr6:168,507,390
+INFO	2016-05-17 14:42:41	FixMateInformation	Processed     6,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:   13s.  Last read position: chr7:44,148,970
+INFO	2016-05-17 14:42:56	FixMateInformation	Processed     7,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:   15s.  Last read position: chr18:9,255,519
+INFO	2016-05-17 14:43:13	FixMateInformation	Processed     8,000,000 records.  Elapsed time: 00:02:01s.  Time for last 1,000,000:   16s.  Last read position: chr7:100,808,073
+INFO	2016-05-17 14:43:28	FixMateInformation	Processed     9,000,000 records.  Elapsed time: 00:02:16s.  Time for last 1,000,000:   14s.  Last read position: chr19:7,607,181
+INFO	2016-05-17 14:43:44	FixMateInformation	Processed    10,000,000 records.  Elapsed time: 00:02:32s.  Time for last 1,000,000:   15s.  Last read position: chr9:75,309,363
+INFO	2016-05-17 14:43:59	FixMateInformation	Processed    11,000,000 records.  Elapsed time: 00:02:47s.  Time for last 1,000,000:   14s.  Last read position: chr11:5,799,565
+INFO	2016-05-17 14:44:15	FixMateInformation	Processed    12,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:   15s.  Last read position: chr1:24,124,613
+INFO	2016-05-17 14:44:29	FixMateInformation	Processed    13,000,000 records.  Elapsed time: 00:03:17s.  Time for last 1,000,000:   14s.  Last read position: chrX:25,087,653
+INFO	2016-05-17 14:44:45	FixMateInformation	Processed    14,000,000 records.  Elapsed time: 00:03:32s.  Time for last 1,000,000:   15s.  Last read position: chr16:31,504,448
+INFO	2016-05-17 14:45:00	FixMateInformation	Processed    15,000,000 records.  Elapsed time: 00:03:47s.  Time for last 1,000,000:   14s.  Last read position: chr13:109,792,661
+INFO	2016-05-17 14:45:17	FixMateInformation	Processed    16,000,000 records.  Elapsed time: 00:04:04s.  Time for last 1,000,000:   17s.  Last read position: chr1:174,219,679
+INFO	2016-05-17 14:45:29	FixMateInformation	Processed    17,000,000 records.  Elapsed time: 00:04:16s.  Time for last 1,000,000:   12s.  Last read position: chr1:31,657,973
+INFO	2016-05-17 14:45:51	FixMateInformation	Processed    18,000,000 records.  Elapsed time: 00:04:38s.  Time for last 1,000,000:   21s.  Last read position: chr3:160,119,480
+INFO	2016-05-17 14:46:04	FixMateInformation	Processed    19,000,000 records.  Elapsed time: 00:04:51s.  Time for last 1,000,000:   13s.  Last read position: chr10:118,368,479
+INFO	2016-05-17 14:46:21	FixMateInformation	Processed    20,000,000 records.  Elapsed time: 00:05:08s.  Time for last 1,000,000:   16s.  Last read position: chr17:73,132,153
+INFO	2016-05-17 14:46:35	FixMateInformation	Processed    21,000,000 records.  Elapsed time: 00:05:22s.  Time for last 1,000,000:   13s.  Last read position: chr12:110,939,724
+INFO	2016-05-17 14:46:50	FixMateInformation	Processed    22,000,000 records.  Elapsed time: 00:05:38s.  Time for last 1,000,000:   15s.  Last read position: chr1:203,708,948
+INFO	2016-05-17 14:47:04	FixMateInformation	Processed    23,000,000 records.  Elapsed time: 00:05:52s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-05-17 14:47:21	FixMateInformation	Processed    24,000,000 records.  Elapsed time: 00:06:09s.  Time for last 1,000,000:   17s.  Last read position: chrX:153,553,626
+INFO	2016-05-17 14:47:35	FixMateInformation	Processed    25,000,000 records.  Elapsed time: 00:06:23s.  Time for last 1,000,000:   13s.  Last read position: chr10:19,377,037
+INFO	2016-05-17 14:47:51	FixMateInformation	Processed    26,000,000 records.  Elapsed time: 00:06:39s.  Time for last 1,000,000:   15s.  Last read position: chr12:57,589,837
+INFO	2016-05-17 14:48:06	FixMateInformation	Processed    27,000,000 records.  Elapsed time: 00:06:54s.  Time for last 1,000,000:   15s.  Last read position: chr2:187,626,151
+INFO	2016-05-17 14:48:23	FixMateInformation	Processed    28,000,000 records.  Elapsed time: 00:07:10s.  Time for last 1,000,000:   16s.  Last read position: chr1:23,418,160
+INFO	2016-05-17 14:48:37	FixMateInformation	Processed    29,000,000 records.  Elapsed time: 00:07:25s.  Time for last 1,000,000:   14s.  Last read position: chr3:43,078,655
+INFO	2016-05-17 14:48:53	FixMateInformation	Processed    30,000,000 records.  Elapsed time: 00:07:40s.  Time for last 1,000,000:   15s.  Last read position: chrX:47,486,168
+INFO	2016-05-17 14:49:07	FixMateInformation	Processed    31,000,000 records.  Elapsed time: 00:07:54s.  Time for last 1,000,000:   14s.  Last read position: chr4:79,351,546
+INFO	2016-05-17 14:49:25	FixMateInformation	Processed    32,000,000 records.  Elapsed time: 00:08:12s.  Time for last 1,000,000:   18s.  Last read position: chr1:101,487,265
+INFO	2016-05-17 14:49:39	FixMateInformation	Processed    33,000,000 records.  Elapsed time: 00:08:26s.  Time for last 1,000,000:   13s.  Last read position: chr21:28,215,937
+INFO	2016-05-17 14:49:54	FixMateInformation	Processed    34,000,000 records.  Elapsed time: 00:08:41s.  Time for last 1,000,000:   15s.  Last read position: chr5:65,084,117
+INFO	2016-05-17 14:50:08	FixMateInformation	Processed    35,000,000 records.  Elapsed time: 00:08:55s.  Time for last 1,000,000:   14s.  Last read position: chr12:124,228,700
+INFO	2016-05-17 14:50:23	FixMateInformation	Processed    36,000,000 records.  Elapsed time: 00:09:11s.  Time for last 1,000,000:   15s.  Last read position: chr17:79,826,165
+INFO	2016-05-17 14:50:37	FixMateInformation	Processed    37,000,000 records.  Elapsed time: 00:09:25s.  Time for last 1,000,000:   13s.  Last read position: chr10:128,834,102
+INFO	2016-05-17 14:50:52	FixMateInformation	Processed    38,000,000 records.  Elapsed time: 00:09:39s.  Time for last 1,000,000:   14s.  Last read position: chr16:1,630,730
+INFO	2016-05-17 14:51:07	FixMateInformation	Processed    39,000,000 records.  Elapsed time: 00:09:55s.  Time for last 1,000,000:   15s.  Last read position: chr11:68,582,633
+INFO	2016-05-17 14:51:22	FixMateInformation	Processed    40,000,000 records.  Elapsed time: 00:10:09s.  Time for last 1,000,000:   14s.  Last read position: chr17:1,786,879
+INFO	2016-05-17 14:51:37	FixMateInformation	Processed    41,000,000 records.  Elapsed time: 00:10:25s.  Time for last 1,000,000:   15s.  Last read position: chr2:201,729,001
+INFO	2016-05-17 14:51:51	FixMateInformation	Processed    42,000,000 records.  Elapsed time: 00:10:39s.  Time for last 1,000,000:   13s.  Last read position: chr14:76,211,557
+INFO	2016-05-17 14:52:07	FixMateInformation	Processed    43,000,000 records.  Elapsed time: 00:10:54s.  Time for last 1,000,000:   15s.  Last read position: chr15:41,862,385
+INFO	2016-05-17 14:52:22	FixMateInformation	Processed    44,000,000 records.  Elapsed time: 00:11:09s.  Time for last 1,000,000:   14s.  Last read position: chr4:515,884
+INFO	2016-05-17 14:52:37	FixMateInformation	Processed    45,000,000 records.  Elapsed time: 00:11:24s.  Time for last 1,000,000:   14s.  Last read position: chr6:106,553,218
+INFO	2016-05-17 14:52:51	FixMateInformation	Processed    46,000,000 records.  Elapsed time: 00:11:38s.  Time for last 1,000,000:   14s.  Last read position: chr19:40,964,318
+INFO	2016-05-17 14:53:07	FixMateInformation	Processed    47,000,000 records.  Elapsed time: 00:11:55s.  Time for last 1,000,000:   16s.  Last read position: chr11:67,433,008
+INFO	2016-05-17 14:53:22	FixMateInformation	Processed    48,000,000 records.  Elapsed time: 00:12:09s.  Time for last 1,000,000:   14s.  Last read position: chr6:51,875,129
+INFO	2016-05-17 14:53:35	FixMateInformation	Processed    49,000,000 records.  Elapsed time: 00:12:23s.  Time for last 1,000,000:   13s.  Last read position: chr17:76,045,692
+INFO	2016-05-17 14:53:50	FixMateInformation	Processed    50,000,000 records.  Elapsed time: 00:12:38s.  Time for last 1,000,000:   15s.  Last read position: chr8:41,561,594
+INFO	2016-05-17 14:54:04	FixMateInformation	Processed    51,000,000 records.  Elapsed time: 00:12:51s.  Time for last 1,000,000:   13s.  Last read position: chr1:23,637,224
+INFO	2016-05-17 14:54:19	FixMateInformation	Processed    52,000,000 records.  Elapsed time: 00:13:06s.  Time for last 1,000,000:   15s.  Last read position: chr15:75,970,873
+INFO	2016-05-17 14:54:35	FixMateInformation	Processed    53,000,000 records.  Elapsed time: 00:13:23s.  Time for last 1,000,000:   16s.  Last read position: chr2:135,744,662
+INFO	2016-05-17 14:54:51	FixMateInformation	Processed    54,000,000 records.  Elapsed time: 00:13:38s.  Time for last 1,000,000:   15s.  Last read position: chr19:7,075,659
+INFO	2016-05-17 14:55:05	FixMateInformation	Processed    55,000,000 records.  Elapsed time: 00:13:53s.  Time for last 1,000,000:   14s.  Last read position: chr2:152,495,611
+INFO	2016-05-17 14:55:21	FixMateInformation	Processed    56,000,000 records.  Elapsed time: 00:14:09s.  Time for last 1,000,000:   15s.  Last read position: chr1:164,781,267
+INFO	2016-05-17 14:55:35	FixMateInformation	Processed    57,000,000 records.  Elapsed time: 00:14:23s.  Time for last 1,000,000:   13s.  Last read position: chr20:62,705,518
+INFO	2016-05-17 14:55:53	FixMateInformation	Processed    58,000,000 records.  Elapsed time: 00:14:41s.  Time for last 1,000,000:   18s.  Last read position: chr15:25,427,497
+INFO	2016-05-17 14:56:08	FixMateInformation	Processed    59,000,000 records.  Elapsed time: 00:14:55s.  Time for last 1,000,000:   14s.  Last read position: chr6:7,182,220
+INFO	2016-05-17 14:56:24	FixMateInformation	Processed    60,000,000 records.  Elapsed time: 00:15:11s.  Time for last 1,000,000:   15s.  Last read position: chr9:115,014,874
+INFO	2016-05-17 14:56:38	FixMateInformation	Processed    61,000,000 records.  Elapsed time: 00:15:26s.  Time for last 1,000,000:   14s.  Last read position: chr19:6,744,372
+INFO	2016-05-17 14:56:52	FixMateInformation	Processed    62,000,000 records.  Elapsed time: 00:15:40s.  Time for last 1,000,000:   14s.  Last read position: chr17:43,333,775
+INFO	2016-05-17 14:57:10	FixMateInformation	Processed    63,000,000 records.  Elapsed time: 00:15:58s.  Time for last 1,000,000:   18s.  Last read position: chr11:62,557,499
+INFO	2016-05-17 14:57:24	FixMateInformation	Processed    64,000,000 records.  Elapsed time: 00:16:12s.  Time for last 1,000,000:   13s.  Last read position: chr17:46,058,487
+INFO	2016-05-17 14:57:39	FixMateInformation	Processed    65,000,000 records.  Elapsed time: 00:16:27s.  Time for last 1,000,000:   15s.  Last read position: chr3:53,353,409
+INFO	2016-05-17 14:57:54	FixMateInformation	Processed    66,000,000 records.  Elapsed time: 00:16:41s.  Time for last 1,000,000:   14s.  Last read position: chr11:58,606,026
+INFO	2016-05-17 14:58:12	FixMateInformation	Processed    67,000,000 records.  Elapsed time: 00:17:00s.  Time for last 1,000,000:   18s.  Last read position: chr12:76,772,242
+INFO	2016-05-17 14:58:28	FixMateInformation	Processed    68,000,000 records.  Elapsed time: 00:17:15s.  Time for last 1,000,000:   15s.  Last read position: chr22:20,922,603
+INFO	2016-05-17 14:58:42	FixMateInformation	Processed    69,000,000 records.  Elapsed time: 00:17:30s.  Time for last 1,000,000:   14s.  Last read position: chr22:42,486,737
+INFO	2016-05-17 14:58:57	FixMateInformation	Processed    70,000,000 records.  Elapsed time: 00:17:44s.  Time for last 1,000,000:   14s.  Last read position: chr6:30,879,415
+INFO	2016-05-17 14:59:13	FixMateInformation	Processed    71,000,000 records.  Elapsed time: 00:18:01s.  Time for last 1,000,000:   16s.  Last read position: chr11:621,245
+INFO	2016-05-17 14:59:28	FixMateInformation	Processed    72,000,000 records.  Elapsed time: 00:18:16s.  Time for last 1,000,000:   14s.  Last read position: chr16:3,980,913
+INFO	2016-05-17 14:59:44	FixMateInformation	Processed    73,000,000 records.  Elapsed time: 00:18:31s.  Time for last 1,000,000:   15s.  Last read position: chr14:64,061,035
+INFO	2016-05-17 15:00:01	FixMateInformation	Processed    74,000,000 records.  Elapsed time: 00:18:48s.  Time for last 1,000,000:   16s.  Last read position: chr2:220,358,037
+INFO	2016-05-17 15:00:16	FixMateInformation	Processed    75,000,000 records.  Elapsed time: 00:19:03s.  Time for last 1,000,000:   14s.  Last read position: chr8:11,414,047
+INFO	2016-05-17 15:00:29	FixMateInformation	Processed    76,000,000 records.  Elapsed time: 00:19:17s.  Time for last 1,000,000:   13s.  Last read position: chr12:7,528,380
+INFO	2016-05-17 15:00:45	FixMateInformation	Processed    77,000,000 records.  Elapsed time: 00:19:32s.  Time for last 1,000,000:   15s.  Last read position: chr3:74,185,072
+INFO	2016-05-17 15:01:00	FixMateInformation	Processed    78,000,000 records.  Elapsed time: 00:19:47s.  Time for last 1,000,000:   15s.  Last read position: chr3:38,601,704
+INFO	2016-05-17 15:01:13	FixMateInformation	Processed    79,000,000 records.  Elapsed time: 00:20:01s.  Time for last 1,000,000:   13s.  Last read position: chr3:49,662,369
+INFO	2016-05-17 15:01:28	FixMateInformation	Processed    80,000,000 records.  Elapsed time: 00:20:15s.  Time for last 1,000,000:   14s.  Last read position: chr17:80,721,855
+INFO	2016-05-17 15:01:41	FixMateInformation	Processed    81,000,000 records.  Elapsed time: 00:20:29s.  Time for last 1,000,000:   13s.  Last read position: chr12:39,726,717
+INFO	2016-05-17 15:01:57	FixMateInformation	Processed    82,000,000 records.  Elapsed time: 00:20:45s.  Time for last 1,000,000:   16s.  Last read position: chr7:21,934,200
+INFO	2016-05-17 15:02:12	FixMateInformation	Processed    83,000,000 records.  Elapsed time: 00:20:59s.  Time for last 1,000,000:   14s.  Last read position: chr11:124,500,952
+INFO	2016-05-17 15:02:25	FixMateInformation	Processed    84,000,000 records.  Elapsed time: 00:21:13s.  Time for last 1,000,000:   13s.  Last read position: chr11:47,444,266
+INFO	2016-05-17 15:02:41	FixMateInformation	Processed    85,000,000 records.  Elapsed time: 00:21:29s.  Time for last 1,000,000:   15s.  Last read position: chrX:53,439,702
+INFO	2016-05-17 15:02:56	FixMateInformation	Processed    86,000,000 records.  Elapsed time: 00:21:43s.  Time for last 1,000,000:   14s.  Last read position: chr1:3,383,708
+INFO	2016-05-17 15:03:11	FixMateInformation	Processed    87,000,000 records.  Elapsed time: 00:21:59s.  Time for last 1,000,000:   15s.  Last read position: chr4:104,007,604
+INFO	2016-05-17 15:03:25	FixMateInformation	Processed    88,000,000 records.  Elapsed time: 00:22:12s.  Time for last 1,000,000:   13s.  Last read position: chr1:47,746,618
+INFO	2016-05-17 15:03:40	FixMateInformation	Processed    89,000,000 records.  Elapsed time: 00:22:28s.  Time for last 1,000,000:   15s.  Last read position: chrX:41,555,761
+INFO	2016-05-17 15:03:54	FixMateInformation	Processed    90,000,000 records.  Elapsed time: 00:22:41s.  Time for last 1,000,000:   13s.  Last read position: chr3:186,570,835
+INFO	2016-05-17 15:04:12	FixMateInformation	Processed    91,000,000 records.  Elapsed time: 00:22:59s.  Time for last 1,000,000:   17s.  Last read position: chr7:77,408,053
+INFO	2016-05-17 15:04:27	FixMateInformation	Processed    92,000,000 records.  Elapsed time: 00:23:15s.  Time for last 1,000,000:   15s.  Last read position: chr2:65,604,656
+INFO	2016-05-17 15:04:42	FixMateInformation	Processed    93,000,000 records.  Elapsed time: 00:23:29s.  Time for last 1,000,000:   14s.  Last read position: chr2:141,128,362
+INFO	2016-05-17 15:04:58	FixMateInformation	Processed    94,000,000 records.  Elapsed time: 00:23:46s.  Time for last 1,000,000:   16s.  Last read position: chr1:11,832,019
+INFO	2016-05-17 15:05:16	FixMateInformation	Processed    95,000,000 records.  Elapsed time: 00:24:03s.  Time for last 1,000,000:   17s.  Last read position: chr6:31,752,111
+INFO	2016-05-17 15:05:31	FixMateInformation	Processed    96,000,000 records.  Elapsed time: 00:24:18s.  Time for last 1,000,000:   15s.  Last read position: chr17:10,295,708
+INFO	2016-05-17 15:05:47	FixMateInformation	Processed    97,000,000 records.  Elapsed time: 00:24:34s.  Time for last 1,000,000:   15s.  Last read position: chr19:1,223,236
+INFO	2016-05-17 15:06:02	FixMateInformation	Processed    98,000,000 records.  Elapsed time: 00:24:50s.  Time for last 1,000,000:   15s.  Last read position: chrX:69,510,318
+INFO	2016-05-17 15:06:19	FixMateInformation	Processed    99,000,000 records.  Elapsed time: 00:25:07s.  Time for last 1,000,000:   16s.  Last read position: chr12:54,955,363
+INFO	2016-05-17 15:06:36	FixMateInformation	Processed   100,000,000 records.  Elapsed time: 00:25:23s.  Time for last 1,000,000:   16s.  Last read position: chr14:73,733,269
+INFO	2016-05-17 15:06:53	FixMateInformation	Processed   101,000,000 records.  Elapsed time: 00:25:41s.  Time for last 1,000,000:   17s.  Last read position: chr8:72,951,968
+INFO	2016-05-17 15:07:08	FixMateInformation	Processed   102,000,000 records.  Elapsed time: 00:25:55s.  Time for last 1,000,000:   14s.  Last read position: chr3:183,976,069
+INFO	2016-05-17 15:07:24	FixMateInformation	Processed   103,000,000 records.  Elapsed time: 00:26:12s.  Time for last 1,000,000:   16s.  Last read position: chr17:27,010,331
+INFO	2016-05-17 15:07:39	FixMateInformation	Processed   104,000,000 records.  Elapsed time: 00:26:26s.  Time for last 1,000,000:   14s.  Last read position: chr19:54,780,502
+INFO	2016-05-17 15:07:54	FixMateInformation	Processed   105,000,000 records.  Elapsed time: 00:26:42s.  Time for last 1,000,000:   15s.  Last read position: chr10:74,969,916
+INFO	2016-05-17 15:08:11	FixMateInformation	Processed   106,000,000 records.  Elapsed time: 00:26:58s.  Time for last 1,000,000:   16s.  Last read position: chr11:121,008,537
+INFO	2016-05-17 15:08:29	FixMateInformation	Processed   107,000,000 records.  Elapsed time: 00:27:16s.  Time for last 1,000,000:   18s.  Last read position: chr10:121,431,794
+INFO	2016-05-17 15:08:45	FixMateInformation	Processed   108,000,000 records.  Elapsed time: 00:27:32s.  Time for last 1,000,000:   16s.  Last read position: chr4:20,852,042
+INFO	2016-05-17 15:09:04	FixMateInformation	Processed   109,000,000 records.  Elapsed time: 00:27:52s.  Time for last 1,000,000:   19s.  Last read position: chrX:56,591,044
+INFO	2016-05-17 15:09:24	FixMateInformation	Processed   110,000,000 records.  Elapsed time: 00:28:11s.  Time for last 1,000,000:   19s.  Last read position: chr13:26,789,014
+INFO	2016-05-17 15:09:40	FixMateInformation	Processed   111,000,000 records.  Elapsed time: 00:28:28s.  Time for last 1,000,000:   16s.  Last read position: chr19:3,779,349
+INFO	2016-05-17 15:09:59	FixMateInformation	Processed   112,000,000 records.  Elapsed time: 00:28:46s.  Time for last 1,000,000:   18s.  Last read position: chr12:26,275,896
+INFO	2016-05-17 15:10:18	FixMateInformation	Processed   113,000,000 records.  Elapsed time: 00:29:05s.  Time for last 1,000,000:   19s.  Last read position: chr2:45,879,171
+INFO	2016-05-17 15:10:36	FixMateInformation	Processed   114,000,000 records.  Elapsed time: 00:29:24s.  Time for last 1,000,000:   18s.  Last read position: chr21:45,511,867
+INFO	2016-05-17 15:10:55	FixMateInformation	Processed   115,000,000 records.  Elapsed time: 00:29:42s.  Time for last 1,000,000:   18s.  Last read position: chr9:102,958,037
+INFO	2016-05-17 15:11:13	FixMateInformation	Processed   116,000,000 records.  Elapsed time: 00:30:00s.  Time for last 1,000,000:   18s.  Last read position: chr11:75,439,760
+INFO	2016-05-17 15:11:32	FixMateInformation	Processed   117,000,000 records.  Elapsed time: 00:30:19s.  Time for last 1,000,000:   18s.  Last read position: chr7:121,738,493
+INFO	2016-05-17 15:11:49	FixMateInformation	Processed   118,000,000 records.  Elapsed time: 00:30:36s.  Time for last 1,000,000:   17s.  Last read position: chr3:113,186,955
+INFO	2016-05-17 15:12:05	FixMateInformation	Processed   119,000,000 records.  Elapsed time: 00:30:52s.  Time for last 1,000,000:   15s.  Last read position: chr1:74,833,588
+INFO	2016-05-17 15:12:24	FixMateInformation	Processed   120,000,000 records.  Elapsed time: 00:31:11s.  Time for last 1,000,000:   18s.  Last read position: chr8:110,382,752
+INFO	2016-05-17 15:12:41	FixMateInformation	Processed   121,000,000 records.  Elapsed time: 00:31:29s.  Time for last 1,000,000:   17s.  Last read position: chr1:144,930,399
+INFO	2016-05-17 15:12:59	FixMateInformation	Processed   122,000,000 records.  Elapsed time: 00:31:46s.  Time for last 1,000,000:   17s.  Last read position: chrX:134,989,082
+INFO	2016-05-17 15:13:14	FixMateInformation	Processed   123,000,000 records.  Elapsed time: 00:32:01s.  Time for last 1,000,000:   15s.  Last read position: chr9:140,397,146
+INFO	2016-05-17 15:13:32	FixMateInformation	Processed   124,000,000 records.  Elapsed time: 00:32:19s.  Time for last 1,000,000:   17s.  Last read position: chr1:90,178,464
+INFO	2016-05-17 15:13:47	FixMateInformation	Processed   125,000,000 records.  Elapsed time: 00:32:35s.  Time for last 1,000,000:   15s.  Last read position: chr6:155,619,470
+INFO	2016-05-17 15:14:05	FixMateInformation	Processed   126,000,000 records.  Elapsed time: 00:32:52s.  Time for last 1,000,000:   17s.  Last read position: chr12:55,714,989
+INFO	2016-05-17 15:14:22	FixMateInformation	Processed   127,000,000 records.  Elapsed time: 00:33:10s.  Time for last 1,000,000:   17s.  Last read position: chr6:83,851,544
+INFO	2016-05-17 15:14:39	FixMateInformation	Processed   128,000,000 records.  Elapsed time: 00:33:27s.  Time for last 1,000,000:   16s.  Last read position: chr18:23,901,149
+INFO	2016-05-17 15:14:54	FixMateInformation	Processed   129,000,000 records.  Elapsed time: 00:33:42s.  Time for last 1,000,000:   15s.  Last read position: chr15:43,027,798
+INFO	2016-05-17 15:15:09	FixMateInformation	Processed   130,000,000 records.  Elapsed time: 00:33:57s.  Time for last 1,000,000:   14s.  Last read position: chr3:16,308,802
+INFO	2016-05-17 15:15:26	FixMateInformation	Processed   131,000,000 records.  Elapsed time: 00:34:14s.  Time for last 1,000,000:   17s.  Last read position: chr1:12,677,205
+INFO	2016-05-17 15:15:41	FixMateInformation	Processed   132,000,000 records.  Elapsed time: 00:34:29s.  Time for last 1,000,000:   15s.  Last read position: chr2:26,800,298
+INFO	2016-05-17 15:15:59	FixMateInformation	Processed   133,000,000 records.  Elapsed time: 00:34:46s.  Time for last 1,000,000:   17s.  Last read position: chr6:31,926,967
+INFO	2016-05-17 15:16:18	FixMateInformation	Processed   134,000,000 records.  Elapsed time: 00:35:05s.  Time for last 1,000,000:   18s.  Last read position: chr20:61,981,243
+INFO	2016-05-17 15:16:35	FixMateInformation	Processed   135,000,000 records.  Elapsed time: 00:35:22s.  Time for last 1,000,000:   17s.  Last read position: chr17:72,848,759
+INFO	2016-05-17 15:16:53	FixMateInformation	Processed   136,000,000 records.  Elapsed time: 00:35:41s.  Time for last 1,000,000:   18s.  Last read position: chr13:25,352,576
+INFO	2016-05-17 15:17:10	FixMateInformation	Processed   137,000,000 records.  Elapsed time: 00:35:57s.  Time for last 1,000,000:   16s.  Last read position: chr1:103,474,077
+INFO	2016-05-17 15:17:28	FixMateInformation	Processed   138,000,000 records.  Elapsed time: 00:36:16s.  Time for last 1,000,000:   18s.  Last read position: chr1:193,149,749
+INFO	2016-05-17 15:17:43	FixMateInformation	Processed   139,000,000 records.  Elapsed time: 00:36:31s.  Time for last 1,000,000:   14s.  Last read position: chr16:841,035
+INFO	2016-05-17 15:18:00	FixMateInformation	Processed   140,000,000 records.  Elapsed time: 00:36:47s.  Time for last 1,000,000:   16s.  Last read position: chr1:245,809,353
+INFO	2016-05-17 15:18:23	FixMateInformation	Finished processing reads; re-sorting output file.
+[Tue May 17 15:50:36 EDT 2016] picard.sam.FixMateInformation done. Elapsed time: 98.89 minutes.
+Runtime.totalMemory()=1061683200
