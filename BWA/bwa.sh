@@ -27,17 +27,7 @@ cd $WORK_DIR
 
 # bwa index hg19/genome.fa
 
-PATIENT_ID=140
-bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/N-R1.fastq.gz p_DS_bkm_$PATIENT_ID/N-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-N.sam
-
-PATIENT_ID=134
-bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/N-R1.fastq.gz p_DS_bkm_$PATIENT_ID/N-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-N.sam
-bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/T-R1.fastq.gz p_DS_bkm_$PATIENT_ID/T-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-T.sam
 
 PATIENT_ID=135
-bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/N-R1.fastq.gz p_DS_bkm_$PATIENT_ID/N-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-N.sam
-bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/T-R1.fastq.gz p_DS_bkm_$PATIENT_ID/T-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-T.sam
-
-PATIENT_ID=136
 bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/N-R1.fastq.gz p_DS_bkm_$PATIENT_ID/N-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-N.sam
 bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/T-R1.fastq.gz p_DS_bkm_$PATIENT_ID/T-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-T.sam
