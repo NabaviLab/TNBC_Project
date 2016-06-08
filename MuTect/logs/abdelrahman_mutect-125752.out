@@ -1,0 +1,17 @@
+INFO  18:25:34,406 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  18:25:34,409 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-25-g2a68eab, Compiled 2012/11/08 10:30:02 
+INFO  18:25:34,409 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  18:25:34,409 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  18:25:34,413 HelpFormatter - Program Args: --analysis_type MuTect --reference_sequence /home/abdelrahman/hg19/genome.fa --cosmic mutectdbs/b37_cosmic_v54_120711.vcf --dbsnp mutectdbs/dbsnp_132_b37.leftAligned.vcf --input_file:normal GATK_output/p_DS_bkm_086-N/p_DS_bkm_086-N.sorted.MarkDup.realn.fixed.bam --input_file:tumor GATK_output/p_DS_bkm_086-T/p_DS_bkm_086-T.sorted.MarkDup.realn.fixed.bam --out MuTect_output/patient_086/call_stats.txt --coverage_file MuTect_output/patient_086/coverage.wig.txt --vcf MuTect_output/patient_086/result.vcf 
+INFO  18:25:34,413 HelpFormatter - Date/Time: 2016/06/03 18:25:34 
+INFO  18:25:34,413 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  18:25:34,413 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  18:25:34,453 ArgumentTypeDescriptor - Dynamically determined type of mutectdbs/dbsnp_132_b37.leftAligned.vcf to be VCF 
+INFO  18:25:34,468 ArgumentTypeDescriptor - Dynamically determined type of mutectdbs/b37_cosmic_v54_120711.vcf to be VCF 
+INFO  18:25:34,476 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  18:25:34,615 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 1000  
+INFO  18:25:34,622 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  18:25:35,819 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 1.20 
+WARN  18:26:03,120 FSLockWithShared - WARNING: Unable to lock file /archive/NabaviLab/TNBC_Project/fastq_raw_data/Project_5065_F/Patients/mutectdbs/dbsnp_132_b37.leftAligned.vcf.idx: No locks available. 
+INFO  18:26:03,126 RMDTrackBuilder - Creating Tribble index in memory for file mutectdbs/dbsnp_132_b37.leftAligned.vcf 
+WARN  18:26:03,336 VCFStandardHeaderLines$Standards - Repairing standard header line for field AF because -- count types disagree; header has UNBOUNDED but standard is A -- descriptions disagree; header has 'Allele Frequency' but standard is 'Allele Frequency, for each ALT allele, in the same order as listed' 

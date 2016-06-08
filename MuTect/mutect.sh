@@ -24,16 +24,18 @@ cd $WORK_DIR
 #$ -cwd
 
 # now run the actual job - replace this with the program you want to run along with any command line arguments
-# module load java6
+module load java6
 
 PATIENT_ID=$1
+mkdir MuTect_output/patient_$PATIENT_ID
 
-java -Xmx14g -jar /common/opt/bioinformatics/mutect/mutect-1.1.7.jar \
+java -Xmx14g -jar /common/opt/bioinformatics/mutect/muTect-1.1.4.jar \
 --analysis_type MuTect \
 --reference_sequence $HOME/hg19/genome.fa \
---cosmic $HOME/mutectdbs/b37_cosmic_v54_120711.vcf \
---dbsnp $HOME/mutectdbs/dbsnp_132_b37.leftAligned.vcf \
+--cosmic mutectdbs/b37_cosmic_v54_120711.vcf \
+--dbsnp mutectdbs/dbsnp_132_b37.leftAligned.vcf \
 --input_file:normal GATK_output/p_DS_bkm_$PATIENT_ID-N/p_DS_bkm_$PATIENT_ID-N.sorted.MarkDup.realn.fixed.bam \
 --input_file:tumor GATK_output/p_DS_bkm_$PATIENT_ID-T/p_DS_bkm_$PATIENT_ID-T.sorted.MarkDup.realn.fixed.bam \
---out MuTect_output/$PATIENT_ID.call_stats.txt \
---coverage_file MuTect_output/$PATIENT_ID.coverage.wig.txt
+--out MuTect_output/patient_$PATIENT_ID/call_stats.txt \
+--coverage_file MuTect_output/patient_$PATIENT_ID/coverage.wig.txt \
+--vcf MuTect_output/patient_$PATIENT_ID/result.vcf

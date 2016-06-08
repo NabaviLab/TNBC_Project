@@ -1,5 +1,5 @@
 # MuTect
-We used MuTect v1.1.7 to accurately identify somatic point mutations.
+We used MuTect v1.1.4 to accurately identify somatic point mutations.
 
 COSMIC file used: ```hg19_cosmic_v54_120711.vcf```
 
