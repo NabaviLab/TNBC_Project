@@ -1,0 +1,1803 @@
+INFO  15:55:51,282 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  15:55:51,285 HelpFormatter - The Genome Analysis Toolkit (GATK) v2.2-25-g2a68eab, Compiled 2012/11/08 10:30:02 
+INFO  15:55:51,286 HelpFormatter - Copyright (c) 2010 The Broad Institute 
+INFO  15:55:51,286 HelpFormatter - For support and documentation go to http://www.broadinstitute.org/gatk 
+INFO  15:55:51,292 HelpFormatter - Program Args: --analysis_type MuTect --reference_sequence /home/abdelrahman/hg19/genome.fa --cosmic mutectdbs/b37_cosmic_v54_120711.vcf --dbsnp mutectdbs/dbsnp_132_b37.leftAligned.vcf --input_file:normal GATK_output/p_DS_bkm_116-N/p_DS_bkm_116-N.sorted.MarkDup.realn.fixed.bam --input_file:tumor GATK_output/p_DS_bkm_116-T/p_DS_bkm_116-T.sorted.MarkDup.realn.fixed.bam --out MuTect_output/patient_116/call_stats.txt --coverage_file MuTect_output/patient_116/coverage.wig.txt --vcf MuTect_output/patient_116/result.vcf 
+INFO  15:55:51,292 HelpFormatter - Date/Time: 2016/06/12 15:55:51 
+INFO  15:55:51,293 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  15:55:51,293 HelpFormatter - --------------------------------------------------------------------------------- 
+INFO  15:55:51,338 ArgumentTypeDescriptor - Dynamically determined type of mutectdbs/dbsnp_132_b37.leftAligned.vcf to be VCF 
+INFO  15:55:51,364 ArgumentTypeDescriptor - Dynamically determined type of mutectdbs/b37_cosmic_v54_120711.vcf to be VCF 
+INFO  15:55:51,376 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  15:55:51,533 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE Target Coverage: 1000  
+INFO  15:55:51,543 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+INFO  15:56:02,193 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 10.63 
+WARN  15:56:02,826 FSLockWithShared - WARNING: Unable to lock file /archive/NabaviLab/TNBC_Project/fastq_raw_data/Project_5065_F/Patients/mutectdbs/dbsnp_132_b37.leftAligned.vcf.idx: No locks available. 
+INFO  15:56:02,827 RMDTrackBuilder - Creating Tribble index in memory for file mutectdbs/dbsnp_132_b37.leftAligned.vcf 
+WARN  15:56:02,867 VCFStandardHeaderLines$Standards - Repairing standard header line for field AF because -- count types disagree; header has UNBOUNDED but standard is A -- descriptions disagree; header has 'Allele Frequency' but standard is 'Allele Frequency, for each ALT allele, in the same order as listed' 
+WARN  15:58:37,828 VCFStandardHeaderLines$Standards - Repairing standard header line for field AF because -- count types disagree; header has UNBOUNDED but standard is A -- descriptions disagree; header has 'Allele Frequency' but standard is 'Allele Frequency, for each ALT allele, in the same order as listed' 
+WARN  15:58:37,841 FSLockWithShared - WARNING: Unable to lock file /archive/NabaviLab/TNBC_Project/fastq_raw_data/Project_5065_F/Patients/mutectdbs/b37_cosmic_v54_120711.vcf.idx: No locks available. 
+INFO  15:58:37,841 RMDTrackBuilder - Creating Tribble index in memory for file mutectdbs/b37_cosmic_v54_120711.vcf 
+INFO  15:58:38,358 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  15:58:38,358 ProgressMeter -        Location processed.sites  runtime per.1M.sites completed total.runtime remaining 
+INFO  15:58:43,848 MuTect - [MUTECTOR] Processed 1000270 reads in 3851 ms 
+INFO  15:58:44,525 MuTect - [MUTECTOR] Inspected 1000 potential candidates 
+INFO  15:58:45,221 MuTect - [MUTECTOR] Processed 2000381 reads in 1374 ms 
+INFO  15:58:46,035 MuTect - [MUTECTOR] Inspected 2000 potential candidates 
+INFO  15:58:48,246 MuTect - [MUTECTOR] Processed 3000532 reads in 3024 ms 
+INFO  15:58:52,128 MuTect - [MUTECTOR] Inspected 3000 potential candidates 
+INFO  15:58:52,294 MuTect - [MUTECTOR] Processed 4000532 reads in 4048 ms 
+INFO  15:58:54,918 MuTect - [MUTECTOR] Processed 5000743 reads in 2625 ms 
+INFO  15:58:54,945 MuTect - [MUTECTOR] Inspected 4000 potential candidates 
+INFO  15:58:56,151 MuTect - [MUTECTOR] Processed 6000771 reads in 1233 ms 
+INFO  15:58:57,340 MuTect - [MUTECTOR] Processed 7001270 reads in 1189 ms 
+INFO  15:58:58,047 MuTect - [MUTECTOR] Inspected 5000 potential candidates 
+INFO  15:58:58,432 MuTect - [MUTECTOR] Processed 8001357 reads in 1092 ms 
+INFO  15:58:59,484 MuTect - [MUTECTOR] Processed 9002185 reads in 1052 ms 
+INFO  15:59:00,670 MuTect - [MUTECTOR] Processed 10002233 reads in 1186 ms 
+INFO  15:59:01,844 MuTect - [MUTECTOR] Processed 11002545 reads in 1174 ms 
+INFO  15:59:03,178 MuTect - [MUTECTOR] Processed 12002608 reads in 1333 ms 
+INFO  15:59:04,121 MuTect - [MUTECTOR] Inspected 6000 potential candidates 
+INFO  15:59:04,286 MuTect - [MUTECTOR] Processed 13002853 reads in 1109 ms 
+INFO  15:59:05,411 MuTect - [MUTECTOR] Processed 14003435 reads in 1125 ms 
+INFO  15:59:06,769 MuTect - [MUTECTOR] Processed 15003546 reads in 1358 ms 
+INFO  15:59:07,759 MuTect - [MUTECTOR] Processed 16003563 reads in 990 ms 
+INFO  15:59:08,382 ProgressMeter -     chr1:914421        9.18e+05   30.0 s       32.7 s      0.0%        27.7 h    27.7 h 
+INFO  15:59:08,892 MuTect - [MUTECTOR] Processed 17004198 reads in 1133 ms 
+INFO  15:59:09,879 MuTect - [MUTECTOR] Inspected 7000 potential candidates 
+INFO  15:59:10,044 MuTect - [MUTECTOR] Processed 18005180 reads in 1152 ms 
+INFO  15:59:11,528 MuTect - [MUTECTOR] Processed 19005683 reads in 1484 ms 
+INFO  15:59:12,777 MuTect - [MUTECTOR] Processed 20006120 reads in 1249 ms 
+INFO  15:59:13,603 MuTect - [MUTECTOR] Inspected 8000 potential candidates 
+INFO  15:59:14,079 MuTect - [MUTECTOR] Processed 21006785 reads in 1302 ms 
+INFO  15:59:15,387 MuTect - [MUTECTOR] Processed 22007472 reads in 1307 ms 
+INFO  15:59:16,540 MuTect - [MUTECTOR] Processed 23007828 reads in 1154 ms 
+INFO  15:59:18,015 MuTect - [MUTECTOR] Processed 24007855 reads in 1475 ms 
+INFO  15:59:19,323 MuTect - [MUTECTOR] Processed 25008110 reads in 1308 ms 
+INFO  15:59:20,684 MuTect - [MUTECTOR] Processed 26009099 reads in 1361 ms 
+INFO  15:59:21,829 MuTect - [MUTECTOR] Processed 27009109 reads in 1145 ms 
+INFO  15:59:22,630 MuTect - [MUTECTOR] Inspected 9000 potential candidates 
+INFO  15:59:22,911 MuTect - [MUTECTOR] Processed 28009366 reads in 1082 ms 
+INFO  15:59:24,621 MuTect - [MUTECTOR] Processed 29010111 reads in 1710 ms 
+INFO  15:59:26,053 MuTect - [MUTECTOR] Processed 30011039 reads in 1431 ms 
+INFO  15:59:26,193 MuTect - [MUTECTOR] Inspected 10000 potential candidates 
+INFO  15:59:27,479 MuTect - [MUTECTOR] Processed 31011628 reads in 1427 ms 
+INFO  15:59:28,553 MuTect - [MUTECTOR] Inspected 11000 potential candidates 
+INFO  15:59:28,906 MuTect - [MUTECTOR] Processed 32011659 reads in 1427 ms 
+INFO  15:59:29,875 MuTect - [MUTECTOR] Processed 33011699 reads in 969 ms 
+INFO  15:59:30,980 MuTect - [MUTECTOR] Processed 34011825 reads in 1105 ms 
+INFO  15:59:31,112 MuTect - [MUTECTOR] Inspected 12000 potential candidates 
+INFO  15:59:32,225 MuTect - [MUTECTOR] Processed 35012540 reads in 1244 ms 
+INFO  15:59:33,331 MuTect - [MUTECTOR] Processed 36013241 reads in 1107 ms 
+INFO  15:59:34,425 MuTect - [MUTECTOR] Processed 37013722 reads in 1094 ms 
+INFO  15:59:35,549 MuTect - [MUTECTOR] Processed 38014007 reads in 1124 ms 
+INFO  15:59:36,271 MuTect - [MUTECTOR] Inspected 13000 potential candidates 
+INFO  15:59:37,100 MuTect - [MUTECTOR] Processed 39014667 reads in 1551 ms 
+INFO  15:59:38,746 MuTect - [MUTECTOR] Processed 40014845 reads in 1646 ms 
+INFO  15:59:39,847 MuTect - [MUTECTOR] Processed 41015176 reads in 1101 ms 
+INFO  15:59:40,802 MuTect - [MUTECTOR] Inspected 14000 potential candidates 
+INFO  15:59:41,152 MuTect - [MUTECTOR] Processed 42015303 reads in 1305 ms 
+INFO  15:59:42,203 MuTect - [MUTECTOR] Processed 43015303 reads in 1051 ms 
+INFO  15:59:43,426 MuTect - [MUTECTOR] Processed 44015567 reads in 1223 ms 
+INFO  15:59:44,419 MuTect - [MUTECTOR] Processed 45015867 reads in 993 ms 
+INFO  15:59:45,248 MuTect - [MUTECTOR] Inspected 15000 potential candidates 
+INFO  15:59:45,626 MuTect - [MUTECTOR] Processed 46015872 reads in 1207 ms 
+INFO  15:59:46,611 MuTect - [MUTECTOR] Processed 47016161 reads in 985 ms 
+INFO  15:59:47,990 MuTect - [MUTECTOR] Processed 48016565 reads in 1379 ms 
+INFO  15:59:49,039 MuTect - [MUTECTOR] Processed 49016663 reads in 1049 ms 
+INFO  15:59:50,057 MuTect - [MUTECTOR] Inspected 16000 potential candidates 
+INFO  15:59:50,094 MuTect - [MUTECTOR] Processed 50017056 reads in 1055 ms 
+INFO  15:59:51,152 MuTect - [MUTECTOR] Processed 51017332 reads in 1057 ms 
+INFO  15:59:52,360 MuTect - [MUTECTOR] Processed 52017764 reads in 1209 ms 
+INFO  15:59:53,744 MuTect - [MUTECTOR] Processed 53018286 reads in 1383 ms 
+INFO  15:59:55,338 MuTect - [MUTECTOR] Processed 54019129 reads in 1595 ms 
+INFO  15:59:56,372 MuTect - [MUTECTOR] Processed 55019171 reads in 1034 ms 
+INFO  15:59:57,214 MuTect - [MUTECTOR] Inspected 17000 potential candidates 
+INFO  15:59:57,542 MuTect - [MUTECTOR] Processed 56019428 reads in 1170 ms 
+INFO  15:59:58,644 MuTect - [MUTECTOR] Processed 57019662 reads in 1101 ms 
+INFO  16:00:00,381 MuTect - [MUTECTOR] Processed 58019831 reads in 1738 ms 
+INFO  16:00:01,360 MuTect - [MUTECTOR] Processed 59019939 reads in 979 ms 
+INFO  16:00:02,403 MuTect - [MUTECTOR] Processed 60020002 reads in 1043 ms 
+INFO  16:00:04,108 MuTect - [MUTECTOR] Processed 61020461 reads in 1705 ms 
+INFO  16:00:04,606 MuTect - [MUTECTOR] Inspected 18000 potential candidates 
+INFO  16:00:05,193 MuTect - [MUTECTOR] Processed 62020936 reads in 1085 ms 
+INFO  16:00:06,440 MuTect - [MUTECTOR] Processed 63020984 reads in 1247 ms 
+INFO  16:00:07,809 MuTect - [MUTECTOR] Processed 64021833 reads in 1369 ms 
+INFO  16:00:08,395 ProgressMeter -    chr1:1292153        1.29e+06   90.0 s       69.6 s      0.0%        59.2 h    59.1 h 
+INFO  16:00:08,440 MuTect - [MUTECTOR] Inspected 19000 potential candidates 
+INFO  16:00:09,191 MuTect - [MUTECTOR] Processed 65021836 reads in 1382 ms 
+INFO  16:00:10,587 MuTect - [MUTECTOR] Processed 66022116 reads in 1396 ms 
+INFO  16:00:11,715 MuTect - [MUTECTOR] Processed 67022933 reads in 1128 ms 
+INFO  16:00:12,681 MuTect - [MUTECTOR] Processed 68023190 reads in 966 ms 
+INFO  16:00:14,118 MuTect - [MUTECTOR] Inspected 20000 potential candidates 
+INFO  16:00:14,351 MuTect - [MUTECTOR] Processed 69024107 reads in 1670 ms 
+INFO  16:00:15,330 MuTect - [MUTECTOR] Processed 70024773 reads in 979 ms 
+INFO  16:00:16,702 MuTect - [MUTECTOR] Processed 71024795 reads in 1372 ms 
+INFO  16:00:18,565 MuTect - [MUTECTOR] Processed 72025053 reads in 1863 ms 
+INFO  16:00:19,240 MuTect - [MUTECTOR] Inspected 21000 potential candidates 
+INFO  16:00:19,804 MuTect - [MUTECTOR] Processed 73025486 reads in 1239 ms 
+INFO  16:00:21,023 MuTect - [MUTECTOR] Processed 74025678 reads in 1219 ms 
+INFO  16:00:21,991 MuTect - [MUTECTOR] Inspected 22000 potential candidates 
+INFO  16:00:22,126 MuTect - [MUTECTOR] Processed 75025808 reads in 1103 ms 
+INFO  16:00:23,208 MuTect - [MUTECTOR] Processed 76026585 reads in 1082 ms 
+INFO  16:00:24,577 MuTect - [MUTECTOR] Processed 77026695 reads in 1369 ms 
+INFO  16:00:24,759 MuTect - [MUTECTOR] Inspected 23000 potential candidates 
+INFO  16:00:26,164 MuTect - [MUTECTOR] Processed 78026990 reads in 1587 ms 
+INFO  16:00:27,663 MuTect - [MUTECTOR] Processed 79027169 reads in 1499 ms 
+INFO  16:00:28,902 MuTect - [MUTECTOR] Processed 80027230 reads in 1239 ms 
+INFO  16:00:28,957 MuTect - [MUTECTOR] Inspected 24000 potential candidates 
+INFO  16:00:30,224 MuTect - [MUTECTOR] Processed 81027310 reads in 1322 ms 
+INFO  16:00:31,498 MuTect - [MUTECTOR] Processed 82027600 reads in 1274 ms 
+INFO  16:00:32,534 MuTect - [MUTECTOR] Processed 83027983 reads in 1036 ms 
+INFO  16:00:33,461 MuTect - [MUTECTOR] Inspected 25000 potential candidates 
+INFO  16:00:33,505 MuTect - [MUTECTOR] Processed 84028004 reads in 971 ms 
+INFO  16:00:34,714 MuTect - [MUTECTOR] Processed 85028347 reads in 1209 ms 
+INFO  16:00:36,045 MuTect - [MUTECTOR] Processed 86028570 reads in 1330 ms 
+INFO  16:00:37,471 MuTect - [MUTECTOR] Processed 87029125 reads in 1427 ms 
+INFO  16:00:37,631 MuTect - [MUTECTOR] Inspected 26000 potential candidates 
+INFO  16:00:38,636 MuTect - [MUTECTOR] Processed 88029189 reads in 1165 ms 
+INFO  16:00:40,550 MuTect - [MUTECTOR] Processed 89029290 reads in 1914 ms 
+INFO  16:00:41,857 MuTect - [MUTECTOR] Processed 90029559 reads in 1307 ms 
+INFO  16:00:41,961 MuTect - [MUTECTOR] Inspected 27000 potential candidates 
+INFO  16:00:42,987 MuTect - [MUTECTOR] Processed 91029812 reads in 1130 ms 
+INFO  16:00:44,429 MuTect - [MUTECTOR] Processed 92030068 reads in 1441 ms 
+INFO  16:00:45,967 MuTect - [MUTECTOR] Processed 93030702 reads in 1539 ms 
+INFO  16:00:46,532 MuTect - [MUTECTOR] Inspected 28000 potential candidates 
+INFO  16:00:47,182 MuTect - [MUTECTOR] Processed 94030781 reads in 1215 ms 
+INFO  16:00:48,672 MuTect - [MUTECTOR] Processed 95031021 reads in 1489 ms 
+INFO  16:00:50,081 MuTect - [MUTECTOR] Processed 96031068 reads in 1410 ms 
+INFO  16:00:50,626 MuTect - [MUTECTOR] Inspected 29000 potential candidates 
+INFO  16:00:51,172 MuTect - [MUTECTOR] Processed 97031250 reads in 1091 ms 
+INFO  16:00:52,192 MuTect - [MUTECTOR] Processed 98031313 reads in 1020 ms 
+INFO  16:00:53,407 MuTect - [MUTECTOR] Processed 99031558 reads in 1215 ms 
+INFO  16:00:54,608 MuTect - [MUTECTOR] Processed 100031677 reads in 1201 ms 
+INFO  16:00:54,788 MuTect - [MUTECTOR] Inspected 30000 potential candidates 
+INFO  16:00:55,680 MuTect - [MUTECTOR] Processed 101032466 reads in 1072 ms 
+INFO  16:00:57,242 MuTect - [MUTECTOR] Processed 102032797 reads in 1562 ms 
+INFO  16:00:58,227 MuTect - [MUTECTOR] Inspected 31000 potential candidates 
+INFO  16:00:58,855 MuTect - [MUTECTOR] Processed 103032983 reads in 1613 ms 
+INFO  16:01:00,195 MuTect - [MUTECTOR] Processed 104033652 reads in 1340 ms 
+INFO  16:01:01,305 MuTect - [MUTECTOR] Inspected 32000 potential candidates 
+INFO  16:01:01,401 MuTect - [MUTECTOR] Processed 105034088 reads in 1206 ms 
+INFO  16:01:03,054 MuTect - [MUTECTOR] Processed 106034663 reads in 1653 ms 
+INFO  16:01:03,835 MuTect - [MUTECTOR] Inspected 33000 potential candidates 
+INFO  16:01:05,075 MuTect - [MUTECTOR] Processed 107034982 reads in 2021 ms 
+INFO  16:01:06,202 MuTect - [MUTECTOR] Processed 108035704 reads in 1127 ms 
+INFO  16:01:07,780 MuTect - [MUTECTOR] Processed 109035940 reads in 1578 ms 
+INFO  16:01:08,402 ProgressMeter -    chr1:2113637        2.13e+06    2.5 m       70.4 s      0.1%        60.6 h    60.5 h 
+INFO  16:01:08,850 MuTect - [MUTECTOR] Inspected 34000 potential candidates 
+INFO  16:01:09,190 MuTect - [MUTECTOR] Processed 110036091 reads in 1409 ms 
+INFO  16:01:10,459 MuTect - [MUTECTOR] Processed 111036585 reads in 1270 ms 
+INFO  16:01:11,493 MuTect - [MUTECTOR] Processed 112036676 reads in 1034 ms 
+INFO  16:01:11,980 MuTect - [MUTECTOR] Inspected 35000 potential candidates 
+INFO  16:01:12,865 MuTect - [MUTECTOR] Processed 113037203 reads in 1372 ms 
+INFO  16:01:15,076 MuTect - [MUTECTOR] Processed 114038017 reads in 2211 ms 
+INFO  16:01:15,987 MuTect - [MUTECTOR] Inspected 36000 potential candidates 
+INFO  16:01:16,421 MuTect - [MUTECTOR] Processed 115038267 reads in 1345 ms 
+INFO  16:01:17,727 MuTect - [MUTECTOR] Processed 116038548 reads in 1306 ms 
+INFO  16:01:19,068 MuTect - [MUTECTOR] Inspected 37000 potential candidates 
+INFO  16:01:19,217 MuTect - [MUTECTOR] Processed 117039092 reads in 1490 ms 
+INFO  16:01:20,423 MuTect - [MUTECTOR] Processed 118039614 reads in 1206 ms 
+INFO  16:01:21,380 MuTect - [MUTECTOR] Processed 119040261 reads in 957 ms 
+INFO  16:01:22,389 MuTect - [MUTECTOR] Processed 120041177 reads in 1009 ms 
+INFO  16:01:23,123 MuTect - [MUTECTOR] Inspected 38000 potential candidates 
+INFO  16:01:23,555 MuTect - [MUTECTOR] Processed 121041179 reads in 1166 ms 
+INFO  16:01:25,392 MuTect - [MUTECTOR] Processed 122041622 reads in 1836 ms 
+INFO  16:01:25,688 MuTect - [MUTECTOR] Inspected 39000 potential candidates 
+INFO  16:01:26,916 MuTect - [MUTECTOR] Processed 123042282 reads in 1525 ms 
+INFO  16:01:28,299 MuTect - [MUTECTOR] Processed 124042348 reads in 1383 ms 
+INFO  16:01:29,685 MuTect - [MUTECTOR] Processed 125042544 reads in 1386 ms 
+INFO  16:01:29,799 MuTect - [MUTECTOR] Inspected 40000 potential candidates 
+INFO  16:01:30,643 MuTect - [MUTECTOR] Processed 126043508 reads in 958 ms 
+INFO  16:01:31,802 MuTect - [MUTECTOR] Processed 127043586 reads in 1159 ms 
+INFO  16:01:33,205 MuTect - [MUTECTOR] Processed 128044236 reads in 1403 ms 
+INFO  16:01:34,257 MuTect - [MUTECTOR] Processed 129044321 reads in 1052 ms 
+INFO  16:01:34,307 MuTect - [MUTECTOR] Inspected 41000 potential candidates 
+INFO  16:01:35,312 MuTect - [MUTECTOR] Processed 130044347 reads in 1055 ms 
+INFO  16:01:36,432 MuTect - [MUTECTOR] Processed 131044354 reads in 1120 ms 
+INFO  16:01:38,107 MuTect - [MUTECTOR] Processed 132044797 reads in 1675 ms 
+INFO  16:01:39,365 MuTect - [MUTECTOR] Inspected 42000 potential candidates 
+INFO  16:01:39,602 MuTect - [MUTECTOR] Processed 133044928 reads in 1495 ms 
+INFO  16:01:41,233 MuTect - [MUTECTOR] Processed 134045365 reads in 1631 ms 
+INFO  16:01:42,929 MuTect - [MUTECTOR] Processed 135045746 reads in 1696 ms 
+INFO  16:01:43,584 MuTect - [MUTECTOR] Inspected 43000 potential candidates 
+INFO  16:01:44,391 MuTect - [MUTECTOR] Processed 136045888 reads in 1462 ms 
+INFO  16:01:45,487 MuTect - [MUTECTOR] Processed 137046360 reads in 1096 ms 
+INFO  16:01:46,555 MuTect - [MUTECTOR] Inspected 44000 potential candidates 
+INFO  16:01:46,636 MuTect - [MUTECTOR] Processed 138046770 reads in 1149 ms 
+INFO  16:01:48,373 MuTect - [MUTECTOR] Processed 139047227 reads in 1736 ms 
+INFO  16:01:49,204 MuTect - [MUTECTOR] Inspected 45000 potential candidates 
+INFO  16:01:50,919 MuTect - [MUTECTOR] Processed 140047233 reads in 2547 ms 
+INFO  16:01:51,654 MuTect - [MUTECTOR] Inspected 46000 potential candidates 
+INFO  16:01:53,886 MuTect - [MUTECTOR] Processed 141047292 reads in 2967 ms 
+INFO  16:01:55,927 MuTect - [MUTECTOR] Processed 142047566 reads in 2041 ms 
+INFO  16:01:56,494 MuTect - [MUTECTOR] Inspected 47000 potential candidates 
+INFO  16:01:58,382 MuTect - [MUTECTOR] Processed 143047566 reads in 2455 ms 
+INFO  16:01:59,890 MuTect - [MUTECTOR] Inspected 48000 potential candidates 
+INFO  16:02:01,500 MuTect - [MUTECTOR] Processed 144048062 reads in 3118 ms 
+INFO  16:02:02,763 MuTect - [MUTECTOR] Processed 145048982 reads in 1263 ms 
+INFO  16:02:03,844 MuTect - [MUTECTOR] Processed 146049217 reads in 1081 ms 
+INFO  16:02:03,940 MuTect - [MUTECTOR] Inspected 49000 potential candidates 
+INFO  16:02:05,073 MuTect - [MUTECTOR] Processed 147049868 reads in 1229 ms 
+INFO  16:02:06,284 MuTect - [MUTECTOR] Processed 148050045 reads in 1211 ms 
+INFO  16:02:07,860 MuTect - [MUTECTOR] Processed 149051044 reads in 1576 ms 
+INFO  16:02:07,933 MuTect - [MUTECTOR] Inspected 50000 potential candidates 
+INFO  16:02:08,504 ProgressMeter -    chr1:3390005        3.39e+06    3.5 m       62.0 s      0.1%        53.0 h    53.0 h 
+INFO  16:02:09,021 MuTect - [MUTECTOR] Processed 150051450 reads in 1161 ms 
+INFO  16:02:10,551 MuTect - [MUTECTOR] Processed 151051907 reads in 1530 ms 
+INFO  16:02:11,644 MuTect - [MUTECTOR] Processed 152052110 reads in 1093 ms 
+INFO  16:02:11,761 MuTect - [MUTECTOR] Inspected 51000 potential candidates 
+INFO  16:02:12,749 MuTect - [MUTECTOR] Processed 153052701 reads in 1105 ms 
+INFO  16:02:13,706 MuTect - [MUTECTOR] Processed 154052815 reads in 957 ms 
+INFO  16:02:14,419 MuTect - [MUTECTOR] Inspected 52000 potential candidates 
+INFO  16:02:15,207 MuTect - [MUTECTOR] Processed 155053196 reads in 1501 ms 
+INFO  16:02:17,284 MuTect - [MUTECTOR] Inspected 53000 potential candidates 
+INFO  16:02:17,569 MuTect - [MUTECTOR] Processed 156053220 reads in 2362 ms 
+INFO  16:02:19,411 MuTect - [MUTECTOR] Processed 157053889 reads in 1842 ms 
+INFO  16:02:20,594 MuTect - [MUTECTOR] Processed 158053901 reads in 1183 ms 
+INFO  16:02:20,850 MuTect - [MUTECTOR] Inspected 54000 potential candidates 
+INFO  16:02:21,594 MuTect - [MUTECTOR] Processed 159054170 reads in 1000 ms 
+INFO  16:02:22,878 MuTect - [MUTECTOR] Processed 160055033 reads in 1284 ms 
+INFO  16:02:24,627 MuTect - [MUTECTOR] Processed 161055046 reads in 1749 ms 
+INFO  16:02:25,317 MuTect - [MUTECTOR] Inspected 55000 potential candidates 
+INFO  16:02:26,417 MuTect - [MUTECTOR] Processed 162055711 reads in 1790 ms 
+INFO  16:02:27,450 MuTect - [MUTECTOR] Processed 163056358 reads in 1033 ms 
+INFO  16:02:28,422 MuTect - [MUTECTOR] Processed 164056481 reads in 972 ms 
+INFO  16:02:29,400 MuTect - [MUTECTOR] Inspected 56000 potential candidates 
+INFO  16:02:29,636 MuTect - [MUTECTOR] Processed 165057307 reads in 1214 ms 
+INFO  16:02:30,632 MuTect - [MUTECTOR] Processed 166057555 reads in 996 ms 
+INFO  16:02:31,803 MuTect - [MUTECTOR] Processed 167057789 reads in 1171 ms 
+INFO  16:02:32,936 MuTect - [MUTECTOR] Inspected 57000 potential candidates 
+INFO  16:02:33,001 MuTect - [MUTECTOR] Processed 168058178 reads in 1198 ms 
+INFO  16:02:34,661 MuTect - [MUTECTOR] Processed 169058683 reads in 1659 ms 
+INFO  16:02:36,020 MuTect - [MUTECTOR] Processed 170058975 reads in 1360 ms 
+INFO  16:02:37,135 MuTect - [MUTECTOR] Processed 171059005 reads in 1115 ms 
+INFO  16:02:37,932 MuTect - [MUTECTOR] Inspected 58000 potential candidates 
+INFO  16:02:39,167 MuTect - [MUTECTOR] Processed 172059677 reads in 2032 ms 
+INFO  16:02:40,212 MuTect - [MUTECTOR] Processed 173059808 reads in 1045 ms 
+INFO  16:02:41,114 MuTect - [MUTECTOR] Inspected 59000 potential candidates 
+INFO  16:02:41,337 MuTect - [MUTECTOR] Processed 174060185 reads in 1125 ms 
+INFO  16:02:42,811 MuTect - [MUTECTOR] Processed 175061071 reads in 1474 ms 
+INFO  16:02:44,008 MuTect - [MUTECTOR] Processed 176061502 reads in 1197 ms 
+INFO  16:02:45,772 MuTect - [MUTECTOR] Inspected 60000 potential candidates 
+INFO  16:02:49,378 MuTect - [MUTECTOR] Processed 177061509 reads in 5370 ms 
+INFO  16:02:50,265 MuTect - [MUTECTOR] Inspected 61000 potential candidates 
+INFO  16:02:53,679 MuTect - [MUTECTOR] Inspected 62000 potential candidates 
+INFO  16:02:53,976 MuTect - [MUTECTOR] Processed 178062100 reads in 4598 ms 
+INFO  16:02:55,393 MuTect - [MUTECTOR] Processed 179062363 reads in 1417 ms 
+INFO  16:02:57,601 MuTect - [MUTECTOR] Processed 180062363 reads in 2208 ms 
+INFO  16:02:58,394 MuTect - [MUTECTOR] Inspected 63000 potential candidates 
+INFO  16:03:01,977 MuTect - [MUTECTOR] Inspected 64000 potential candidates 
+INFO  16:03:03,099 MuTect - [MUTECTOR] Processed 181062556 reads in 5498 ms 
+INFO  16:03:04,006 MuTect - [MUTECTOR] Inspected 65000 potential candidates 
+INFO  16:03:06,472 MuTect - [MUTECTOR] Processed 182063034 reads in 3373 ms 
+INFO  16:03:07,048 MuTect - [MUTECTOR] Inspected 66000 potential candidates 
+INFO  16:03:07,631 MuTect - [MUTECTOR] Processed 183063128 reads in 1158 ms 
+INFO  16:03:08,549 ProgressMeter -    chr1:5935009        5.95e+06    4.5 m       45.4 s      0.2%        39.0 h    39.0 h 
+INFO  16:03:09,342 MuTect - [MUTECTOR] Processed 184063453 reads in 1712 ms 
+INFO  16:03:10,954 MuTect - [MUTECTOR] Processed 185063658 reads in 1612 ms 
+INFO  16:03:11,778 MuTect - [MUTECTOR] Inspected 67000 potential candidates 
+INFO  16:03:12,141 MuTect - [MUTECTOR] Processed 186063970 reads in 1187 ms 
+INFO  16:03:13,305 MuTect - [MUTECTOR] Processed 187064305 reads in 1164 ms 
+INFO  16:03:14,296 MuTect - [MUTECTOR] Inspected 68000 potential candidates 
+INFO  16:03:15,274 MuTect - [MUTECTOR] Processed 188064378 reads in 1969 ms 
+INFO  16:03:16,324 MuTect - [MUTECTOR] Processed 189064956 reads in 1050 ms 
+INFO  16:03:17,723 MuTect - [MUTECTOR] Inspected 69000 potential candidates 
+INFO  16:03:17,905 MuTect - [MUTECTOR] Processed 190065749 reads in 1581 ms 
+INFO  16:03:19,116 MuTect - [MUTECTOR] Processed 191065934 reads in 1211 ms 
+INFO  16:03:20,557 MuTect - [MUTECTOR] Processed 192066794 reads in 1441 ms 
+INFO  16:03:21,432 MuTect - [MUTECTOR] Inspected 70000 potential candidates 
+INFO  16:03:21,747 MuTect - [MUTECTOR] Processed 193067511 reads in 1189 ms 
+INFO  16:03:23,114 MuTect - [MUTECTOR] Processed 194067996 reads in 1368 ms 
+INFO  16:03:24,492 MuTect - [MUTECTOR] Processed 195068216 reads in 1378 ms 
+INFO  16:03:25,605 MuTect - [MUTECTOR] Processed 196068683 reads in 1113 ms 
+INFO  16:03:25,718 MuTect - [MUTECTOR] Inspected 71000 potential candidates 
+INFO  16:03:26,689 MuTect - [MUTECTOR] Processed 197069223 reads in 1084 ms 
+INFO  16:03:28,567 MuTect - [MUTECTOR] Processed 198069375 reads in 1878 ms 
+INFO  16:03:30,074 MuTect - [MUTECTOR] Processed 199069970 reads in 1507 ms 
+INFO  16:03:30,245 MuTect - [MUTECTOR] Inspected 72000 potential candidates 
+INFO  16:03:31,079 MuTect - [MUTECTOR] Processed 200070664 reads in 1005 ms 
+INFO  16:03:32,444 MuTect - [MUTECTOR] Processed 201070865 reads in 1365 ms 
+INFO  16:03:33,988 MuTect - [MUTECTOR] Processed 202071173 reads in 1544 ms 
+INFO  16:03:35,261 MuTect - [MUTECTOR] Inspected 73000 potential candidates 
+INFO  16:03:35,484 MuTect - [MUTECTOR] Processed 203071486 reads in 1496 ms 
+INFO  16:03:36,875 MuTect - [MUTECTOR] Processed 204071782 reads in 1391 ms 
+INFO  16:03:38,183 MuTect - [MUTECTOR] Processed 205072134 reads in 1308 ms 
+INFO  16:03:39,266 MuTect - [MUTECTOR] Inspected 74000 potential candidates 
+INFO  16:03:40,144 MuTect - [MUTECTOR] Processed 206072389 reads in 1961 ms 
+INFO  16:03:41,561 MuTect - [MUTECTOR] Processed 207073066 reads in 1416 ms 
+INFO  16:03:43,679 MuTect - [MUTECTOR] Processed 208073683 reads in 2119 ms 
+INFO  16:03:44,026 MuTect - [MUTECTOR] Inspected 75000 potential candidates 
+INFO  16:03:44,890 MuTect - [MUTECTOR] Processed 209074279 reads in 1211 ms 
+INFO  16:03:45,986 MuTect - [MUTECTOR] Processed 210074640 reads in 1096 ms 
+INFO  16:03:46,576 MuTect - [MUTECTOR] Inspected 76000 potential candidates 
+INFO  16:03:47,415 MuTect - [MUTECTOR] Processed 211074788 reads in 1429 ms 
+INFO  16:03:49,017 MuTect - [MUTECTOR] Processed 212075049 reads in 1602 ms 
+INFO  16:03:50,017 MuTect - [MUTECTOR] Processed 213075575 reads in 1000 ms 
+INFO  16:03:50,727 MuTect - [MUTECTOR] Inspected 77000 potential candidates 
+INFO  16:03:50,934 MuTect - [MUTECTOR] Processed 214076374 reads in 917 ms 
+INFO  16:03:51,935 MuTect - [MUTECTOR] Processed 215076853 reads in 1001 ms 
+INFO  16:03:52,896 MuTect - [MUTECTOR] Processed 216077164 reads in 961 ms 
+INFO  16:03:54,435 MuTect - [MUTECTOR] Processed 217077521 reads in 1539 ms 
+INFO  16:03:55,501 MuTect - [MUTECTOR] Processed 218077870 reads in 1066 ms 
+INFO  16:03:56,066 MuTect - [MUTECTOR] Inspected 78000 potential candidates 
+INFO  16:03:57,413 MuTect - [MUTECTOR] Processed 219078212 reads in 1912 ms 
+INFO  16:03:58,573 MuTect - [MUTECTOR] Processed 220078705 reads in 1160 ms 
+INFO  16:04:00,219 MuTect - [MUTECTOR] Processed 221079207 reads in 1646 ms 
+INFO  16:04:01,830 MuTect - [MUTECTOR] Inspected 79000 potential candidates 
+INFO  16:04:02,045 MuTect - [MUTECTOR] Processed 222079381 reads in 1826 ms 
+INFO  16:04:03,472 MuTect - [MUTECTOR] Processed 223079990 reads in 1427 ms 
+INFO  16:04:04,505 MuTect - [MUTECTOR] Processed 224080003 reads in 1033 ms 
+INFO  16:04:05,448 MuTect - [MUTECTOR] Processed 225080122 reads in 943 ms 
+INFO  16:04:07,214 MuTect - [MUTECTOR] Processed 226080847 reads in 1765 ms 
+INFO  16:04:08,593 MuTect - [MUTECTOR] Processed 227081508 reads in 1380 ms 
+INFO  16:04:08,672 ProgressMeter -    chr1:6661905        6.67e+06    5.5 m       49.5 s      0.2%        42.5 h    42.4 h 
+INFO  16:04:09,294 MuTect - [MUTECTOR] Inspected 80000 potential candidates 
+INFO  16:04:09,895 MuTect - [MUTECTOR] Processed 228082283 reads in 1302 ms 
+INFO  16:04:11,226 MuTect - [MUTECTOR] Processed 229082287 reads in 1331 ms 
+INFO  16:04:12,166 MuTect - [MUTECTOR] Processed 230082566 reads in 940 ms 
+INFO  16:04:13,128 MuTect - [MUTECTOR] Processed 231082731 reads in 962 ms 
+INFO  16:04:13,343 MuTect - [MUTECTOR] Inspected 81000 potential candidates 
+INFO  16:04:14,448 MuTect - [MUTECTOR] Processed 232082731 reads in 1320 ms 
+INFO  16:04:15,589 MuTect - [MUTECTOR] Processed 233082823 reads in 1141 ms 
+INFO  16:04:17,011 MuTect - [MUTECTOR] Inspected 82000 potential candidates 
+INFO  16:04:17,721 MuTect - [MUTECTOR] Processed 234083051 reads in 2132 ms 
+INFO  16:04:20,295 MuTect - [MUTECTOR] Inspected 83000 potential candidates 
+INFO  16:04:20,852 MuTect - [MUTECTOR] Processed 235083083 reads in 3130 ms 
+INFO  16:04:23,033 MuTect - [MUTECTOR] Processed 236084073 reads in 2182 ms 
+INFO  16:04:23,654 MuTect - [MUTECTOR] Inspected 84000 potential candidates 
+INFO  16:04:26,439 MuTect - [MUTECTOR] Processed 237084744 reads in 3406 ms 
+INFO  16:04:26,918 MuTect - [MUTECTOR] Inspected 85000 potential candidates 
+INFO  16:04:29,069 MuTect - [MUTECTOR] Processed 238084746 reads in 2630 ms 
+INFO  16:04:29,786 MuTect - [MUTECTOR] Inspected 86000 potential candidates 
+INFO  16:04:30,626 MuTect - [MUTECTOR] Processed 239085288 reads in 1557 ms 
+INFO  16:04:31,780 MuTect - [MUTECTOR] Processed 240086037 reads in 1154 ms 
+INFO  16:04:32,810 MuTect - [MUTECTOR] Processed 241086158 reads in 1030 ms 
+INFO  16:04:33,935 MuTect - [MUTECTOR] Inspected 87000 potential candidates 
+INFO  16:04:34,238 MuTect - [MUTECTOR] Processed 242086814 reads in 1427 ms 
+INFO  16:04:35,238 MuTect - [MUTECTOR] Processed 243086824 reads in 1001 ms 
+INFO  16:04:37,296 MuTect - [MUTECTOR] Processed 244087276 reads in 2058 ms 
+INFO  16:04:38,584 MuTect - [MUTECTOR] Processed 245087529 reads in 1288 ms 
+INFO  16:04:39,581 MuTect - [MUTECTOR] Inspected 88000 potential candidates 
+INFO  16:04:39,768 MuTect - [MUTECTOR] Processed 246087671 reads in 1184 ms 
+INFO  16:04:40,734 MuTect - [MUTECTOR] Processed 247088249 reads in 966 ms 
+INFO  16:04:41,742 MuTect - [MUTECTOR] Processed 248088379 reads in 1008 ms 
+INFO  16:04:42,913 MuTect - [MUTECTOR] Processed 249088722 reads in 1170 ms 
+INFO  16:04:44,120 MuTect - [MUTECTOR] Processed 250089620 reads in 1208 ms 
+INFO  16:04:44,821 MuTect - [MUTECTOR] Inspected 89000 potential candidates 
+INFO  16:04:45,295 MuTect - [MUTECTOR] Processed 251090006 reads in 1175 ms 
+INFO  16:04:47,063 MuTect - [MUTECTOR] Processed 252090247 reads in 1768 ms 
+INFO  16:04:48,173 MuTect - [MUTECTOR] Inspected 90000 potential candidates 
+INFO  16:04:48,675 MuTect - [MUTECTOR] Processed 253090618 reads in 1612 ms 
+INFO  16:04:50,404 MuTect - [MUTECTOR] Processed 254091024 reads in 1728 ms 
+INFO  16:04:51,359 MuTect - [MUTECTOR] Processed 255091498 reads in 956 ms 
+INFO  16:04:53,789 MuTect - [MUTECTOR] Inspected 91000 potential candidates 
+INFO  16:04:54,124 MuTect - [MUTECTOR] Processed 256091502 reads in 2764 ms 
+INFO  16:04:56,084 MuTect - [MUTECTOR] Inspected 92000 potential candidates 
+INFO  16:04:56,831 MuTect - [MUTECTOR] Processed 257091855 reads in 2708 ms 
+INFO  16:04:58,094 MuTect - [MUTECTOR] Processed 258092182 reads in 1263 ms 
+INFO  16:04:59,652 MuTect - [MUTECTOR] Processed 259093035 reads in 1558 ms 
+INFO  16:05:01,354 MuTect - [MUTECTOR] Processed 260093339 reads in 1702 ms 
+INFO  16:05:01,611 MuTect - [MUTECTOR] Inspected 93000 potential candidates 
+INFO  16:05:02,353 MuTect - [MUTECTOR] Processed 261093422 reads in 999 ms 
+INFO  16:05:03,403 MuTect - [MUTECTOR] Processed 262094176 reads in 1050 ms 
+INFO  16:05:05,113 MuTect - [MUTECTOR] Processed 263094176 reads in 1710 ms 
+INFO  16:05:05,844 MuTect - [MUTECTOR] Inspected 94000 potential candidates 
+INFO  16:05:06,710 MuTect - [MUTECTOR] Processed 264094283 reads in 1597 ms 
+INFO  16:05:08,342 MuTect - [MUTECTOR] Processed 265094283 reads in 1632 ms 
+INFO  16:05:08,791 ProgressMeter -    chr1:8716205        8.72e+06    6.5 m       44.8 s      0.3%        38.4 h    38.3 h 
+INFO  16:05:10,642 MuTect - [MUTECTOR] Inspected 95000 potential candidates 
+INFO  16:05:11,353 MuTect - [MUTECTOR] Processed 266095114 reads in 3011 ms 
+INFO  16:05:12,493 MuTect - [MUTECTOR] Processed 267095122 reads in 1140 ms 
+INFO  16:05:13,514 MuTect - [MUTECTOR] Processed 268095244 reads in 1021 ms 
+INFO  16:05:14,866 MuTect - [MUTECTOR] Inspected 96000 potential candidates 
+INFO  16:05:15,205 MuTect - [MUTECTOR] Processed 269095771 reads in 1691 ms 
+INFO  16:05:16,433 MuTect - [MUTECTOR] Processed 270095906 reads in 1228 ms 
+INFO  16:05:18,086 MuTect - [MUTECTOR] Processed 271095980 reads in 1653 ms 
+INFO  16:05:18,756 MuTect - [MUTECTOR] Inspected 97000 potential candidates 
+INFO  16:05:19,903 MuTect - [MUTECTOR] Processed 272096237 reads in 1817 ms 
+INFO  16:05:21,623 MuTect - [MUTECTOR] Processed 273096785 reads in 1720 ms 
+INFO  16:05:22,855 MuTect - [MUTECTOR] Processed 274097284 reads in 1232 ms 
+INFO  16:05:23,522 MuTect - [MUTECTOR] Inspected 98000 potential candidates 
+INFO  16:05:24,174 MuTect - [MUTECTOR] Processed 275097387 reads in 1319 ms 
+INFO  16:05:25,403 MuTect - [MUTECTOR] Processed 276097402 reads in 1229 ms 
+INFO  16:05:26,847 MuTect - [MUTECTOR] Inspected 99000 potential candidates 
+INFO  16:05:27,056 MuTect - [MUTECTOR] Processed 277097402 reads in 1653 ms 
+INFO  16:05:28,980 MuTect - [MUTECTOR] Processed 278097813 reads in 1924 ms 
+INFO  16:05:30,299 MuTect - [MUTECTOR] Processed 279098266 reads in 1319 ms 
+INFO  16:05:31,436 MuTect - [MUTECTOR] Processed 280099135 reads in 1137 ms 
+INFO  16:05:32,687 MuTect - [MUTECTOR] Inspected 100000 potential candidates 
+INFO  16:05:34,031 MuTect - [MUTECTOR] Processed 281099610 reads in 2595 ms 
+INFO  16:05:35,864 MuTect - [MUTECTOR] Processed 282100223 reads in 1833 ms 
+INFO  16:05:36,810 MuTect - [MUTECTOR] Inspected 101000 potential candidates 
+INFO  16:05:38,945 MuTect - [MUTECTOR] Processed 283100223 reads in 3081 ms 
+INFO  16:05:39,829 MuTect - [MUTECTOR] Inspected 102000 potential candidates 
+INFO  16:05:40,198 MuTect - [MUTECTOR] Processed 284100933 reads in 1253 ms 
+INFO  16:05:41,183 MuTect - [MUTECTOR] Processed 285101374 reads in 985 ms 
+INFO  16:05:42,690 MuTect - [MUTECTOR] Processed 286101530 reads in 1507 ms 
+INFO  16:05:44,885 MuTect - [MUTECTOR] Inspected 103000 potential candidates 
+INFO  16:05:45,034 MuTect - [MUTECTOR] Processed 287101530 reads in 2344 ms 
+INFO  16:05:46,426 MuTect - [MUTECTOR] Processed 288102104 reads in 1392 ms 
+INFO  16:05:47,452 MuTect - [MUTECTOR] Processed 289102463 reads in 1026 ms 
+INFO  16:05:48,826 MuTect - [MUTECTOR] Processed 290103248 reads in 1374 ms 
+INFO  16:05:49,848 MuTect - [MUTECTOR] Inspected 104000 potential candidates 
+INFO  16:05:49,878 MuTect - [MUTECTOR] Processed 291103270 reads in 1052 ms 
+INFO  16:05:50,957 MuTect - [MUTECTOR] Processed 292103856 reads in 1079 ms 
+INFO  16:05:51,891 MuTect - [MUTECTOR] Processed 293104220 reads in 934 ms 
+INFO  16:05:52,890 MuTect - [MUTECTOR] Processed 294104382 reads in 999 ms 
+INFO  16:05:53,594 MuTect - [MUTECTOR] Inspected 105000 potential candidates 
+INFO  16:05:54,501 MuTect - [MUTECTOR] Processed 295104383 reads in 1611 ms 
+INFO  16:05:56,009 MuTect - [MUTECTOR] Processed 296104402 reads in 1508 ms 
+INFO  16:05:56,139 MuTect - [MUTECTOR] Inspected 106000 potential candidates 
+INFO  16:05:57,765 MuTect - [MUTECTOR] Processed 297104981 reads in 1756 ms 
+INFO  16:05:59,410 MuTect - [MUTECTOR] Processed 298105010 reads in 1645 ms 
+INFO  16:06:00,307 MuTect - [MUTECTOR] Inspected 107000 potential candidates 
+INFO  16:06:00,812 MuTect - [MUTECTOR] Processed 299105954 reads in 1402 ms 
+INFO  16:06:02,104 MuTect - [MUTECTOR] Processed 300106291 reads in 1292 ms 
+INFO  16:06:03,386 MuTect - [MUTECTOR] Processed 301106554 reads in 1282 ms 
+INFO  16:06:04,490 MuTect - [MUTECTOR] Processed 302106712 reads in 1104 ms 
+INFO  16:06:04,686 MuTect - [MUTECTOR] Inspected 108000 potential candidates 
+INFO  16:06:05,511 MuTect - [MUTECTOR] Processed 303107186 reads in 1021 ms 
+INFO  16:06:06,482 MuTect - [MUTECTOR] Processed 304107643 reads in 971 ms 
+INFO  16:06:07,973 MuTect - [MUTECTOR] Processed 305107901 reads in 1491 ms 
+INFO  16:06:08,146 MuTect - [MUTECTOR] Inspected 109000 potential candidates 
+INFO  16:06:08,810 ProgressMeter -   chr1:10336321        1.03e+07    7.5 m       43.6 s      0.3%        37.4 h    37.3 h 
+INFO  16:06:09,040 MuTect - [MUTECTOR] Processed 306108561 reads in 1067 ms 
+INFO  16:06:10,088 MuTect - [MUTECTOR] Processed 307108807 reads in 1048 ms 
+INFO  16:06:11,123 MuTect - [MUTECTOR] Processed 308109055 reads in 1035 ms 
+INFO  16:06:12,428 MuTect - [MUTECTOR] Processed 309109462 reads in 1305 ms 
+INFO  16:06:13,874 MuTect - [MUTECTOR] Processed 310109747 reads in 1446 ms 
+INFO  16:06:13,901 MuTect - [MUTECTOR] Inspected 110000 potential candidates 
+INFO  16:06:14,981 MuTect - [MUTECTOR] Processed 311109842 reads in 1106 ms 
+INFO  16:06:15,915 MuTect - [MUTECTOR] Processed 312109846 reads in 935 ms 
+INFO  16:06:16,895 MuTect - [MUTECTOR] Processed 313109936 reads in 980 ms 
+INFO  16:06:18,038 MuTect - [MUTECTOR] Processed 314109940 reads in 1143 ms 
+INFO  16:06:18,250 MuTect - [MUTECTOR] Inspected 111000 potential candidates 
+INFO  16:06:19,599 MuTect - [MUTECTOR] Processed 315110302 reads in 1561 ms 
+INFO  16:06:20,883 MuTect - [MUTECTOR] Processed 316110357 reads in 1284 ms 
+INFO  16:06:21,956 MuTect - [MUTECTOR] Processed 317111178 reads in 1073 ms 
+INFO  16:06:22,565 MuTect - [MUTECTOR] Inspected 112000 potential candidates 
+INFO  16:06:22,987 MuTect - [MUTECTOR] Processed 318111566 reads in 1031 ms 
+INFO  16:06:24,450 MuTect - [MUTECTOR] Processed 319111570 reads in 1463 ms 
+INFO  16:06:25,453 MuTect - [MUTECTOR] Processed 320111783 reads in 1003 ms 
+INFO  16:06:26,020 MuTect - [MUTECTOR] Inspected 113000 potential candidates 
+INFO  16:06:27,130 MuTect - [MUTECTOR] Processed 321111871 reads in 1677 ms 
+INFO  16:06:28,608 MuTect - [MUTECTOR] Processed 322112484 reads in 1478 ms 
+INFO  16:06:29,919 MuTect - [MUTECTOR] Processed 323112503 reads in 1311 ms 
+INFO  16:06:30,129 MuTect - [MUTECTOR] Inspected 114000 potential candidates 
+INFO  16:06:31,407 MuTect - [MUTECTOR] Processed 324112568 reads in 1488 ms 
+INFO  16:06:32,520 MuTect - [MUTECTOR] Processed 325112880 reads in 1113 ms 
+INFO  16:06:33,646 MuTect - [MUTECTOR] Processed 326112895 reads in 1126 ms 
+INFO  16:06:34,998 MuTect - [MUTECTOR] Processed 327112896 reads in 1352 ms 
+INFO  16:06:35,270 MuTect - [MUTECTOR] Inspected 115000 potential candidates 
+INFO  16:06:36,273 MuTect - [MUTECTOR] Processed 328113639 reads in 1275 ms 
+INFO  16:06:37,253 MuTect - [MUTECTOR] Inspected 116000 potential candidates 
+INFO  16:06:39,276 MuTect - [MUTECTOR] Inspected 117000 potential candidates 
+INFO  16:06:39,443 MuTect - [MUTECTOR] Processed 329113641 reads in 3169 ms 
+INFO  16:06:41,037 MuTect - [MUTECTOR] Processed 330113818 reads in 1595 ms 
+INFO  16:06:42,086 MuTect - [MUTECTOR] Processed 331113947 reads in 1049 ms 
+INFO  16:06:42,853 MuTect - [MUTECTOR] Inspected 118000 potential candidates 
+INFO  16:06:43,625 MuTect - [MUTECTOR] Processed 332114117 reads in 1539 ms 
+INFO  16:06:45,013 MuTect - [MUTECTOR] Processed 333114949 reads in 1388 ms 
+INFO  16:06:46,074 MuTect - [MUTECTOR] Processed 334115455 reads in 1060 ms 
+INFO  16:06:46,225 MuTect - [MUTECTOR] Inspected 119000 potential candidates 
+INFO  16:06:47,307 MuTect - [MUTECTOR] Processed 335115511 reads in 1234 ms 
+INFO  16:06:48,296 MuTect - [MUTECTOR] Processed 336115620 reads in 989 ms 
+INFO  16:06:48,991 MuTect - [MUTECTOR] Inspected 120000 potential candidates 
+INFO  16:06:49,742 MuTect - [MUTECTOR] Processed 337116201 reads in 1446 ms 
+INFO  16:06:50,926 MuTect - [MUTECTOR] Processed 338116221 reads in 1184 ms 
+INFO  16:06:52,314 MuTect - [MUTECTOR] Processed 339116423 reads in 1388 ms 
+INFO  16:06:53,208 MuTect - [MUTECTOR] Inspected 121000 potential candidates 
+INFO  16:06:53,337 MuTect - [MUTECTOR] Processed 340116802 reads in 1023 ms 
+INFO  16:06:54,526 MuTect - [MUTECTOR] Processed 341116856 reads in 1189 ms 
+INFO  16:06:55,834 MuTect - [MUTECTOR] Processed 342116914 reads in 1308 ms 
+INFO  16:06:56,924 MuTect - [MUTECTOR] Processed 343117777 reads in 1090 ms 
+INFO  16:06:57,190 MuTect - [MUTECTOR] Inspected 122000 potential candidates 
+INFO  16:06:58,375 MuTect - [MUTECTOR] Processed 344118284 reads in 1451 ms 
+INFO  16:06:59,580 MuTect - [MUTECTOR] Processed 345119053 reads in 1205 ms 
+INFO  16:07:00,723 MuTect - [MUTECTOR] Processed 346119762 reads in 1143 ms 
+INFO  16:07:01,864 MuTect - [MUTECTOR] Processed 347120582 reads in 1141 ms 
+INFO  16:07:02,594 MuTect - [MUTECTOR] Inspected 123000 potential candidates 
+INFO  16:07:03,455 MuTect - [MUTECTOR] Processed 348120986 reads in 1591 ms 
+INFO  16:07:05,094 MuTect - [MUTECTOR] Processed 349121644 reads in 1638 ms 
+INFO  16:07:06,445 MuTect - [MUTECTOR] Processed 350121768 reads in 1352 ms 
+INFO  16:07:07,804 MuTect - [MUTECTOR] Processed 351121830 reads in 1359 ms 
+INFO  16:07:08,295 MuTect - [MUTECTOR] Inspected 124000 potential candidates 
+INFO  16:07:08,811 ProgressMeter -   chr1:11323345        1.13e+07    8.5 m       45.0 s      0.4%        38.7 h    38.6 h 
+INFO  16:07:09,139 MuTect - [MUTECTOR] Processed 352122524 reads in 1335 ms 
+INFO  16:07:10,887 MuTect - [MUTECTOR] Processed 353123250 reads in 1748 ms 
+INFO  16:07:13,158 MuTect - [MUTECTOR] Inspected 125000 potential candidates 
+INFO  16:07:14,760 MuTect - [MUTECTOR] Processed 354124107 reads in 3872 ms 
+INFO  16:07:16,229 MuTect - [MUTECTOR] Processed 355124225 reads in 1470 ms 
+INFO  16:07:17,891 MuTect - [MUTECTOR] Processed 356124871 reads in 1662 ms 
+INFO  16:07:18,364 MuTect - [MUTECTOR] Inspected 126000 potential candidates 
+INFO  16:07:19,485 MuTect - [MUTECTOR] Processed 357125191 reads in 1594 ms 
+INFO  16:07:20,598 MuTect - [MUTECTOR] Processed 358125365 reads in 1113 ms 
+INFO  16:07:22,565 MuTect - [MUTECTOR] Processed 359125470 reads in 1967 ms 
+INFO  16:07:22,684 MuTect - [MUTECTOR] Inspected 127000 potential candidates 
+INFO  16:07:24,314 MuTect - [MUTECTOR] Processed 360125482 reads in 1749 ms 
+INFO  16:07:25,751 MuTect - [MUTECTOR] Processed 361125511 reads in 1437 ms 
+INFO  16:07:26,682 MuTect - [MUTECTOR] Processed 362125956 reads in 931 ms 
+INFO  16:07:27,843 MuTect - [MUTECTOR] Inspected 128000 potential candidates 
+INFO  16:07:28,335 MuTect - [MUTECTOR] Processed 363126088 reads in 1653 ms 
+INFO  16:07:29,986 MuTect - [MUTECTOR] Processed 364126625 reads in 1650 ms 
+INFO  16:07:31,147 MuTect - [MUTECTOR] Inspected 129000 potential candidates 
+INFO  16:07:31,235 MuTect - [MUTECTOR] Processed 365127209 reads in 1250 ms 
+INFO  16:07:32,344 MuTect - [MUTECTOR] Processed 366127645 reads in 1109 ms 
+INFO  16:07:33,507 MuTect - [MUTECTOR] Processed 367128185 reads in 1163 ms 
+INFO  16:07:34,981 MuTect - [MUTECTOR] Processed 368128559 reads in 1474 ms 
+INFO  16:07:35,498 MuTect - [MUTECTOR] Inspected 130000 potential candidates 
+INFO  16:07:36,666 MuTect - [MUTECTOR] Processed 369128897 reads in 1685 ms 
+INFO  16:07:37,758 MuTect - [MUTECTOR] Processed 370129302 reads in 1091 ms 
+INFO  16:07:38,943 MuTect - [MUTECTOR] Processed 371129763 reads in 1186 ms 
+INFO  16:07:40,103 MuTect - [MUTECTOR] Processed 372129998 reads in 1160 ms 
+INFO  16:07:40,389 MuTect - [MUTECTOR] Inspected 131000 potential candidates 
+INFO  16:07:41,326 MuTect - [MUTECTOR] Processed 373130113 reads in 1223 ms 
+INFO  16:07:42,390 MuTect - [MUTECTOR] Processed 374130235 reads in 1064 ms 
+INFO  16:07:43,617 MuTect - [MUTECTOR] Processed 375131079 reads in 1227 ms 
+INFO  16:07:44,638 MuTect - [MUTECTOR] Processed 376131270 reads in 1021 ms 
+INFO  16:07:44,730 MuTect - [MUTECTOR] Inspected 132000 potential candidates 
+INFO  16:07:45,619 MuTect - [MUTECTOR] Processed 377131294 reads in 981 ms 
+INFO  16:07:47,281 MuTect - [MUTECTOR] Processed 378131492 reads in 1661 ms 
+INFO  16:07:48,677 MuTect - [MUTECTOR] Processed 379132379 reads in 1397 ms 
+INFO  16:07:49,854 MuTect - [MUTECTOR] Processed 380132452 reads in 1177 ms 
+INFO  16:07:50,393 MuTect - [MUTECTOR] Inspected 133000 potential candidates 
+INFO  16:07:51,026 MuTect - [MUTECTOR] Processed 381132841 reads in 1172 ms 
+INFO  16:07:52,491 MuTect - [MUTECTOR] Processed 382133106 reads in 1465 ms 
+INFO  16:07:52,991 MuTect - [MUTECTOR] Inspected 134000 potential candidates 
+INFO  16:07:54,159 MuTect - [MUTECTOR] Processed 383133282 reads in 1667 ms 
+INFO  16:07:55,701 MuTect - [MUTECTOR] Processed 384133817 reads in 1543 ms 
+INFO  16:07:56,535 MuTect - [MUTECTOR] Inspected 135000 potential candidates 
+INFO  16:07:56,890 MuTect - [MUTECTOR] Processed 385133818 reads in 1189 ms 
+INFO  16:07:58,669 MuTect - [MUTECTOR] Processed 386134180 reads in 1779 ms 
+INFO  16:08:00,009 MuTect - [MUTECTOR] Processed 387134183 reads in 1340 ms 
+INFO  16:08:00,836 MuTect - [MUTECTOR] Inspected 136000 potential candidates 
+INFO  16:08:01,190 MuTect - [MUTECTOR] Processed 388134670 reads in 1181 ms 
+INFO  16:08:02,158 MuTect - [MUTECTOR] Processed 389134920 reads in 968 ms 
+INFO  16:08:03,304 MuTect - [MUTECTOR] Processed 390135008 reads in 1146 ms 
+INFO  16:08:04,687 MuTect - [MUTECTOR] Inspected 137000 potential candidates 
+INFO  16:08:05,510 MuTect - [MUTECTOR] Processed 391135034 reads in 2206 ms 
+INFO  16:08:06,822 MuTect - [MUTECTOR] Processed 392135245 reads in 1312 ms 
+INFO  16:08:07,913 MuTect - [MUTECTOR] Processed 393135255 reads in 1091 ms 
+INFO  16:08:08,158 MuTect - [MUTECTOR] Inspected 138000 potential candidates 
+INFO  16:08:08,814 ProgressMeter -   chr1:12220081        1.22e+07    9.5 m       46.7 s      0.4%        40.1 h    39.9 h 
+INFO  16:08:09,575 MuTect - [MUTECTOR] Processed 394135914 reads in 1662 ms 
+INFO  16:08:10,711 MuTect - [MUTECTOR] Processed 395136194 reads in 1136 ms 
+INFO  16:08:11,308 MuTect - [MUTECTOR] Inspected 139000 potential candidates 
+INFO  16:08:11,881 MuTect - [MUTECTOR] Processed 396136194 reads in 1170 ms 
+INFO  16:08:13,040 MuTect - [MUTECTOR] Processed 397136294 reads in 1159 ms 
+INFO  16:08:14,167 MuTect - [MUTECTOR] Processed 398136861 reads in 1127 ms 
+INFO  16:08:15,103 MuTect - [MUTECTOR] Processed 399137336 reads in 936 ms 
+INFO  16:08:16,096 MuTect - [MUTECTOR] Processed 400137610 reads in 993 ms 
+INFO  16:08:17,529 MuTect - [MUTECTOR] Processed 401137991 reads in 1433 ms 
+INFO  16:08:17,716 MuTect - [MUTECTOR] Inspected 140000 potential candidates 
+INFO  16:08:18,663 MuTect - [MUTECTOR] Processed 402138894 reads in 1134 ms 
+INFO  16:08:19,814 MuTect - [MUTECTOR] Processed 403139853 reads in 1151 ms 
+INFO  16:08:20,975 MuTect - [MUTECTOR] Processed 404140063 reads in 1161 ms 
+INFO  16:08:21,942 MuTect - [MUTECTOR] Processed 405140334 reads in 967 ms 
+INFO  16:08:22,405 MuTect - [MUTECTOR] Inspected 141000 potential candidates 
+INFO  16:08:23,011 MuTect - [MUTECTOR] Processed 406140991 reads in 1069 ms 
+INFO  16:08:24,143 MuTect - [MUTECTOR] Processed 407141201 reads in 1132 ms 
+INFO  16:08:25,134 MuTect - [MUTECTOR] Processed 408141586 reads in 990 ms 
+INFO  16:08:26,144 MuTect - [MUTECTOR] Processed 409141632 reads in 1011 ms 
+INFO  16:08:26,918 MuTect - [MUTECTOR] Inspected 142000 potential candidates 
+INFO  16:08:27,089 MuTect - [MUTECTOR] Processed 410141927 reads in 945 ms 
+INFO  16:08:28,176 MuTect - [MUTECTOR] Processed 411142182 reads in 1087 ms 
+INFO  16:08:30,183 MuTect - [MUTECTOR] Processed 412142369 reads in 2007 ms 
+INFO  16:08:31,449 MuTect - [MUTECTOR] Inspected 143000 potential candidates 
+INFO  16:08:31,819 MuTect - [MUTECTOR] Processed 413142445 reads in 1636 ms 
+INFO  16:08:33,521 MuTect - [MUTECTOR] Processed 414143246 reads in 1702 ms 
+INFO  16:08:35,211 MuTect - [MUTECTOR] Processed 415143311 reads in 1690 ms 
+INFO  16:08:35,884 MuTect - [MUTECTOR] Inspected 144000 potential candidates 
+INFO  16:08:36,341 MuTect - [MUTECTOR] Processed 416143357 reads in 1130 ms 
+INFO  16:08:37,696 MuTect - [MUTECTOR] Processed 417143982 reads in 1355 ms 
+INFO  16:08:39,305 MuTect - [MUTECTOR] Processed 418144539 reads in 1609 ms 
+INFO  16:08:40,872 MuTect - [MUTECTOR] Processed 419145079 reads in 1567 ms 
+INFO  16:08:42,089 MuTect - [MUTECTOR] Inspected 145000 potential candidates 
+INFO  16:08:42,190 MuTect - [MUTECTOR] Processed 420145094 reads in 1318 ms 
+INFO  16:08:45,243 MuTect - [MUTECTOR] Processed 421145095 reads in 3053 ms 
+INFO  16:08:46,082 MuTect - [MUTECTOR] Inspected 146000 potential candidates 
+INFO  16:08:47,980 MuTect - [MUTECTOR] Processed 422145120 reads in 2737 ms 
+INFO  16:08:50,417 MuTect - [MUTECTOR] Processed 423145218 reads in 2437 ms 
+INFO  16:08:52,593 MuTect - [MUTECTOR] Processed 424145433 reads in 2175 ms 
+INFO  16:08:53,086 MuTect - [MUTECTOR] Inspected 147000 potential candidates 
+INFO  16:08:54,032 MuTect - [MUTECTOR] Processed 425145866 reads in 1440 ms 
+INFO  16:08:56,085 MuTect - [MUTECTOR] Processed 426146401 reads in 2053 ms 
+INFO  16:08:56,187 MuTect - [MUTECTOR] Inspected 148000 potential candidates 
+INFO  16:08:57,466 MuTect - [MUTECTOR] Processed 427147110 reads in 1381 ms 
+INFO  16:08:58,445 MuTect - [MUTECTOR] Processed 428148006 reads in 979 ms 
+INFO  16:08:59,968 MuTect - [MUTECTOR] Processed 429148659 reads in 1523 ms 
+INFO  16:09:00,973 MuTect - [MUTECTOR] Processed 430149322 reads in 1005 ms 
+INFO  16:09:02,232 MuTect - [MUTECTOR] Processed 431149936 reads in 1259 ms 
+INFO  16:09:04,181 MuTect - [MUTECTOR] Inspected 149000 potential candidates 
+INFO  16:09:05,849 MuTect - [MUTECTOR] Processed 432149940 reads in 3617 ms 
+INFO  16:09:08,815 ProgressMeter -   chr1:14801653        1.48e+07   10.5 m       42.6 s      0.5%        36.6 h    36.4 h 
+INFO  16:09:08,855 MuTect - [MUTECTOR] Inspected 150000 potential candidates 
+INFO  16:09:10,199 MuTect - [MUTECTOR] Processed 433150732 reads in 4350 ms 
+INFO  16:09:13,710 MuTect - [MUTECTOR] Inspected 151000 potential candidates 
+INFO  16:09:14,737 MuTect - [MUTECTOR] Processed 434151426 reads in 4537 ms 
+INFO  16:09:16,607 MuTect - [MUTECTOR] Processed 435151426 reads in 1871 ms 
+INFO  16:09:17,418 MuTect - [MUTECTOR] Inspected 152000 potential candidates 
+INFO  16:09:18,132 MuTect - [MUTECTOR] Processed 436151963 reads in 1525 ms 
+INFO  16:09:19,818 MuTect - [MUTECTOR] Processed 437151971 reads in 1686 ms 
+INFO  16:09:20,683 MuTect - [MUTECTOR] Inspected 153000 potential candidates 
+INFO  16:09:21,598 MuTect - [MUTECTOR] Processed 438152313 reads in 1780 ms 
+INFO  16:09:23,794 MuTect - [MUTECTOR] Processed 439152702 reads in 2196 ms 
+INFO  16:09:25,202 MuTect - [MUTECTOR] Processed 440153315 reads in 1408 ms 
+INFO  16:09:25,361 MuTect - [MUTECTOR] Inspected 154000 potential candidates 
+INFO  16:09:26,617 MuTect - [MUTECTOR] Processed 441153351 reads in 1415 ms 
+INFO  16:09:27,865 MuTect - [MUTECTOR] Processed 442153624 reads in 1248 ms 
+INFO  16:09:29,607 MuTect - [MUTECTOR] Processed 443154104 reads in 1742 ms 
+INFO  16:09:30,039 MuTect - [MUTECTOR] Inspected 155000 potential candidates 
+INFO  16:09:30,899 MuTect - [MUTECTOR] Processed 444154756 reads in 1292 ms 
+INFO  16:09:32,036 MuTect - [MUTECTOR] Processed 445155591 reads in 1137 ms 
+INFO  16:09:33,189 MuTect - [MUTECTOR] Processed 446155638 reads in 1153 ms 
+INFO  16:09:33,572 MuTect - [MUTECTOR] Inspected 156000 potential candidates 
+INFO  16:09:34,623 MuTect - [MUTECTOR] Processed 447155879 reads in 1434 ms 
+INFO  16:09:35,642 MuTect - [MUTECTOR] Processed 448156596 reads in 1019 ms 
+INFO  16:09:36,600 MuTect - [MUTECTOR] Inspected 157000 potential candidates 
+INFO  16:09:36,855 MuTect - [MUTECTOR] Processed 449156897 reads in 1213 ms 
+INFO  16:09:38,104 MuTect - [MUTECTOR] Processed 450156908 reads in 1249 ms 
+INFO  16:09:39,393 MuTect - [MUTECTOR] Processed 451157051 reads in 1289 ms 
+INFO  16:09:40,486 MuTect - [MUTECTOR] Processed 452157079 reads in 1093 ms 
+INFO  16:09:40,920 MuTect - [MUTECTOR] Inspected 158000 potential candidates 
+INFO  16:09:42,232 MuTect - [MUTECTOR] Processed 453157100 reads in 1746 ms 
+INFO  16:09:43,633 MuTect - [MUTECTOR] Processed 454157366 reads in 1400 ms 
+INFO  16:09:44,976 MuTect - [MUTECTOR] Inspected 159000 potential candidates 
+INFO  16:09:45,046 MuTect - [MUTECTOR] Processed 455158275 reads in 1414 ms 
+INFO  16:09:46,020 MuTect - [MUTECTOR] Processed 456158968 reads in 974 ms 
+INFO  16:09:47,125 MuTect - [MUTECTOR] Processed 457159533 reads in 1105 ms 
+INFO  16:09:48,448 MuTect - [MUTECTOR] Processed 458159698 reads in 1323 ms 
+INFO  16:09:49,293 MuTect - [MUTECTOR] Inspected 160000 potential candidates 
+INFO  16:09:49,919 MuTect - [MUTECTOR] Processed 459159699 reads in 1471 ms 
+INFO  16:09:50,933 MuTect - [MUTECTOR] Processed 460159912 reads in 1014 ms 
+INFO  16:09:52,373 MuTect - [MUTECTOR] Processed 461160128 reads in 1439 ms 
+INFO  16:09:53,630 MuTect - [MUTECTOR] Processed 462160214 reads in 1258 ms 
+INFO  16:09:55,458 MuTect - [MUTECTOR] Processed 463160832 reads in 1827 ms 
+INFO  16:09:55,727 MuTect - [MUTECTOR] Inspected 161000 potential candidates 
+INFO  16:09:56,552 MuTect - [MUTECTOR] Processed 464161204 reads in 1095 ms 
+INFO  16:09:57,585 MuTect - [MUTECTOR] Processed 465161288 reads in 1033 ms 
+INFO  16:09:59,171 MuTect - [MUTECTOR] Processed 466161840 reads in 1586 ms 
+INFO  16:09:59,841 MuTect - [MUTECTOR] Inspected 162000 potential candidates 
+INFO  16:10:00,263 MuTect - [MUTECTOR] Processed 467162482 reads in 1092 ms 
+INFO  16:10:01,804 MuTect - [MUTECTOR] Processed 468162686 reads in 1541 ms 
+INFO  16:10:03,105 MuTect - [MUTECTOR] Processed 469163265 reads in 1301 ms 
+INFO  16:10:03,280 MuTect - [MUTECTOR] Inspected 163000 potential candidates 
+INFO  16:10:05,147 MuTect - [MUTECTOR] Processed 470163329 reads in 2042 ms 
+INFO  16:10:06,329 MuTect - [MUTECTOR] Processed 471163825 reads in 1182 ms 
+INFO  16:10:07,502 MuTect - [MUTECTOR] Processed 472164096 reads in 1173 ms 
+INFO  16:10:08,590 MuTect - [MUTECTOR] Processed 473164352 reads in 1088 ms 
+INFO  16:10:08,972 ProgressMeter -   chr1:16255429        1.63e+07   11.5 m       42.4 s      0.5%        36.5 h    36.3 h 
+INFO  16:10:09,428 MuTect - [MUTECTOR] Inspected 164000 potential candidates 
+INFO  16:10:09,749 MuTect - [MUTECTOR] Processed 474164616 reads in 1158 ms 
+INFO  16:10:11,256 MuTect - [MUTECTOR] Processed 475164762 reads in 1508 ms 
+INFO  16:10:12,285 MuTect - [MUTECTOR] Processed 476164922 reads in 1029 ms 
+INFO  16:10:13,282 MuTect - [MUTECTOR] Processed 477165844 reads in 997 ms 
+INFO  16:10:14,365 MuTect - [MUTECTOR] Processed 478166137 reads in 1083 ms 
+INFO  16:10:15,389 MuTect - [MUTECTOR] Processed 479166784 reads in 1023 ms 
+INFO  16:10:16,441 MuTect - [MUTECTOR] Processed 480167380 reads in 1053 ms 
+INFO  16:10:17,436 MuTect - [MUTECTOR] Processed 481167394 reads in 995 ms 
+INFO  16:10:18,475 MuTect - [MUTECTOR] Processed 482167401 reads in 1039 ms 
+INFO  16:10:20,043 MuTect - [MUTECTOR] Processed 483167631 reads in 1568 ms 
+INFO  16:10:21,067 MuTect - [MUTECTOR] Processed 484167907 reads in 1024 ms 
+INFO  16:10:22,058 MuTect - [MUTECTOR] Inspected 165000 potential candidates 
+INFO  16:10:22,310 MuTect - [MUTECTOR] Processed 485168301 reads in 1243 ms 
+INFO  16:10:24,278 MuTect - [MUTECTOR] Processed 486168578 reads in 1968 ms 
+INFO  16:10:25,392 MuTect - [MUTECTOR] Processed 487169080 reads in 1114 ms 
+INFO  16:10:26,457 MuTect - [MUTECTOR] Processed 488169280 reads in 1065 ms 
+INFO  16:10:26,459 MuTect - [MUTECTOR] Inspected 166000 potential candidates 
+INFO  16:10:27,707 MuTect - [MUTECTOR] Processed 489170005 reads in 1250 ms 
+INFO  16:10:28,801 MuTect - [MUTECTOR] Processed 490170414 reads in 1094 ms 
+INFO  16:10:30,776 MuTect - [MUTECTOR] Processed 491171193 reads in 1975 ms 
+INFO  16:10:31,360 MuTect - [MUTECTOR] Inspected 167000 potential candidates 
+INFO  16:10:32,440 MuTect - [MUTECTOR] Processed 492171635 reads in 1664 ms 
+INFO  16:10:33,720 MuTect - [MUTECTOR] Processed 493172160 reads in 1280 ms 
+INFO  16:10:35,099 MuTect - [MUTECTOR] Processed 494172881 reads in 1379 ms 
+INFO  16:10:36,229 MuTect - [MUTECTOR] Inspected 168000 potential candidates 
+INFO  16:10:36,235 MuTect - [MUTECTOR] Processed 495173035 reads in 1136 ms 
+INFO  16:10:37,714 MuTect - [MUTECTOR] Processed 496173054 reads in 1478 ms 
+INFO  16:10:38,641 MuTect - [MUTECTOR] Inspected 169000 potential candidates 
+INFO  16:10:39,645 MuTect - [MUTECTOR] Processed 497173092 reads in 1932 ms 
+INFO  16:10:40,729 MuTect - [MUTECTOR] Processed 498173667 reads in 1084 ms 
+INFO  16:10:41,704 MuTect - [MUTECTOR] Processed 499173704 reads in 975 ms 
+INFO  16:10:43,615 MuTect - [MUTECTOR] Processed 500173706 reads in 1911 ms 
+INFO  16:10:44,279 MuTect - [MUTECTOR] Inspected 170000 potential candidates 
+INFO  16:10:45,675 MuTect - [MUTECTOR] Processed 501173856 reads in 2060 ms 
+INFO  16:10:46,838 MuTect - [MUTECTOR] Processed 502174792 reads in 1163 ms 
+INFO  16:10:47,803 MuTect - [MUTECTOR] Processed 503175456 reads in 965 ms 
+INFO  16:10:49,352 MuTect - [MUTECTOR] Inspected 171000 potential candidates 
+INFO  16:10:49,370 MuTect - [MUTECTOR] Processed 504175665 reads in 1567 ms 
+INFO  16:10:50,420 MuTect - [MUTECTOR] Processed 505176028 reads in 1050 ms 
+INFO  16:10:51,479 MuTect - [MUTECTOR] Processed 506176163 reads in 1059 ms 
+INFO  16:10:53,213 MuTect - [MUTECTOR] Processed 507176171 reads in 1734 ms 
+INFO  16:10:54,560 MuTect - [MUTECTOR] Processed 508176782 reads in 1347 ms 
+INFO  16:10:54,816 MuTect - [MUTECTOR] Inspected 172000 potential candidates 
+INFO  16:10:55,494 MuTect - [MUTECTOR] Processed 509177480 reads in 934 ms 
+INFO  16:10:57,436 MuTect - [MUTECTOR] Processed 510178202 reads in 1942 ms 
+INFO  16:10:59,102 MuTect - [MUTECTOR] Processed 511178945 reads in 1666 ms 
+INFO  16:10:59,284 MuTect - [MUTECTOR] Inspected 173000 potential candidates 
+INFO  16:11:00,594 MuTect - [MUTECTOR] Processed 512179223 reads in 1491 ms 
+INFO  16:11:01,833 MuTect - [MUTECTOR] Processed 513179282 reads in 1240 ms 
+INFO  16:11:03,302 MuTect - [MUTECTOR] Inspected 174000 potential candidates 
+INFO  16:11:03,590 MuTect - [MUTECTOR] Processed 514179728 reads in 1757 ms 
+INFO  16:11:05,351 MuTect - [MUTECTOR] Processed 515180548 reads in 1761 ms 
+INFO  16:11:06,825 MuTect - [MUTECTOR] Inspected 175000 potential candidates 
+INFO  16:11:07,387 MuTect - [MUTECTOR] Processed 516180550 reads in 2036 ms 
+INFO  16:11:08,979 ProgressMeter -   chr1:16915489        1.69e+07   12.5 m       44.4 s      0.5%        38.1 h    37.9 h 
+INFO  16:11:09,476 MuTect - [MUTECTOR] Inspected 176000 potential candidates 
+INFO  16:11:09,491 MuTect - [MUTECTOR] Processed 517180557 reads in 2104 ms 
+INFO  16:11:11,284 MuTect - [MUTECTOR] Processed 518180766 reads in 1793 ms 
+INFO  16:11:11,968 MuTect - [MUTECTOR] Inspected 177000 potential candidates 
+INFO  16:11:13,042 MuTect - [MUTECTOR] Processed 519180957 reads in 1758 ms 
+INFO  16:11:14,440 MuTect - [MUTECTOR] Processed 520181076 reads in 1398 ms 
+INFO  16:11:16,023 MuTect - [MUTECTOR] Processed 521181631 reads in 1583 ms 
+INFO  16:11:16,410 MuTect - [MUTECTOR] Inspected 178000 potential candidates 
+INFO  16:11:17,850 MuTect - [MUTECTOR] Processed 522181779 reads in 1827 ms 
+INFO  16:11:19,467 MuTect - [MUTECTOR] Processed 523182582 reads in 1617 ms 
+INFO  16:11:21,188 MuTect - [MUTECTOR] Inspected 179000 potential candidates 
+INFO  16:11:21,726 MuTect - [MUTECTOR] Processed 524182582 reads in 2259 ms 
+INFO  16:11:23,387 MuTect - [MUTECTOR] Inspected 180000 potential candidates 
+INFO  16:11:24,450 MuTect - [MUTECTOR] Processed 525183120 reads in 2723 ms 
+INFO  16:11:25,756 MuTect - [MUTECTOR] Processed 526183263 reads in 1307 ms 
+INFO  16:11:26,139 MuTect - [MUTECTOR] Inspected 181000 potential candidates 
+INFO  16:11:27,066 MuTect - [MUTECTOR] Processed 527183397 reads in 1310 ms 
+INFO  16:11:28,168 MuTect - [MUTECTOR] Processed 528183518 reads in 1102 ms 
+INFO  16:11:28,375 MuTect - [MUTECTOR] Inspected 182000 potential candidates 
+INFO  16:11:29,270 MuTect - [MUTECTOR] Processed 529183542 reads in 1102 ms 
+INFO  16:11:30,473 MuTect - [MUTECTOR] Processed 530184443 reads in 1203 ms 
+INFO  16:11:31,626 MuTect - [MUTECTOR] Processed 531184474 reads in 1153 ms 
+INFO  16:11:32,597 MuTect - [MUTECTOR] Processed 532185156 reads in 971 ms 
+INFO  16:11:33,129 MuTect - [MUTECTOR] Inspected 183000 potential candidates 
+INFO  16:11:33,717 MuTect - [MUTECTOR] Processed 533185231 reads in 1119 ms 
+INFO  16:11:34,901 MuTect - [MUTECTOR] Processed 534185314 reads in 1184 ms 
+INFO  16:11:35,909 MuTect - [MUTECTOR] Processed 535185407 reads in 1009 ms 
+INFO  16:11:37,174 MuTect - [MUTECTOR] Inspected 184000 potential candidates 
+INFO  16:11:37,755 MuTect - [MUTECTOR] Processed 536186204 reads in 1845 ms 
+INFO  16:11:39,269 MuTect - [MUTECTOR] Processed 537186458 reads in 1515 ms 
+INFO  16:11:40,326 MuTect - [MUTECTOR] Processed 538187049 reads in 1057 ms 
+INFO  16:11:40,694 MuTect - [MUTECTOR] Inspected 185000 potential candidates 
+INFO  16:11:42,069 MuTect - [MUTECTOR] Processed 539187971 reads in 1742 ms 
+INFO  16:11:43,535 MuTect - [MUTECTOR] Processed 540188319 reads in 1467 ms 
+INFO  16:11:43,854 MuTect - [MUTECTOR] Inspected 186000 potential candidates 
+INFO  16:11:44,799 MuTect - [MUTECTOR] Processed 541188555 reads in 1264 ms 
+INFO  16:11:45,842 MuTect - [MUTECTOR] Processed 542188559 reads in 1042 ms 
+INFO  16:11:47,623 MuTect - [MUTECTOR] Processed 543188840 reads in 1782 ms 
+INFO  16:11:47,718 MuTect - [MUTECTOR] Inspected 187000 potential candidates 
+INFO  16:11:49,186 MuTect - [MUTECTOR] Processed 544189018 reads in 1563 ms 
+INFO  16:11:50,679 MuTect - [MUTECTOR] Processed 545189401 reads in 1492 ms 
+INFO  16:11:51,305 MuTect - [MUTECTOR] Inspected 188000 potential candidates 
+INFO  16:11:51,786 MuTect - [MUTECTOR] Processed 546189711 reads in 1108 ms 
+INFO  16:11:53,093 MuTect - [MUTECTOR] Processed 547189900 reads in 1307 ms 
+INFO  16:11:54,889 MuTect - [MUTECTOR] Processed 548190132 reads in 1796 ms 
+INFO  16:11:55,284 MuTect - [MUTECTOR] Inspected 189000 potential candidates 
+INFO  16:11:56,145 MuTect - [MUTECTOR] Processed 549190171 reads in 1256 ms 
+INFO  16:11:57,352 MuTect - [MUTECTOR] Processed 550190255 reads in 1207 ms 
+INFO  16:11:57,741 MuTect - [MUTECTOR] Inspected 190000 potential candidates 
+INFO  16:12:00,207 MuTect - [MUTECTOR] Processed 551190278 reads in 2855 ms 
+INFO  16:12:01,158 MuTect - [MUTECTOR] Inspected 191000 potential candidates 
+INFO  16:12:01,506 MuTect - [MUTECTOR] Processed 552190390 reads in 1299 ms 
+INFO  16:12:02,506 MuTect - [MUTECTOR] Processed 553190619 reads in 1000 ms 
+INFO  16:12:03,580 MuTect - [MUTECTOR] Inspected 192000 potential candidates 
+INFO  16:12:04,277 MuTect - [MUTECTOR] Processed 554190763 reads in 1771 ms 
+INFO  16:12:06,049 MuTect - [MUTECTOR] Processed 555190988 reads in 1772 ms 
+INFO  16:12:08,797 MuTect - [MUTECTOR] Inspected 193000 potential candidates 
+INFO  16:12:08,979 ProgressMeter -   chr1:18341397        1.84e+07   13.5 m       44.2 s      0.6%        38.0 h    37.7 h 
+INFO  16:12:09,319 MuTect - [MUTECTOR] Processed 556191013 reads in 3270 ms 
+INFO  16:12:12,892 MuTect - [MUTECTOR] Processed 557191058 reads in 3573 ms 
+INFO  16:12:13,367 MuTect - [MUTECTOR] Inspected 194000 potential candidates 
+INFO  16:12:15,041 MuTect - [MUTECTOR] Processed 558191446 reads in 2149 ms 
+INFO  16:12:16,443 MuTect - [MUTECTOR] Processed 559191911 reads in 1402 ms 
+INFO  16:12:19,277 MuTect - [MUTECTOR] Processed 560192449 reads in 2834 ms 
+INFO  16:12:19,457 MuTect - [MUTECTOR] Inspected 195000 potential candidates 
+INFO  16:12:21,305 MuTect - [MUTECTOR] Processed 561192537 reads in 2028 ms 
+INFO  16:12:23,118 MuTect - [MUTECTOR] Inspected 196000 potential candidates 
+INFO  16:12:23,146 MuTect - [MUTECTOR] Processed 562192822 reads in 1841 ms 
+INFO  16:12:24,862 MuTect - [MUTECTOR] Processed 563193162 reads in 1716 ms 
+INFO  16:12:25,892 MuTect - [MUTECTOR] Processed 564193711 reads in 1030 ms 
+INFO  16:12:26,058 MuTect - [MUTECTOR] Inspected 197000 potential candidates 
+INFO  16:12:27,018 MuTect - [MUTECTOR] Processed 565193899 reads in 1126 ms 
+INFO  16:12:28,208 MuTect - [MUTECTOR] Inspected 198000 potential candidates 
+INFO  16:12:28,216 MuTect - [MUTECTOR] Processed 566193910 reads in 1198 ms 
+INFO  16:12:30,495 MuTect - [MUTECTOR] Processed 567193912 reads in 2279 ms 
+INFO  16:12:31,816 MuTect - [MUTECTOR] Processed 568194228 reads in 1321 ms 
+INFO  16:12:32,391 MuTect - [MUTECTOR] Inspected 199000 potential candidates 
+INFO  16:12:33,051 MuTect - [MUTECTOR] Processed 569194299 reads in 1235 ms 
+INFO  16:12:34,006 MuTect - [MUTECTOR] Processed 570194348 reads in 954 ms 
+INFO  16:12:34,928 MuTect - [MUTECTOR] Processed 571195010 reads in 923 ms 
+INFO  16:12:35,522 MuTect - [MUTECTOR] Inspected 200000 potential candidates 
+INFO  16:12:36,028 MuTect - [MUTECTOR] Processed 572195105 reads in 1100 ms 
+INFO  16:12:37,454 MuTect - [MUTECTOR] Processed 573195169 reads in 1426 ms 
+INFO  16:12:38,437 MuTect - [MUTECTOR] Processed 574195375 reads in 983 ms 
+INFO  16:12:39,373 MuTect - [MUTECTOR] Processed 575195733 reads in 936 ms 
+INFO  16:12:39,430 MuTect - [MUTECTOR] Inspected 201000 potential candidates 
+INFO  16:12:40,277 MuTect - [MUTECTOR] Processed 576195787 reads in 904 ms 
+INFO  16:12:41,201 MuTect - [MUTECTOR] Processed 577196064 reads in 924 ms 
+INFO  16:12:42,111 MuTect - [MUTECTOR] Processed 578196130 reads in 910 ms 
+INFO  16:12:42,398 MuTect - [MUTECTOR] Inspected 202000 potential candidates 
+INFO  16:12:43,062 MuTect - [MUTECTOR] Processed 579196359 reads in 951 ms 
+INFO  16:12:44,036 MuTect - [MUTECTOR] Processed 580197098 reads in 974 ms 
+INFO  16:12:45,001 MuTect - [MUTECTOR] Processed 581197100 reads in 965 ms 
+INFO  16:12:45,809 MuTect - [MUTECTOR] Inspected 203000 potential candidates 
+INFO  16:12:45,977 MuTect - [MUTECTOR] Processed 582197535 reads in 976 ms 
+INFO  16:12:47,705 MuTect - [MUTECTOR] Processed 583197729 reads in 1727 ms 
+INFO  16:12:48,952 MuTect - [MUTECTOR] Processed 584197738 reads in 1248 ms 
+INFO  16:12:49,893 MuTect - [MUTECTOR] Inspected 204000 potential candidates 
+INFO  16:12:50,129 MuTect - [MUTECTOR] Processed 585197837 reads in 1177 ms 
+INFO  16:12:51,185 MuTect - [MUTECTOR] Processed 586198389 reads in 1056 ms 
+INFO  16:12:52,939 MuTect - [MUTECTOR] Processed 587198402 reads in 1754 ms 
+INFO  16:12:53,087 MuTect - [MUTECTOR] Inspected 205000 potential candidates 
+INFO  16:12:54,310 MuTect - [MUTECTOR] Processed 588198786 reads in 1371 ms 
+INFO  16:12:55,362 MuTect - [MUTECTOR] Processed 589198872 reads in 1052 ms 
+INFO  16:12:55,898 MuTect - [MUTECTOR] Inspected 206000 potential candidates 
+INFO  16:12:56,569 MuTect - [MUTECTOR] Processed 590199609 reads in 1207 ms 
+INFO  16:12:58,977 MuTect - [MUTECTOR] Processed 591199609 reads in 2407 ms 
+INFO  16:13:00,422 MuTect - [MUTECTOR] Inspected 207000 potential candidates 
+INFO  16:13:01,497 MuTect - [MUTECTOR] Processed 592199872 reads in 2521 ms 
+INFO  16:13:02,953 MuTect - [MUTECTOR] Processed 593199904 reads in 1456 ms 
+INFO  16:13:03,461 MuTect - [MUTECTOR] Inspected 208000 potential candidates 
+INFO  16:13:05,066 MuTect - [MUTECTOR] Processed 594199919 reads in 2113 ms 
+INFO  16:13:06,606 MuTect - [MUTECTOR] Processed 595199925 reads in 1540 ms 
+INFO  16:13:07,577 MuTect - [MUTECTOR] Inspected 209000 potential candidates 
+INFO  16:13:08,581 MuTect - [MUTECTOR] Processed 596200130 reads in 1975 ms 
+INFO  16:13:08,980 ProgressMeter -   chr1:20232757        2.02e+07   14.5 m       43.0 s      0.7%        37.0 h    36.7 h 
+INFO  16:13:10,266 MuTect - [MUTECTOR] Processed 597200621 reads in 1685 ms 
+INFO  16:13:10,714 MuTect - [MUTECTOR] Inspected 210000 potential candidates 
+INFO  16:13:11,876 MuTect - [MUTECTOR] Processed 598201040 reads in 1610 ms 
+INFO  16:13:13,393 MuTect - [MUTECTOR] Processed 599201208 reads in 1517 ms 
+INFO  16:13:14,070 MuTect - [MUTECTOR] Inspected 211000 potential candidates 
+INFO  16:13:15,443 MuTect - [MUTECTOR] Processed 600201389 reads in 2049 ms 
+INFO  16:13:17,042 MuTect - [MUTECTOR] Processed 601202038 reads in 1600 ms 
+INFO  16:13:18,314 MuTect - [MUTECTOR] Inspected 212000 potential candidates 
+INFO  16:13:18,459 MuTect - [MUTECTOR] Processed 602202307 reads in 1417 ms 
+INFO  16:13:19,461 MuTect - [MUTECTOR] Processed 603202309 reads in 1001 ms 
+INFO  16:13:20,454 MuTect - [MUTECTOR] Processed 604202472 reads in 994 ms 
+INFO  16:13:21,248 MuTect - [MUTECTOR] Inspected 213000 potential candidates 
+INFO  16:13:22,592 MuTect - [MUTECTOR] Processed 605203311 reads in 2137 ms 
+INFO  16:13:24,187 MuTect - [MUTECTOR] Processed 606203800 reads in 1596 ms 
+INFO  16:13:25,261 MuTect - [MUTECTOR] Inspected 214000 potential candidates 
+INFO  16:13:26,020 MuTect - [MUTECTOR] Processed 607204135 reads in 1833 ms 
+INFO  16:13:27,663 MuTect - [MUTECTOR] Processed 608204393 reads in 1643 ms 
+INFO  16:13:29,062 MuTect - [MUTECTOR] Processed 609204662 reads in 1398 ms 
+INFO  16:13:29,231 MuTect - [MUTECTOR] Inspected 215000 potential candidates 
+INFO  16:13:30,766 MuTect - [MUTECTOR] Processed 610204730 reads in 1705 ms 
+INFO  16:13:32,384 MuTect - [MUTECTOR] Processed 611205012 reads in 1618 ms 
+INFO  16:13:32,864 MuTect - [MUTECTOR] Inspected 216000 potential candidates 
+INFO  16:13:33,725 MuTect - [MUTECTOR] Processed 612205508 reads in 1341 ms 
+INFO  16:13:34,923 MuTect - [MUTECTOR] Processed 613206032 reads in 1198 ms 
+INFO  16:13:35,930 MuTect - [MUTECTOR] Inspected 217000 potential candidates 
+INFO  16:13:36,374 MuTect - [MUTECTOR] Processed 614206467 reads in 1451 ms 
+INFO  16:13:37,771 MuTect - [MUTECTOR] Processed 615206574 reads in 1397 ms 
+INFO  16:13:38,505 MuTect - [MUTECTOR] Inspected 218000 potential candidates 
+INFO  16:13:39,127 MuTect - [MUTECTOR] Processed 616207104 reads in 1356 ms 
+INFO  16:13:40,354 MuTect - [MUTECTOR] Processed 617207114 reads in 1227 ms 
+INFO  16:13:41,442 MuTect - [MUTECTOR] Processed 618207386 reads in 1088 ms 
+INFO  16:13:42,861 MuTect - [MUTECTOR] Processed 619207398 reads in 1419 ms 
+INFO  16:13:42,971 MuTect - [MUTECTOR] Inspected 219000 potential candidates 
+INFO  16:13:44,205 MuTect - [MUTECTOR] Processed 620207400 reads in 1344 ms 
+INFO  16:13:46,276 MuTect - [MUTECTOR] Inspected 220000 potential candidates 
+INFO  16:13:46,685 MuTect - [MUTECTOR] Processed 621207536 reads in 2480 ms 
+INFO  16:13:47,992 MuTect - [MUTECTOR] Processed 622207749 reads in 1307 ms 
+INFO  16:13:49,401 MuTect - [MUTECTOR] Inspected 221000 potential candidates 
+INFO  16:13:49,835 MuTect - [MUTECTOR] Processed 623207782 reads in 1842 ms 
+INFO  16:13:52,602 MuTect - [MUTECTOR] Processed 624207782 reads in 2768 ms 
+INFO  16:13:53,034 MuTect - [MUTECTOR] Inspected 222000 potential candidates 
+INFO  16:13:54,763 MuTect - [MUTECTOR] Processed 625207984 reads in 2161 ms 
+INFO  16:13:55,843 MuTect - [MUTECTOR] Processed 626208087 reads in 1080 ms 
+INFO  16:13:55,978 MuTect - [MUTECTOR] Inspected 223000 potential candidates 
+INFO  16:13:57,247 MuTect - [MUTECTOR] Processed 627208138 reads in 1404 ms 
+INFO  16:13:58,053 MuTect - [MUTECTOR] Inspected 224000 potential candidates 
+INFO  16:13:58,288 MuTect - [MUTECTOR] Processed 628208421 reads in 1041 ms 
+INFO  16:13:59,560 MuTect - [MUTECTOR] Processed 629209108 reads in 1272 ms 
+INFO  16:14:01,043 MuTect - [MUTECTOR] Processed 630209301 reads in 1482 ms 
+INFO  16:14:01,111 MuTect - [MUTECTOR] Inspected 225000 potential candidates 
+INFO  16:14:02,708 MuTect - [MUTECTOR] Processed 631210226 reads in 1665 ms 
+INFO  16:14:03,907 MuTect - [MUTECTOR] Processed 632210432 reads in 1199 ms 
+INFO  16:14:04,498 MuTect - [MUTECTOR] Inspected 226000 potential candidates 
+INFO  16:14:05,009 MuTect - [MUTECTOR] Processed 633210688 reads in 1103 ms 
+INFO  16:14:06,611 MuTect - [MUTECTOR] Processed 634210689 reads in 1602 ms 
+INFO  16:14:07,499 MuTect - [MUTECTOR] Inspected 227000 potential candidates 
+INFO  16:14:07,756 MuTect - [MUTECTOR] Processed 635210957 reads in 1145 ms 
+INFO  16:14:08,986 ProgressMeter -   chr1:22155569        2.22e+07   15.5 m       42.0 s      0.7%        36.1 h    35.8 h 
+INFO  16:14:09,354 MuTect - [MUTECTOR] Processed 636211494 reads in 1598 ms 
+INFO  16:14:10,738 MuTect - [MUTECTOR] Processed 637211700 reads in 1384 ms 
+INFO  16:14:11,531 MuTect - [MUTECTOR] Inspected 228000 potential candidates 
+INFO  16:14:11,942 MuTect - [MUTECTOR] Processed 638212212 reads in 1203 ms 
+INFO  16:14:13,433 MuTect - [MUTECTOR] Processed 639212589 reads in 1492 ms 
+INFO  16:14:14,705 MuTect - [MUTECTOR] Inspected 229000 potential candidates 
+INFO  16:14:14,914 MuTect - [MUTECTOR] Processed 640212887 reads in 1481 ms 
+INFO  16:14:15,995 MuTect - [MUTECTOR] Processed 641213066 reads in 1081 ms 
+INFO  16:14:17,419 MuTect - [MUTECTOR] Processed 642213688 reads in 1424 ms 
+INFO  16:14:17,639 MuTect - [MUTECTOR] Inspected 230000 potential candidates 
+INFO  16:14:18,497 MuTect - [MUTECTOR] Processed 643214016 reads in 1077 ms 
+INFO  16:14:19,625 MuTect - [MUTECTOR] Processed 644214226 reads in 1129 ms 
+INFO  16:14:20,773 MuTect - [MUTECTOR] Inspected 231000 potential candidates 
+INFO  16:14:21,027 MuTect - [MUTECTOR] Processed 645214720 reads in 1402 ms 
+INFO  16:14:22,346 MuTect - [MUTECTOR] Processed 646215096 reads in 1319 ms 
+INFO  16:14:23,303 MuTect - [MUTECTOR] Inspected 232000 potential candidates 
+INFO  16:14:24,584 MuTect - [MUTECTOR] Processed 647215387 reads in 2238 ms 
+INFO  16:14:26,206 MuTect - [MUTECTOR] Processed 648215747 reads in 1622 ms 
+INFO  16:14:27,276 MuTect - [MUTECTOR] Inspected 233000 potential candidates 
+INFO  16:14:27,992 MuTect - [MUTECTOR] Processed 649215811 reads in 1786 ms 
+INFO  16:14:29,178 MuTect - [MUTECTOR] Processed 650216580 reads in 1186 ms 
+INFO  16:14:31,508 MuTect - [MUTECTOR] Inspected 234000 potential candidates 
+INFO  16:14:32,791 MuTect - [MUTECTOR] Processed 651216783 reads in 3613 ms 
+INFO  16:14:34,233 MuTect - [MUTECTOR] Processed 652216818 reads in 1441 ms 
+INFO  16:14:35,213 MuTect - [MUTECTOR] Processed 653217302 reads in 981 ms 
+INFO  16:14:35,838 MuTect - [MUTECTOR] Inspected 235000 potential candidates 
+INFO  16:14:36,686 MuTect - [MUTECTOR] Processed 654217370 reads in 1473 ms 
+INFO  16:14:38,074 MuTect - [MUTECTOR] Processed 655217581 reads in 1388 ms 
+INFO  16:14:38,380 MuTect - [MUTECTOR] Inspected 236000 potential candidates 
+INFO  16:14:39,488 MuTect - [MUTECTOR] Processed 656217680 reads in 1414 ms 
+INFO  16:14:41,501 MuTect - [MUTECTOR] Processed 657217728 reads in 2013 ms 
+INFO  16:14:43,428 MuTect - [MUTECTOR] Inspected 237000 potential candidates 
+INFO  16:14:44,295 MuTect - [MUTECTOR] Processed 658217785 reads in 2794 ms 
+INFO  16:14:45,833 MuTect - [MUTECTOR] Processed 659218088 reads in 1538 ms 
+INFO  16:14:47,297 MuTect - [MUTECTOR] Processed 660218159 reads in 1464 ms 
+INFO  16:14:47,434 MuTect - [MUTECTOR] Inspected 238000 potential candidates 
+INFO  16:14:49,484 MuTect - [MUTECTOR] Processed 661218276 reads in 2187 ms 
+INFO  16:14:51,302 MuTect - [MUTECTOR] Processed 662218836 reads in 1818 ms 
+INFO  16:14:51,762 MuTect - [MUTECTOR] Inspected 239000 potential candidates 
+INFO  16:14:52,952 MuTect - [MUTECTOR] Processed 663218845 reads in 1650 ms 
+INFO  16:14:54,371 MuTect - [MUTECTOR] Processed 664219159 reads in 1419 ms 
+INFO  16:14:55,389 MuTect - [MUTECTOR] Processed 665219366 reads in 1018 ms 
+INFO  16:14:56,574 MuTect - [MUTECTOR] Processed 666220331 reads in 1185 ms 
+INFO  16:14:57,129 MuTect - [MUTECTOR] Inspected 240000 potential candidates 
+INFO  16:14:58,800 MuTect - [MUTECTOR] Processed 667220686 reads in 2226 ms 
+INFO  16:15:00,657 MuTect - [MUTECTOR] Processed 668220951 reads in 1857 ms 
+INFO  16:15:01,797 MuTect - [MUTECTOR] Inspected 241000 potential candidates 
+INFO  16:15:02,102 MuTect - [MUTECTOR] Processed 669221453 reads in 1444 ms 
+INFO  16:15:03,213 MuTect - [MUTECTOR] Processed 670221614 reads in 1112 ms 
+INFO  16:15:04,787 MuTect - [MUTECTOR] Processed 671222522 reads in 1574 ms 
+INFO  16:15:06,332 MuTect - [MUTECTOR] Processed 672222699 reads in 1545 ms 
+INFO  16:15:06,778 MuTect - [MUTECTOR] Inspected 242000 potential candidates 
+INFO  16:15:07,488 MuTect - [MUTECTOR] Processed 673222931 reads in 1156 ms 
+INFO  16:15:08,649 MuTect - [MUTECTOR] Processed 674222979 reads in 1161 ms 
+INFO  16:15:09,049 ProgressMeter -   chr1:23768101        2.38e+07   16.5 m       41.7 s      0.8%        35.8 h    35.5 h 
+INFO  16:15:09,184 MuTect - [MUTECTOR] Inspected 243000 potential candidates 
+INFO  16:15:09,788 MuTect - [MUTECTOR] Processed 675223047 reads in 1139 ms 
+INFO  16:15:11,646 MuTect - [MUTECTOR] Processed 676223092 reads in 1858 ms 
+INFO  16:15:12,282 MuTect - [MUTECTOR] Inspected 244000 potential candidates 
+INFO  16:15:13,159 MuTect - [MUTECTOR] Processed 677224083 reads in 1513 ms 
+INFO  16:15:14,690 MuTect - [MUTECTOR] Processed 678224088 reads in 1530 ms 
+INFO  16:15:15,823 MuTect - [MUTECTOR] Inspected 245000 potential candidates 
+INFO  16:15:16,241 MuTect - [MUTECTOR] Processed 679224235 reads in 1552 ms 
+INFO  16:15:17,506 MuTect - [MUTECTOR] Processed 680224455 reads in 1265 ms 
+INFO  16:15:19,150 MuTect - [MUTECTOR] Processed 681224623 reads in 1644 ms 
+INFO  16:15:19,769 MuTect - [MUTECTOR] Inspected 246000 potential candidates 
+INFO  16:15:20,369 MuTect - [MUTECTOR] Processed 682224865 reads in 1219 ms 
+INFO  16:15:21,448 MuTect - [MUTECTOR] Processed 683225569 reads in 1078 ms 
+INFO  16:15:22,418 MuTect - [MUTECTOR] Processed 684225587 reads in 971 ms 
+INFO  16:15:23,521 MuTect - [MUTECTOR] Processed 685225627 reads in 1103 ms 
+INFO  16:15:23,522 MuTect - [MUTECTOR] Inspected 247000 potential candidates 
+INFO  16:15:25,013 MuTect - [MUTECTOR] Processed 686225896 reads in 1491 ms 
+INFO  16:15:25,724 MuTect - [MUTECTOR] Inspected 248000 potential candidates 
+INFO  16:15:26,967 MuTect - [MUTECTOR] Processed 687226049 reads in 1955 ms 
+INFO  16:15:28,911 MuTect - [MUTECTOR] Processed 688226136 reads in 1943 ms 
+INFO  16:15:28,998 MuTect - [MUTECTOR] Inspected 249000 potential candidates 
+INFO  16:15:30,250 MuTect - [MUTECTOR] Processed 689226555 reads in 1340 ms 
+INFO  16:15:31,114 MuTect - [MUTECTOR] Inspected 250000 potential candidates 
+INFO  16:15:31,429 MuTect - [MUTECTOR] Processed 690226887 reads in 1179 ms 
+INFO  16:15:32,768 MuTect - [MUTECTOR] Processed 691227146 reads in 1339 ms 
+INFO  16:15:33,995 MuTect - [MUTECTOR] Processed 692227703 reads in 1227 ms 
+INFO  16:15:34,066 MuTect - [MUTECTOR] Inspected 251000 potential candidates 
+INFO  16:15:35,833 MuTect - [MUTECTOR] Processed 693227820 reads in 1838 ms 
+INFO  16:15:37,216 MuTect - [MUTECTOR] Inspected 252000 potential candidates 
+INFO  16:15:38,072 MuTect - [MUTECTOR] Processed 694227889 reads in 2239 ms 
+INFO  16:15:39,567 MuTect - [MUTECTOR] Processed 695228211 reads in 1495 ms 
+INFO  16:15:40,499 MuTect - [MUTECTOR] Inspected 253000 potential candidates 
+INFO  16:15:40,682 MuTect - [MUTECTOR] Processed 696228265 reads in 1115 ms 
+INFO  16:15:41,748 MuTect - [MUTECTOR] Processed 697228507 reads in 1066 ms 
+INFO  16:15:43,151 MuTect - [MUTECTOR] Processed 698228536 reads in 1403 ms 
+INFO  16:15:43,165 MuTect - [MUTECTOR] Inspected 254000 potential candidates 
+INFO  16:15:44,586 MuTect - [MUTECTOR] Processed 699228895 reads in 1435 ms 
+INFO  16:15:46,031 MuTect - [MUTECTOR] Processed 700228942 reads in 1445 ms 
+INFO  16:15:46,691 MuTect - [MUTECTOR] Inspected 255000 potential candidates 
+INFO  16:15:48,396 MuTect - [MUTECTOR] Processed 701229082 reads in 2365 ms 
+INFO  16:15:49,672 MuTect - [MUTECTOR] Processed 702229146 reads in 1276 ms 
+INFO  16:15:50,938 MuTect - [MUTECTOR] Inspected 256000 potential candidates 
+INFO  16:15:51,023 MuTect - [MUTECTOR] Processed 703229173 reads in 1351 ms 
+INFO  16:15:54,302 MuTect - [MUTECTOR] Processed 704229297 reads in 3279 ms 
+INFO  16:15:55,794 MuTect - [MUTECTOR] Processed 705229491 reads in 1492 ms 
+INFO  16:15:55,804 MuTect - [MUTECTOR] Inspected 257000 potential candidates 
+INFO  16:15:59,628 MuTect - [MUTECTOR] Processed 706229838 reads in 3834 ms 
+INFO  16:16:00,508 MuTect - [MUTECTOR] Inspected 258000 potential candidates 
+INFO  16:16:01,266 MuTect - [MUTECTOR] Processed 707230242 reads in 1638 ms 
+INFO  16:16:02,620 MuTect - [MUTECTOR] Processed 708230256 reads in 1354 ms 
+INFO  16:16:04,183 MuTect - [MUTECTOR] Processed 709230744 reads in 1563 ms 
+INFO  16:16:04,776 MuTect - [MUTECTOR] Inspected 259000 potential candidates 
+INFO  16:16:05,810 MuTect - [MUTECTOR] Processed 710231236 reads in 1627 ms 
+INFO  16:16:07,269 MuTect - [MUTECTOR] Processed 711231240 reads in 1459 ms 
+INFO  16:16:09,023 MuTect - [MUTECTOR] Inspected 260000 potential candidates 
+INFO  16:16:09,077 ProgressMeter -   chr1:25870253        2.59e+07   17.5 m       40.6 s      0.8%        34.9 h    34.6 h 
+INFO  16:16:09,408 MuTect - [MUTECTOR] Processed 712231435 reads in 2139 ms 
+INFO  16:16:11,035 MuTect - [MUTECTOR] Processed 713232058 reads in 1627 ms 
+INFO  16:16:13,457 MuTect - [MUTECTOR] Inspected 261000 potential candidates 
+INFO  16:16:13,742 MuTect - [MUTECTOR] Processed 714232087 reads in 2706 ms 
+INFO  16:16:15,180 MuTect - [MUTECTOR] Processed 715232388 reads in 1438 ms 
+INFO  16:16:16,437 MuTect - [MUTECTOR] Processed 716233019 reads in 1258 ms 
+INFO  16:16:17,193 MuTect - [MUTECTOR] Inspected 262000 potential candidates 
+INFO  16:16:17,838 MuTect - [MUTECTOR] Processed 717233161 reads in 1401 ms 
+INFO  16:16:19,178 MuTect - [MUTECTOR] Processed 718233185 reads in 1340 ms 
+INFO  16:16:20,197 MuTect - [MUTECTOR] Processed 719233433 reads in 1019 ms 
+INFO  16:16:21,236 MuTect - [MUTECTOR] Inspected 263000 potential candidates 
+INFO  16:16:21,673 MuTect - [MUTECTOR] Processed 720233593 reads in 1476 ms 
+INFO  16:16:23,224 MuTect - [MUTECTOR] Processed 721233620 reads in 1551 ms 
+INFO  16:16:24,906 MuTect - [MUTECTOR] Inspected 264000 potential candidates 
+INFO  16:16:24,907 MuTect - [MUTECTOR] Processed 722233753 reads in 1683 ms 
+INFO  16:16:25,998 MuTect - [MUTECTOR] Processed 723233876 reads in 1091 ms 
+INFO  16:16:27,004 MuTect - [MUTECTOR] Processed 724233947 reads in 1006 ms 
+INFO  16:16:27,948 MuTect - [MUTECTOR] Inspected 265000 potential candidates 
+INFO  16:16:28,050 MuTect - [MUTECTOR] Processed 725234138 reads in 1046 ms 
+INFO  16:16:29,439 MuTect - [MUTECTOR] Processed 726234572 reads in 1389 ms 
+INFO  16:16:30,880 MuTect - [MUTECTOR] Processed 727234753 reads in 1441 ms 
+INFO  16:16:32,446 MuTect - [MUTECTOR] Inspected 266000 potential candidates 
+INFO  16:16:32,533 MuTect - [MUTECTOR] Processed 728234904 reads in 1653 ms 
+INFO  16:16:33,565 MuTect - [MUTECTOR] Processed 729234915 reads in 1032 ms 
+INFO  16:16:34,737 MuTect - [MUTECTOR] Processed 730234995 reads in 1171 ms 
+INFO  16:16:34,908 MuTect - [MUTECTOR] Inspected 267000 potential candidates 
+INFO  16:16:35,866 MuTect - [MUTECTOR] Processed 731235097 reads in 1130 ms 
+INFO  16:16:37,535 MuTect - [MUTECTOR] Processed 732235561 reads in 1669 ms 
+INFO  16:16:37,903 MuTect - [MUTECTOR] Inspected 268000 potential candidates 
+INFO  16:16:38,647 MuTect - [MUTECTOR] Processed 733236544 reads in 1112 ms 
+INFO  16:16:40,024 MuTect - [MUTECTOR] Processed 734236765 reads in 1377 ms 
+INFO  16:16:41,118 MuTect - [MUTECTOR] Processed 735237100 reads in 1094 ms 
+INFO  16:16:41,177 MuTect - [MUTECTOR] Inspected 269000 potential candidates 
+INFO  16:16:43,165 MuTect - [MUTECTOR] Processed 736237777 reads in 2047 ms 
+INFO  16:16:44,389 MuTect - [MUTECTOR] Processed 737237880 reads in 1224 ms 
+INFO  16:16:44,595 MuTect - [MUTECTOR] Inspected 270000 potential candidates 
+INFO  16:16:45,347 MuTect - [MUTECTOR] Processed 738238346 reads in 958 ms 
+INFO  16:16:46,335 MuTect - [MUTECTOR] Processed 739238461 reads in 988 ms 
+INFO  16:16:47,515 MuTect - [MUTECTOR] Inspected 271000 potential candidates 
+INFO  16:16:47,651 MuTect - [MUTECTOR] Processed 740238530 reads in 1316 ms 
+INFO  16:16:49,469 MuTect - [MUTECTOR] Processed 741238766 reads in 1818 ms 
+INFO  16:16:50,585 MuTect - [MUTECTOR] Processed 742238773 reads in 1116 ms 
+INFO  16:16:50,741 MuTect - [MUTECTOR] Inspected 272000 potential candidates 
+INFO  16:16:51,779 MuTect - [MUTECTOR] Processed 743238940 reads in 1194 ms 
+INFO  16:16:53,364 MuTect - [MUTECTOR] Processed 744239429 reads in 1585 ms 
+INFO  16:16:54,048 MuTect - [MUTECTOR] Inspected 273000 potential candidates 
+INFO  16:16:54,832 MuTect - [MUTECTOR] Processed 745239471 reads in 1468 ms 
+INFO  16:16:56,272 MuTect - [MUTECTOR] Processed 746239475 reads in 1440 ms 
+INFO  16:16:57,434 MuTect - [MUTECTOR] Inspected 274000 potential candidates 
+INFO  16:16:58,831 MuTect - [MUTECTOR] Processed 747239505 reads in 2559 ms 
+INFO  16:17:00,432 MuTect - [MUTECTOR] Processed 748239948 reads in 1601 ms 
+INFO  16:17:01,680 MuTect - [MUTECTOR] Processed 749240483 reads in 1248 ms 
+INFO  16:17:02,662 MuTect - [MUTECTOR] Processed 750240785 reads in 982 ms 
+INFO  16:17:03,133 MuTect - [MUTECTOR] Inspected 275000 potential candidates 
+INFO  16:17:03,624 MuTect - [MUTECTOR] Processed 751240844 reads in 962 ms 
+INFO  16:17:04,806 MuTect - [MUTECTOR] Processed 752241084 reads in 1182 ms 
+INFO  16:17:05,730 MuTect - [MUTECTOR] Processed 753241508 reads in 924 ms 
+INFO  16:17:07,400 MuTect - [MUTECTOR] Processed 754242208 reads in 1670 ms 
+INFO  16:17:08,527 MuTect - [MUTECTOR] Processed 755242741 reads in 1127 ms 
+INFO  16:17:08,598 MuTect - [MUTECTOR] Inspected 276000 potential candidates 
+INFO  16:17:09,121 ProgressMeter -   chr1:27212641        2.72e+07   18.5 m       40.8 s      0.9%        35.1 h    34.8 h 
+INFO  16:17:09,770 MuTect - [MUTECTOR] Processed 756243054 reads in 1243 ms 
+INFO  16:17:11,109 MuTect - [MUTECTOR] Processed 757243238 reads in 1339 ms 
+INFO  16:17:11,899 MuTect - [MUTECTOR] Inspected 277000 potential candidates 
+INFO  16:17:12,261 MuTect - [MUTECTOR] Processed 758243398 reads in 1152 ms 
+INFO  16:17:13,253 MuTect - [MUTECTOR] Processed 759243526 reads in 992 ms 
+INFO  16:17:14,914 MuTect - [MUTECTOR] Processed 760243783 reads in 1661 ms 
+INFO  16:17:15,051 MuTect - [MUTECTOR] Inspected 278000 potential candidates 
+INFO  16:17:17,147 MuTect - [MUTECTOR] Processed 761244089 reads in 2233 ms 
+INFO  16:17:18,115 MuTect - [MUTECTOR] Processed 762244159 reads in 968 ms 
+INFO  16:17:18,412 MuTect - [MUTECTOR] Inspected 279000 potential candidates 
+INFO  16:17:20,317 MuTect - [MUTECTOR] Processed 763244243 reads in 2202 ms 
+INFO  16:17:21,774 MuTect - [MUTECTOR] Processed 764245028 reads in 1457 ms 
+INFO  16:17:21,983 MuTect - [MUTECTOR] Inspected 280000 potential candidates 
+INFO  16:17:22,812 MuTect - [MUTECTOR] Processed 765245277 reads in 1038 ms 
+INFO  16:17:23,921 MuTect - [MUTECTOR] Processed 766246044 reads in 1109 ms 
+INFO  16:17:25,463 MuTect - [MUTECTOR] Inspected 281000 potential candidates 
+INFO  16:17:25,496 MuTect - [MUTECTOR] Processed 767246389 reads in 1575 ms 
+INFO  16:17:26,621 MuTect - [MUTECTOR] Processed 768246543 reads in 1125 ms 
+INFO  16:17:27,871 MuTect - [MUTECTOR] Processed 769247046 reads in 1249 ms 
+INFO  16:17:28,736 MuTect - [MUTECTOR] Inspected 282000 potential candidates 
+INFO  16:17:28,864 MuTect - [MUTECTOR] Processed 770247320 reads in 994 ms 
+INFO  16:17:29,833 MuTect - [MUTECTOR] Processed 771247608 reads in 969 ms 
+INFO  16:17:31,023 MuTect - [MUTECTOR] Processed 772247994 reads in 1190 ms 
+INFO  16:17:31,700 MuTect - [MUTECTOR] Inspected 283000 potential candidates 
+INFO  16:17:32,021 MuTect - [MUTECTOR] Processed 773248556 reads in 998 ms 
+INFO  16:17:33,227 MuTect - [MUTECTOR] Processed 774248801 reads in 1206 ms 
+INFO  16:17:34,286 MuTect - [MUTECTOR] Processed 775249132 reads in 1059 ms 
+INFO  16:17:34,908 MuTect - [MUTECTOR] Inspected 284000 potential candidates 
+INFO  16:17:35,544 MuTect - [MUTECTOR] Processed 776249134 reads in 1258 ms 
+INFO  16:17:37,214 MuTect - [MUTECTOR] Processed 777249351 reads in 1670 ms 
+INFO  16:17:38,496 MuTect - [MUTECTOR] Inspected 285000 potential candidates 
+INFO  16:17:38,815 MuTect - [MUTECTOR] Processed 778250017 reads in 1601 ms 
+INFO  16:17:40,699 MuTect - [MUTECTOR] Processed 779250794 reads in 1884 ms 
+INFO  16:17:41,871 MuTect - [MUTECTOR] Processed 780251034 reads in 1172 ms 
+INFO  16:17:41,971 MuTect - [MUTECTOR] Inspected 286000 potential candidates 
+INFO  16:17:43,575 MuTect - [MUTECTOR] Processed 781251156 reads in 1704 ms 
+INFO  16:17:45,055 MuTect - [MUTECTOR] Inspected 287000 potential candidates 
+INFO  16:17:45,307 MuTect - [MUTECTOR] Processed 782251277 reads in 1731 ms 
+INFO  16:17:46,798 MuTect - [MUTECTOR] Processed 783251931 reads in 1492 ms 
+INFO  16:17:48,523 MuTect - [MUTECTOR] Processed 784252041 reads in 1725 ms 
+INFO  16:17:49,600 MuTect - [MUTECTOR] Inspected 288000 potential candidates 
+INFO  16:17:49,863 MuTect - [MUTECTOR] Processed 785252248 reads in 1340 ms 
+INFO  16:17:51,051 MuTect - [MUTECTOR] Processed 786252320 reads in 1188 ms 
+INFO  16:17:52,234 MuTect - [MUTECTOR] Processed 787252321 reads in 1183 ms 
+INFO  16:17:52,371 MuTect - [MUTECTOR] Inspected 289000 potential candidates 
+INFO  16:17:53,406 MuTect - [MUTECTOR] Processed 788252699 reads in 1172 ms 
+INFO  16:17:54,876 MuTect - [MUTECTOR] Processed 789252873 reads in 1470 ms 
+INFO  16:17:56,353 MuTect - [MUTECTOR] Processed 790253314 reads in 1477 ms 
+INFO  16:17:56,499 MuTect - [MUTECTOR] Inspected 290000 potential candidates 
+INFO  16:17:57,631 MuTect - [MUTECTOR] Processed 791253544 reads in 1278 ms 
+INFO  16:17:59,603 MuTect - [MUTECTOR] Processed 792254259 reads in 1972 ms 
+INFO  16:18:00,321 MuTect - [MUTECTOR] Inspected 291000 potential candidates 
+INFO  16:18:01,174 MuTect - [MUTECTOR] Processed 793254973 reads in 1571 ms 
+INFO  16:18:02,744 MuTect - [MUTECTOR] Processed 794254974 reads in 1570 ms 
+INFO  16:18:03,964 MuTect - [MUTECTOR] Inspected 292000 potential candidates 
+INFO  16:18:04,177 MuTect - [MUTECTOR] Processed 795255228 reads in 1433 ms 
+INFO  16:18:06,361 MuTect - [MUTECTOR] Processed 796255901 reads in 2184 ms 
+INFO  16:18:07,911 MuTect - [MUTECTOR] Processed 797256496 reads in 1550 ms 
+INFO  16:18:08,135 MuTect - [MUTECTOR] Inspected 293000 potential candidates 
+INFO  16:18:09,122 ProgressMeter -   chr1:28819657        2.88e+07   19.5 m       40.6 s      0.9%        34.9 h    34.6 h 
+INFO  16:18:09,296 MuTect - [MUTECTOR] Processed 798256891 reads in 1385 ms 
+INFO  16:18:10,733 MuTect - [MUTECTOR] Processed 799257204 reads in 1437 ms 
+INFO  16:18:10,978 MuTect - [MUTECTOR] Inspected 294000 potential candidates 
+INFO  16:18:11,804 MuTect - [MUTECTOR] Processed 800257214 reads in 1071 ms 
+INFO  16:18:13,040 MuTect - [MUTECTOR] Processed 801257541 reads in 1236 ms 
+INFO  16:18:13,326 MuTect - [MUTECTOR] Inspected 295000 potential candidates 
+INFO  16:18:15,134 MuTect - [MUTECTOR] Processed 802257573 reads in 2094 ms 
+INFO  16:18:16,642 MuTect - [MUTECTOR] Processed 803257966 reads in 1508 ms 
+INFO  16:18:16,768 MuTect - [MUTECTOR] Inspected 296000 potential candidates 
+INFO  16:18:18,137 MuTect - [MUTECTOR] Processed 804257973 reads in 1495 ms 
+INFO  16:18:20,452 MuTect - [MUTECTOR] Processed 805258074 reads in 2315 ms 
+INFO  16:18:21,076 MuTect - [MUTECTOR] Inspected 297000 potential candidates 
+INFO  16:18:22,127 MuTect - [MUTECTOR] Processed 806258464 reads in 1675 ms 
+INFO  16:18:23,552 MuTect - [MUTECTOR] Processed 807258822 reads in 1425 ms 
+INFO  16:18:25,338 MuTect - [MUTECTOR] Processed 808259354 reads in 1786 ms 
+INFO  16:18:26,116 MuTect - [MUTECTOR] Inspected 298000 potential candidates 
+INFO  16:18:26,673 MuTect - [MUTECTOR] Processed 809259536 reads in 1335 ms 
+INFO  16:18:28,472 MuTect - [MUTECTOR] Processed 810259537 reads in 1799 ms 
+INFO  16:18:29,768 MuTect - [MUTECTOR] Inspected 299000 potential candidates 
+INFO  16:18:30,016 MuTect - [MUTECTOR] Processed 811259929 reads in 1544 ms 
+INFO  16:18:31,362 MuTect - [MUTECTOR] Processed 812260058 reads in 1345 ms 
+INFO  16:18:32,464 MuTect - [MUTECTOR] Inspected 300000 potential candidates 
+INFO  16:18:32,751 MuTect - [MUTECTOR] Processed 813260402 reads in 1390 ms 
+INFO  16:18:34,143 MuTect - [MUTECTOR] Processed 814260556 reads in 1392 ms 
+INFO  16:18:35,124 MuTect - [MUTECTOR] Inspected 301000 potential candidates 
+INFO  16:18:37,668 MuTect - [MUTECTOR] Processed 815260557 reads in 3525 ms 
+INFO  16:18:38,139 MuTect - [MUTECTOR] Inspected 302000 potential candidates 
+INFO  16:18:43,606 MuTect - [MUTECTOR] Inspected 303000 potential candidates 
+INFO  16:18:44,036 MuTect - [MUTECTOR] Processed 816260602 reads in 6368 ms 
+INFO  16:18:46,686 MuTect - [MUTECTOR] Inspected 304000 potential candidates 
+INFO  16:18:47,082 MuTect - [MUTECTOR] Processed 817261140 reads in 3045 ms 
+INFO  16:18:48,868 MuTect - [MUTECTOR] Processed 818261706 reads in 1786 ms 
+INFO  16:18:49,952 MuTect - [MUTECTOR] Inspected 305000 potential candidates 
+INFO  16:18:50,854 MuTect - [MUTECTOR] Processed 819261709 reads in 1987 ms 
+INFO  16:18:52,469 MuTect - [MUTECTOR] Processed 820262354 reads in 1615 ms 
+INFO  16:18:53,100 MuTect - [MUTECTOR] Inspected 306000 potential candidates 
+INFO  16:18:53,937 MuTect - [MUTECTOR] Processed 821262564 reads in 1468 ms 
+INFO  16:18:55,142 MuTect - [MUTECTOR] Processed 822262842 reads in 1205 ms 
+INFO  16:18:56,517 MuTect - [MUTECTOR] Processed 823262842 reads in 1375 ms 
+INFO  16:18:57,676 MuTect - [MUTECTOR] Inspected 307000 potential candidates 
+INFO  16:18:58,637 MuTect - [MUTECTOR] Processed 824263219 reads in 2120 ms 
+INFO  16:19:00,636 MuTect - [MUTECTOR] Processed 825263541 reads in 1999 ms 
+INFO  16:19:00,781 MuTect - [MUTECTOR] Inspected 308000 potential candidates 
+INFO  16:19:01,987 MuTect - [MUTECTOR] Processed 826263580 reads in 1351 ms 
+INFO  16:19:03,708 MuTect - [MUTECTOR] Inspected 309000 potential candidates 
+INFO  16:19:03,848 MuTect - [MUTECTOR] Processed 827264214 reads in 1861 ms 
+INFO  16:19:05,431 MuTect - [MUTECTOR] Processed 828264230 reads in 1583 ms 
+INFO  16:19:06,701 MuTect - [MUTECTOR] Inspected 310000 potential candidates 
+INFO  16:19:07,123 MuTect - [MUTECTOR] Processed 829264230 reads in 1692 ms 
+INFO  16:19:08,538 MuTect - [MUTECTOR] Processed 830264585 reads in 1415 ms 
+INFO  16:19:09,200 ProgressMeter -   chr1:32050905        3.21e+07   20.5 m       38.4 s      1.0%        33.0 h    32.7 h 
+INFO  16:19:10,188 MuTect - [MUTECTOR] Processed 831264603 reads in 1650 ms 
+INFO  16:19:10,875 MuTect - [MUTECTOR] Inspected 311000 potential candidates 
+INFO  16:19:11,548 MuTect - [MUTECTOR] Processed 832264606 reads in 1360 ms 
+INFO  16:19:12,624 MuTect - [MUTECTOR] Processed 833264962 reads in 1075 ms 
+INFO  16:19:13,562 MuTect - [MUTECTOR] Processed 834265112 reads in 939 ms 
+INFO  16:19:13,627 MuTect - [MUTECTOR] Inspected 312000 potential candidates 
+INFO  16:19:14,661 MuTect - [MUTECTOR] Processed 835265592 reads in 1099 ms 
+INFO  16:19:15,696 MuTect - [MUTECTOR] Processed 836265611 reads in 1035 ms 
+INFO  16:19:16,593 MuTect - [MUTECTOR] Inspected 313000 potential candidates 
+INFO  16:19:16,710 MuTect - [MUTECTOR] Processed 837265640 reads in 1014 ms 
+INFO  16:19:17,702 MuTect - [MUTECTOR] Processed 838265785 reads in 992 ms 
+INFO  16:19:18,894 MuTect - [MUTECTOR] Processed 839265814 reads in 1192 ms 
+INFO  16:19:19,201 MuTect - [MUTECTOR] Inspected 314000 potential candidates 
+INFO  16:19:20,115 MuTect - [MUTECTOR] Processed 840265968 reads in 1221 ms 
+INFO  16:19:21,344 MuTect - [MUTECTOR] Processed 841266619 reads in 1229 ms 
+INFO  16:19:22,108 MuTect - [MUTECTOR] Inspected 315000 potential candidates 
+INFO  16:19:23,191 MuTect - [MUTECTOR] Processed 842267520 reads in 1847 ms 
+INFO  16:19:24,354 MuTect - [MUTECTOR] Processed 843267801 reads in 1163 ms 
+INFO  16:19:24,956 MuTect - [MUTECTOR] Inspected 316000 potential candidates 
+INFO  16:19:25,308 MuTect - [MUTECTOR] Processed 844268419 reads in 954 ms 
+INFO  16:19:26,380 MuTect - [MUTECTOR] Processed 845268654 reads in 1072 ms 
+INFO  16:19:27,757 MuTect - [MUTECTOR] Inspected 317000 potential candidates 
+INFO  16:19:27,864 MuTect - [MUTECTOR] Processed 846268670 reads in 1484 ms 
+INFO  16:19:29,255 MuTect - [MUTECTOR] Processed 847268919 reads in 1391 ms 
+INFO  16:19:30,398 MuTect - [MUTECTOR] Processed 848269542 reads in 1143 ms 
+INFO  16:19:32,410 MuTect - [MUTECTOR] Inspected 318000 potential candidates 
+INFO  16:19:32,523 MuTect - [MUTECTOR] Processed 849269607 reads in 2125 ms 
+INFO  16:19:34,803 MuTect - [MUTECTOR] Processed 850269656 reads in 2280 ms 
+INFO  16:19:36,104 MuTect - [MUTECTOR] Processed 851270152 reads in 1301 ms 
+INFO  16:19:36,374 MuTect - [MUTECTOR] Inspected 319000 potential candidates 
+INFO  16:19:37,792 MuTect - [MUTECTOR] Processed 852270617 reads in 1688 ms 
+INFO  16:19:39,058 MuTect - [MUTECTOR] Processed 853270864 reads in 1266 ms 
+INFO  16:19:39,364 MuTect - [MUTECTOR] Inspected 320000 potential candidates 
+INFO  16:19:40,798 MuTect - [MUTECTOR] Processed 854270926 reads in 1740 ms 
+INFO  16:19:41,928 MuTect - [MUTECTOR] Processed 855271193 reads in 1130 ms 
+INFO  16:19:42,809 MuTect - [MUTECTOR] Inspected 321000 potential candidates 
+INFO  16:19:42,903 MuTect - [MUTECTOR] Processed 856271285 reads in 975 ms 
+INFO  16:19:44,248 MuTect - [MUTECTOR] Processed 857271628 reads in 1345 ms 
+INFO  16:19:45,176 MuTect - [MUTECTOR] Processed 858271636 reads in 928 ms 
+INFO  16:19:46,107 MuTect - [MUTECTOR] Processed 859271904 reads in 931 ms 
+INFO  16:19:46,352 MuTect - [MUTECTOR] Inspected 322000 potential candidates 
+INFO  16:19:47,068 MuTect - [MUTECTOR] Processed 860271979 reads in 961 ms 
+INFO  16:19:48,308 MuTect - [MUTECTOR] Processed 861272068 reads in 1240 ms 
+INFO  16:19:49,236 MuTect - [MUTECTOR] Inspected 323000 potential candidates 
+INFO  16:19:49,467 MuTect - [MUTECTOR] Processed 862272256 reads in 1158 ms 
+INFO  16:19:50,643 MuTect - [MUTECTOR] Processed 863272293 reads in 1177 ms 
+INFO  16:19:51,820 MuTect - [MUTECTOR] Processed 864272609 reads in 1177 ms 
+INFO  16:19:52,916 MuTect - [MUTECTOR] Inspected 324000 potential candidates 
+INFO  16:19:53,607 MuTect - [MUTECTOR] Processed 865273093 reads in 1787 ms 
+INFO  16:19:54,834 MuTect - [MUTECTOR] Processed 866273231 reads in 1227 ms 
+INFO  16:19:56,400 MuTect - [MUTECTOR] Processed 867273232 reads in 1566 ms 
+INFO  16:19:56,519 MuTect - [MUTECTOR] Inspected 325000 potential candidates 
+INFO  16:19:57,942 MuTect - [MUTECTOR] Processed 868273785 reads in 1542 ms 
+INFO  16:19:59,558 MuTect - [MUTECTOR] Processed 869274016 reads in 1616 ms 
+INFO  16:20:00,728 MuTect - [MUTECTOR] Inspected 326000 potential candidates 
+INFO  16:20:00,938 MuTect - [MUTECTOR] Processed 870274018 reads in 1380 ms 
+INFO  16:20:02,434 MuTect - [MUTECTOR] Processed 871274294 reads in 1496 ms 
+INFO  16:20:03,851 MuTect - [MUTECTOR] Inspected 327000 potential candidates 
+INFO  16:20:04,153 MuTect - [MUTECTOR] Processed 872274634 reads in 1719 ms 
+INFO  16:20:05,373 MuTect - [MUTECTOR] Processed 873274869 reads in 1220 ms 
+INFO  16:20:06,428 MuTect - [MUTECTOR] Processed 874275390 reads in 1055 ms 
+INFO  16:20:07,835 MuTect - [MUTECTOR] Inspected 328000 potential candidates 
+INFO  16:20:08,134 MuTect - [MUTECTOR] Processed 875275508 reads in 1706 ms 
+INFO  16:20:09,215 ProgressMeter -   chr1:33283005        3.33e+07   21.5 m       38.8 s      1.1%        33.3 h    33.0 h 
+INFO  16:20:09,579 MuTect - [MUTECTOR] Processed 876276119 reads in 1445 ms 
+INFO  16:20:11,128 MuTect - [MUTECTOR] Processed 877276318 reads in 1548 ms 
+INFO  16:20:12,634 MuTect - [MUTECTOR] Inspected 329000 potential candidates 
+INFO  16:20:13,000 MuTect - [MUTECTOR] Processed 878276593 reads in 1873 ms 
+INFO  16:20:14,869 MuTect - [MUTECTOR] Processed 879276626 reads in 1869 ms 
+INFO  16:20:16,028 MuTect - [MUTECTOR] Processed 880276702 reads in 1159 ms 
+INFO  16:20:16,058 MuTect - [MUTECTOR] Inspected 330000 potential candidates 
+INFO  16:20:18,119 MuTect - [MUTECTOR] Processed 881276775 reads in 2091 ms 
+INFO  16:20:19,729 MuTect - [MUTECTOR] Processed 882276852 reads in 1610 ms 
+INFO  16:20:20,089 MuTect - [MUTECTOR] Inspected 331000 potential candidates 
+INFO  16:20:20,959 MuTect - [MUTECTOR] Processed 883277307 reads in 1230 ms 
+INFO  16:20:23,232 MuTect - [MUTECTOR] Processed 884277318 reads in 2273 ms 
+INFO  16:20:24,186 MuTect - [MUTECTOR] Inspected 332000 potential candidates 
+INFO  16:20:24,632 MuTect - [MUTECTOR] Processed 885277408 reads in 1400 ms 
+INFO  16:20:25,758 MuTect - [MUTECTOR] Processed 886277687 reads in 1126 ms 
+INFO  16:20:26,886 MuTect - [MUTECTOR] Inspected 333000 potential candidates 
+INFO  16:20:27,263 MuTect - [MUTECTOR] Processed 887277731 reads in 1505 ms 
+INFO  16:20:29,581 MuTect - [MUTECTOR] Processed 888278022 reads in 2318 ms 
+INFO  16:20:30,545 MuTect - [MUTECTOR] Inspected 334000 potential candidates 
+INFO  16:20:30,877 MuTect - [MUTECTOR] Processed 889278619 reads in 1296 ms 
+INFO  16:20:31,923 MuTect - [MUTECTOR] Processed 890278642 reads in 1046 ms 
+INFO  16:20:33,307 MuTect - [MUTECTOR] Processed 891279095 reads in 1384 ms 
+INFO  16:20:33,402 MuTect - [MUTECTOR] Inspected 335000 potential candidates 
+INFO  16:20:34,527 MuTect - [MUTECTOR] Processed 892279155 reads in 1220 ms 
+INFO  16:20:35,552 MuTect - [MUTECTOR] Processed 893279246 reads in 1025 ms 
+INFO  16:20:35,941 MuTect - [MUTECTOR] Inspected 336000 potential candidates 
+INFO  16:20:36,542 MuTect - [MUTECTOR] Processed 894279538 reads in 990 ms 
+INFO  16:20:37,756 MuTect - [MUTECTOR] Processed 895279699 reads in 1214 ms 
+INFO  16:20:38,452 MuTect - [MUTECTOR] Inspected 337000 potential candidates 
+INFO  16:20:39,305 MuTect - [MUTECTOR] Processed 896279714 reads in 1549 ms 
+INFO  16:20:41,004 MuTect - [MUTECTOR] Processed 897279759 reads in 1699 ms 
+INFO  16:20:41,033 MuTect - [MUTECTOR] Inspected 338000 potential candidates 
+INFO  16:20:43,848 MuTect - [MUTECTOR] Processed 898279962 reads in 2844 ms 
+INFO  16:20:45,862 MuTect - [MUTECTOR] Processed 899280159 reads in 2014 ms 
+INFO  16:20:46,358 MuTect - [MUTECTOR] Inspected 339000 potential candidates 
+INFO  16:20:48,948 MuTect - [MUTECTOR] Processed 900280161 reads in 3086 ms 
+INFO  16:20:51,221 MuTect - [MUTECTOR] Processed 901280543 reads in 2273 ms 
+INFO  16:20:52,672 MuTect - [MUTECTOR] Processed 902281119 reads in 1451 ms 
+INFO  16:20:53,332 MuTect - [MUTECTOR] Inspected 340000 potential candidates 
+INFO  16:20:53,754 MuTect - [MUTECTOR] Processed 903281885 reads in 1082 ms 
+INFO  16:20:55,427 MuTect - [MUTECTOR] Processed 904282307 reads in 1672 ms 
+INFO  16:20:56,812 MuTect - [MUTECTOR] Processed 905282396 reads in 1385 ms 
+INFO  16:20:57,610 MuTect - [MUTECTOR] Inspected 341000 potential candidates 
+INFO  16:20:58,057 MuTect - [MUTECTOR] Processed 906282761 reads in 1246 ms 
+INFO  16:21:00,152 MuTect - [MUTECTOR] Processed 907282887 reads in 2095 ms 
+INFO  16:21:01,223 MuTect - [MUTECTOR] Processed 908283135 reads in 1071 ms 
+INFO  16:21:02,227 MuTect - [MUTECTOR] Processed 909283221 reads in 1004 ms 
+INFO  16:21:02,451 MuTect - [MUTECTOR] Inspected 342000 potential candidates 
+INFO  16:21:03,146 MuTect - [MUTECTOR] Processed 910283300 reads in 918 ms 
+INFO  16:21:04,837 MuTect - [MUTECTOR] Processed 911283610 reads in 1692 ms 
+INFO  16:21:06,155 MuTect - [MUTECTOR] Processed 912283643 reads in 1318 ms 
+INFO  16:21:07,005 MuTect - [MUTECTOR] Processed 913284106 reads in 850 ms 
+INFO  16:21:07,296 MuTect - [MUTECTOR] Inspected 343000 potential candidates 
+INFO  16:21:08,676 MuTect - [MUTECTOR] Processed 914284338 reads in 1671 ms 
+INFO  16:21:09,218 ProgressMeter -   chr1:35656485        3.57e+07   22.5 m       37.9 s      1.2%        32.6 h    32.2 h 
+INFO  16:21:09,796 MuTect - [MUTECTOR] Processed 915284616 reads in 1120 ms 
+INFO  16:21:12,032 MuTect - [MUTECTOR] Inspected 344000 potential candidates 
+INFO  16:21:12,195 MuTect - [MUTECTOR] Processed 916285597 reads in 2399 ms 
+INFO  16:21:13,341 MuTect - [MUTECTOR] Processed 917285728 reads in 1146 ms 
+INFO  16:21:14,327 MuTect - [MUTECTOR] Processed 918286408 reads in 985 ms 
+INFO  16:21:15,282 MuTect - [MUTECTOR] Processed 919286447 reads in 956 ms 
+INFO  16:21:15,814 MuTect - [MUTECTOR] Inspected 345000 potential candidates 
+INFO  16:21:17,023 MuTect - [MUTECTOR] Processed 920286515 reads in 1741 ms 
+INFO  16:21:18,288 MuTect - [MUTECTOR] Processed 921286614 reads in 1265 ms 
+INFO  16:21:19,945 MuTect - [MUTECTOR] Inspected 346000 potential candidates 
+INFO  16:21:20,151 MuTect - [MUTECTOR] Processed 922286878 reads in 1863 ms 
+INFO  16:21:21,768 MuTect - [MUTECTOR] Processed 923286998 reads in 1616 ms 
+INFO  16:21:23,347 MuTect - [MUTECTOR] Processed 924287156 reads in 1580 ms 
+INFO  16:21:24,805 MuTect - [MUTECTOR] Inspected 347000 potential candidates 
+INFO  16:21:24,895 MuTect - [MUTECTOR] Processed 925287417 reads in 1547 ms 
+INFO  16:21:25,962 MuTect - [MUTECTOR] Processed 926287485 reads in 1068 ms 
+INFO  16:21:27,287 MuTect - [MUTECTOR] Processed 927287812 reads in 1325 ms 
+INFO  16:21:28,606 MuTect - [MUTECTOR] Inspected 348000 potential candidates 
+INFO  16:21:29,270 MuTect - [MUTECTOR] Processed 928288144 reads in 1983 ms 
+INFO  16:21:30,542 MuTect - [MUTECTOR] Processed 929288645 reads in 1272 ms 
+INFO  16:21:31,664 MuTect - [MUTECTOR] Processed 930289063 reads in 1122 ms 
+INFO  16:21:32,742 MuTect - [MUTECTOR] Processed 931289201 reads in 1078 ms 
+INFO  16:21:32,972 MuTect - [MUTECTOR] Inspected 349000 potential candidates 
+INFO  16:21:34,221 MuTect - [MUTECTOR] Processed 932289562 reads in 1479 ms 
+INFO  16:21:35,425 MuTect - [MUTECTOR] Processed 933289595 reads in 1203 ms 
+INFO  16:21:35,868 MuTect - [MUTECTOR] Inspected 350000 potential candidates 
+INFO  16:21:36,913 MuTect - [MUTECTOR] Processed 934289952 reads in 1489 ms 
+INFO  16:21:38,241 MuTect - [MUTECTOR] Processed 935290183 reads in 1328 ms 
+INFO  16:21:39,571 MuTect - [MUTECTOR] Processed 936290524 reads in 1330 ms 
+INFO  16:21:39,821 MuTect - [MUTECTOR] Inspected 351000 potential candidates 
+INFO  16:21:40,840 MuTect - [MUTECTOR] Processed 937290603 reads in 1269 ms 
+INFO  16:21:42,389 MuTect - [MUTECTOR] Processed 938290621 reads in 1549 ms 
+INFO  16:21:43,570 MuTect - [MUTECTOR] Inspected 352000 potential candidates 
+INFO  16:21:44,090 MuTect - [MUTECTOR] Processed 939290992 reads in 1701 ms 
+INFO  16:21:45,544 MuTect - [MUTECTOR] Processed 940291827 reads in 1454 ms 
+INFO  16:21:46,762 MuTect - [MUTECTOR] Processed 941292243 reads in 1218 ms 
+INFO  16:21:47,722 MuTect - [MUTECTOR] Processed 942292546 reads in 960 ms 
+INFO  16:21:49,139 MuTect - [MUTECTOR] Processed 943292974 reads in 1417 ms 
+INFO  16:21:49,619 MuTect - [MUTECTOR] Inspected 353000 potential candidates 
+INFO  16:21:50,468 MuTect - [MUTECTOR] Processed 944292978 reads in 1329 ms 
+INFO  16:21:51,586 MuTect - [MUTECTOR] Processed 945293514 reads in 1118 ms 
+INFO  16:21:52,412 MuTect - [MUTECTOR] Inspected 354000 potential candidates 
+INFO  16:21:52,625 MuTect - [MUTECTOR] Processed 946294387 reads in 1039 ms 
+INFO  16:21:54,448 MuTect - [MUTECTOR] Processed 947294910 reads in 1823 ms 
+INFO  16:21:55,483 MuTect - [MUTECTOR] Processed 948295314 reads in 1035 ms 
+INFO  16:21:56,493 MuTect - [MUTECTOR] Processed 949295380 reads in 1010 ms 
+INFO  16:21:57,950 MuTect - [MUTECTOR] Processed 950295944 reads in 1457 ms 
+INFO  16:21:58,027 MuTect - [MUTECTOR] Inspected 355000 potential candidates 
+INFO  16:21:59,552 MuTect - [MUTECTOR] Processed 951296698 reads in 1602 ms 
+INFO  16:22:00,472 MuTect - [MUTECTOR] Processed 952297030 reads in 920 ms 
+INFO  16:22:01,523 MuTect - [MUTECTOR] Processed 953297322 reads in 1051 ms 
+INFO  16:22:03,071 MuTect - [MUTECTOR] Inspected 356000 potential candidates 
+INFO  16:22:03,274 MuTect - [MUTECTOR] Processed 954297905 reads in 1750 ms 
+INFO  16:22:05,186 MuTect - [MUTECTOR] Processed 955298488 reads in 1913 ms 
+INFO  16:22:06,450 MuTect - [MUTECTOR] Processed 956299383 reads in 1264 ms 
+INFO  16:22:07,117 MuTect - [MUTECTOR] Inspected 357000 potential candidates 
+INFO  16:22:07,956 MuTect - [MUTECTOR] Processed 957299383 reads in 1506 ms 
+INFO  16:22:09,250 ProgressMeter -   chr1:36932337        3.69e+07   23.5 m       38.2 s      1.2%        32.8 h    32.4 h 
+INFO  16:22:09,325 MuTect - [MUTECTOR] Processed 958300037 reads in 1369 ms 
+INFO  16:22:10,256 MuTect - [MUTECTOR] Processed 959300439 reads in 930 ms 
+INFO  16:22:11,161 MuTect - [MUTECTOR] Inspected 358000 potential candidates 
+INFO  16:22:11,317 MuTect - [MUTECTOR] Processed 960301241 reads in 1062 ms 
+INFO  16:22:15,042 MuTect - [MUTECTOR] Processed 961301494 reads in 3725 ms 
+INFO  16:22:15,335 MuTect - [MUTECTOR] Inspected 359000 potential candidates 
+INFO  16:22:16,308 MuTect - [MUTECTOR] Processed 962301747 reads in 1266 ms 
+INFO  16:22:18,945 MuTect - [MUTECTOR] Processed 963301747 reads in 2636 ms 
+INFO  16:22:19,011 MuTect - [MUTECTOR] Inspected 360000 potential candidates 
+INFO  16:22:23,016 MuTect - [MUTECTOR] Processed 964301845 reads in 4072 ms 
+INFO  16:22:24,506 MuTect - [MUTECTOR] Processed 965302191 reads in 1490 ms 
+INFO  16:22:25,753 MuTect - [MUTECTOR] Inspected 361000 potential candidates 
+INFO  16:22:25,779 MuTect - [MUTECTOR] Processed 966302300 reads in 1272 ms 
+INFO  16:22:27,289 MuTect - [MUTECTOR] Processed 967302769 reads in 1511 ms 
+INFO  16:22:28,445 MuTect - [MUTECTOR] Processed 968302772 reads in 1156 ms 
+INFO  16:22:29,534 MuTect - [MUTECTOR] Inspected 362000 potential candidates 
+INFO  16:22:29,647 MuTect - [MUTECTOR] Processed 969302802 reads in 1202 ms 
+INFO  16:22:30,774 MuTect - [MUTECTOR] Processed 970303087 reads in 1127 ms 
+INFO  16:22:31,761 MuTect - [MUTECTOR] Processed 971303123 reads in 987 ms 
+INFO  16:22:33,070 MuTect - [MUTECTOR] Inspected 363000 potential candidates 
+INFO  16:22:33,257 MuTect - [MUTECTOR] Processed 972303496 reads in 1496 ms 
+INFO  16:22:35,132 MuTect - [MUTECTOR] Processed 973304197 reads in 1875 ms 
+INFO  16:22:36,163 MuTect - [MUTECTOR] Processed 974304707 reads in 1031 ms 
+INFO  16:22:36,847 MuTect - [MUTECTOR] Inspected 364000 potential candidates 
+INFO  16:22:37,188 MuTect - [MUTECTOR] Processed 975305067 reads in 1025 ms 
+INFO  16:22:38,452 MuTect - [MUTECTOR] Processed 976305204 reads in 1264 ms 
+INFO  16:22:39,155 MuTect - [MUTECTOR] Inspected 365000 potential candidates 
+INFO  16:22:39,938 MuTect - [MUTECTOR] Processed 977305798 reads in 1486 ms 
+INFO  16:22:41,113 MuTect - [MUTECTOR] Processed 978305809 reads in 1175 ms 
+INFO  16:22:42,550 MuTect - [MUTECTOR] Processed 979306645 reads in 1437 ms 
+INFO  16:22:42,697 MuTect - [MUTECTOR] Inspected 366000 potential candidates 
+INFO  16:22:43,672 MuTect - [MUTECTOR] Processed 980306801 reads in 1122 ms 
+INFO  16:22:45,176 MuTect - [MUTECTOR] Processed 981306934 reads in 1503 ms 
+INFO  16:22:45,453 MuTect - [MUTECTOR] Inspected 367000 potential candidates 
+INFO  16:22:46,328 MuTect - [MUTECTOR] Processed 982307003 reads in 1153 ms 
+INFO  16:22:47,931 MuTect - [MUTECTOR] Processed 983307047 reads in 1603 ms 
+INFO  16:22:49,420 MuTect - [MUTECTOR] Inspected 368000 potential candidates 
+INFO  16:22:49,665 MuTect - [MUTECTOR] Processed 984307168 reads in 1734 ms 
+INFO  16:22:50,811 MuTect - [MUTECTOR] Processed 985307232 reads in 1146 ms 
+INFO  16:22:52,005 MuTect - [MUTECTOR] Processed 986307311 reads in 1194 ms 
+INFO  16:22:52,916 MuTect - [MUTECTOR] Inspected 369000 potential candidates 
+INFO  16:22:53,124 MuTect - [MUTECTOR] Processed 987307557 reads in 1118 ms 
+INFO  16:22:54,431 MuTect - [MUTECTOR] Processed 988307882 reads in 1308 ms 
+INFO  16:22:55,836 MuTect - [MUTECTOR] Inspected 370000 potential candidates 
+INFO  16:22:59,107 MuTect - [MUTECTOR] Processed 989308185 reads in 4676 ms 
+INFO  16:23:00,805 MuTect - [MUTECTOR] Inspected 371000 potential candidates 
+INFO  16:23:01,170 MuTect - [MUTECTOR] Processed 990308280 reads in 2063 ms 
+INFO  16:23:02,383 MuTect - [MUTECTOR] Processed 991309076 reads in 1213 ms 
+INFO  16:23:03,540 MuTect - [MUTECTOR] Processed 992309104 reads in 1157 ms 
+INFO  16:23:04,699 MuTect - [MUTECTOR] Processed 993309104 reads in 1159 ms 
+INFO  16:23:05,609 MuTect - [MUTECTOR] Inspected 372000 potential candidates 
+INFO  16:23:06,211 MuTect - [MUTECTOR] Processed 994309115 reads in 1512 ms 
+INFO  16:23:08,054 MuTect - [MUTECTOR] Processed 995309464 reads in 1842 ms 
+INFO  16:23:09,251 ProgressMeter -   chr1:39587545        3.96e+07   24.5 m       37.1 s      1.3%        31.9 h    31.5 h 
+INFO  16:23:09,715 MuTect - [MUTECTOR] Inspected 373000 potential candidates 
+INFO  16:23:10,446 MuTect - [MUTECTOR] Processed 996309741 reads in 2393 ms 
+INFO  16:23:12,090 MuTect - [MUTECTOR] Processed 997310233 reads in 1644 ms 
+INFO  16:23:13,685 MuTect - [MUTECTOR] Processed 998310309 reads in 1595 ms 
+INFO  16:23:14,854 MuTect - [MUTECTOR] Processed 999310504 reads in 1169 ms 
+INFO  16:23:14,974 MuTect - [MUTECTOR] Inspected 374000 potential candidates 
+INFO  16:23:15,852 MuTect - [MUTECTOR] Processed 1000311080 reads in 998 ms 
+INFO  16:23:16,865 MuTect - [MUTECTOR] Processed 1001311347 reads in 1013 ms 
+INFO  16:23:17,957 MuTect - [MUTECTOR] Processed 1002311959 reads in 1092 ms 
+INFO  16:23:18,924 MuTect - [MUTECTOR] Processed 1003312697 reads in 967 ms 
+INFO  16:23:20,275 MuTect - [MUTECTOR] Processed 1004313216 reads in 1351 ms 
+INFO  16:23:21,140 MuTect - [MUTECTOR] Processed 1005313535 reads in 865 ms 
+INFO  16:23:21,804 MuTect - [MUTECTOR] Inspected 375000 potential candidates 
+INFO  16:23:22,093 MuTect - [MUTECTOR] Processed 1006314150 reads in 953 ms 
+INFO  16:23:23,569 MuTect - [MUTECTOR] Processed 1007314237 reads in 1476 ms 
+INFO  16:23:24,717 MuTect - [MUTECTOR] Processed 1008314280 reads in 1148 ms 
+INFO  16:23:25,880 MuTect - [MUTECTOR] Processed 1009314474 reads in 1163 ms 
+INFO  16:23:26,697 MuTect - [MUTECTOR] Inspected 376000 potential candidates 
+INFO  16:23:26,783 MuTect - [MUTECTOR] Processed 1010314527 reads in 903 ms 
+INFO  16:23:27,786 MuTect - [MUTECTOR] Processed 1011314650 reads in 1003 ms 
+INFO  16:23:28,709 MuTect - [MUTECTOR] Processed 1012315077 reads in 923 ms 
+INFO  16:23:30,166 MuTect - [MUTECTOR] Processed 1013315387 reads in 1457 ms 
+INFO  16:23:31,325 MuTect - [MUTECTOR] Processed 1014315576 reads in 1159 ms 
+INFO  16:23:32,852 MuTect - [MUTECTOR] Processed 1015315733 reads in 1527 ms 
+INFO  16:23:32,967 MuTect - [MUTECTOR] Inspected 377000 potential candidates 
+INFO  16:23:33,781 MuTect - [MUTECTOR] Processed 1016316026 reads in 929 ms 
+INFO  16:23:34,846 MuTect - [MUTECTOR] Processed 1017316774 reads in 1065 ms 
+INFO  16:23:35,813 MuTect - [MUTECTOR] Processed 1018316780 reads in 967 ms 
+INFO  16:23:36,852 MuTect - [MUTECTOR] Processed 1019316853 reads in 1039 ms 
+INFO  16:23:37,045 MuTect - [MUTECTOR] Inspected 378000 potential candidates 
+INFO  16:23:38,213 MuTect - [MUTECTOR] Processed 1020316890 reads in 1361 ms 
+INFO  16:23:39,897 MuTect - [MUTECTOR] Processed 1021317176 reads in 1684 ms 
+INFO  16:23:41,230 MuTect - [MUTECTOR] Processed 1022317318 reads in 1333 ms 
+INFO  16:23:41,442 MuTect - [MUTECTOR] Inspected 379000 potential candidates 
+INFO  16:23:42,173 MuTect - [MUTECTOR] Processed 1023317712 reads in 943 ms 
+INFO  16:23:43,584 MuTect - [MUTECTOR] Processed 1024317761 reads in 1411 ms 
+INFO  16:23:44,636 MuTect - [MUTECTOR] Inspected 380000 potential candidates 
+INFO  16:23:45,030 MuTect - [MUTECTOR] Processed 1025318402 reads in 1446 ms 
+INFO  16:23:46,603 MuTect - [MUTECTOR] Processed 1026318598 reads in 1573 ms 
+INFO  16:23:48,040 MuTect - [MUTECTOR] Processed 1027319151 reads in 1437 ms 
+INFO  16:23:48,356 MuTect - [MUTECTOR] Inspected 381000 potential candidates 
+INFO  16:23:50,068 MuTect - [MUTECTOR] Processed 1028319447 reads in 2028 ms 
+INFO  16:23:51,361 MuTect - [MUTECTOR] Processed 1029319804 reads in 1293 ms 
+INFO  16:23:53,307 MuTect - [MUTECTOR] Inspected 382000 potential candidates 
+INFO  16:23:53,387 MuTect - [MUTECTOR] Processed 1030320052 reads in 2026 ms 
+INFO  16:23:54,867 MuTect - [MUTECTOR] Processed 1031320810 reads in 1480 ms 
+INFO  16:23:56,712 MuTect - [MUTECTOR] Processed 1032321340 reads in 1845 ms 
+INFO  16:23:58,245 MuTect - [MUTECTOR] Processed 1033321765 reads in 1533 ms 
+INFO  16:23:59,348 MuTect - [MUTECTOR] Processed 1034321967 reads in 1103 ms 
+INFO  16:24:00,642 MuTect - [MUTECTOR] Inspected 383000 potential candidates 
+INFO  16:24:01,687 MuTect - [MUTECTOR] Processed 1035322622 reads in 2339 ms 
+INFO  16:24:03,392 MuTect - [MUTECTOR] Processed 1036322951 reads in 1705 ms 
+INFO  16:24:04,344 MuTect - [MUTECTOR] Inspected 384000 potential candidates 
+INFO  16:24:05,065 MuTect - [MUTECTOR] Processed 1037323035 reads in 1673 ms 
+INFO  16:24:06,599 MuTect - [MUTECTOR] Processed 1038323846 reads in 1534 ms 
+INFO  16:24:07,523 MuTect - [MUTECTOR] Processed 1039324667 reads in 924 ms 
+INFO  16:24:08,598 MuTect - [MUTECTOR] Processed 1040325146 reads in 1075 ms 
+INFO  16:24:09,304 ProgressMeter -   chr1:40705357        4.07e+07   25.5 m       37.6 s      1.3%        32.3 h    31.9 h 
+INFO  16:24:09,896 MuTect - [MUTECTOR] Processed 1041325625 reads in 1298 ms 
+INFO  16:24:11,240 MuTect - [MUTECTOR] Processed 1042326352 reads in 1344 ms 
+INFO  16:24:12,113 MuTect - [MUTECTOR] Inspected 385000 potential candidates 
+INFO  16:24:12,480 MuTect - [MUTECTOR] Processed 1043326591 reads in 1240 ms 
+INFO  16:24:13,625 MuTect - [MUTECTOR] Processed 1044326925 reads in 1145 ms 
+INFO  16:24:14,910 MuTect - [MUTECTOR] Processed 1045327311 reads in 1285 ms 
+INFO  16:24:15,939 MuTect - [MUTECTOR] Inspected 386000 potential candidates 
+INFO  16:24:15,978 MuTect - [MUTECTOR] Processed 1046327454 reads in 1068 ms 
+INFO  16:24:17,095 MuTect - [MUTECTOR] Processed 1047327477 reads in 1117 ms 
+INFO  16:24:19,079 MuTect - [MUTECTOR] Processed 1048327719 reads in 1984 ms 
+INFO  16:24:19,821 MuTect - [MUTECTOR] Inspected 387000 potential candidates 
+INFO  16:24:20,346 MuTect - [MUTECTOR] Processed 1049327807 reads in 1267 ms 
+INFO  16:24:21,720 MuTect - [MUTECTOR] Processed 1050328179 reads in 1374 ms 
+INFO  16:24:23,417 MuTect - [MUTECTOR] Processed 1051328974 reads in 1696 ms 
+INFO  16:24:24,799 MuTect - [MUTECTOR] Processed 1052329620 reads in 1383 ms 
+INFO  16:24:25,676 MuTect - [MUTECTOR] Inspected 388000 potential candidates 
+INFO  16:24:25,880 MuTect - [MUTECTOR] Processed 1053329702 reads in 1081 ms 
+INFO  16:24:27,609 MuTect - [MUTECTOR] Processed 1054330228 reads in 1729 ms 
+INFO  16:24:30,039 MuTect - [MUTECTOR] Processed 1055330457 reads in 2430 ms 
+INFO  16:24:30,758 MuTect - [MUTECTOR] Inspected 389000 potential candidates 
+INFO  16:24:31,188 MuTect - [MUTECTOR] Processed 1056330813 reads in 1149 ms 
+INFO  16:24:32,213 MuTect - [MUTECTOR] Processed 1057331135 reads in 1025 ms 
+INFO  16:24:33,616 MuTect - [MUTECTOR] Processed 1058331695 reads in 1403 ms 
+INFO  16:24:34,713 MuTect - [MUTECTOR] Inspected 390000 potential candidates 
+INFO  16:24:34,862 MuTect - [MUTECTOR] Processed 1059332101 reads in 1246 ms 
+INFO  16:24:36,295 MuTect - [MUTECTOR] Processed 1060332103 reads in 1433 ms 
+INFO  16:24:38,102 MuTect - [MUTECTOR] Inspected 391000 potential candidates 
+INFO  16:24:38,860 MuTect - [MUTECTOR] Processed 1061332185 reads in 2565 ms 
+INFO  16:24:40,112 MuTect - [MUTECTOR] Processed 1062332551 reads in 1252 ms 
+INFO  16:24:41,075 MuTect - [MUTECTOR] Processed 1063332861 reads in 963 ms 
+INFO  16:24:41,475 MuTect - [MUTECTOR] Inspected 392000 potential candidates 
+INFO  16:24:42,351 MuTect - [MUTECTOR] Processed 1064333312 reads in 1276 ms 
+INFO  16:24:44,181 MuTect - [MUTECTOR] Processed 1065333366 reads in 1830 ms 
+INFO  16:24:45,768 MuTect - [MUTECTOR] Inspected 393000 potential candidates 
+INFO  16:24:45,793 MuTect - [MUTECTOR] Processed 1066333374 reads in 1612 ms 
+INFO  16:24:48,605 MuTect - [MUTECTOR] Processed 1067333762 reads in 2812 ms 
+INFO  16:24:50,092 MuTect - [MUTECTOR] Inspected 394000 potential candidates 
+INFO  16:24:50,756 MuTect - [MUTECTOR] Processed 1068333822 reads in 2150 ms 
+INFO  16:24:52,126 MuTect - [MUTECTOR] Processed 1069333911 reads in 1371 ms 
+INFO  16:24:53,430 MuTect - [MUTECTOR] Inspected 395000 potential candidates 
+INFO  16:24:53,754 MuTect - [MUTECTOR] Processed 1070334100 reads in 1628 ms 
+INFO  16:24:55,158 MuTect - [MUTECTOR] Processed 1071334154 reads in 1404 ms 
+INFO  16:24:56,664 MuTect - [MUTECTOR] Processed 1072334847 reads in 1506 ms 
+INFO  16:24:57,611 MuTect - [MUTECTOR] Processed 1073335060 reads in 947 ms 
+INFO  16:24:59,274 MuTect - [MUTECTOR] Inspected 396000 potential candidates 
+INFO  16:25:02,641 MuTect - [MUTECTOR] Processed 1074335168 reads in 5030 ms 
+INFO  16:25:03,525 MuTect - [MUTECTOR] Inspected 397000 potential candidates 
+INFO  16:25:04,096 MuTect - [MUTECTOR] Processed 1075335252 reads in 1455 ms 
+INFO  16:25:06,115 MuTect - [MUTECTOR] Processed 1076335291 reads in 2019 ms 
+INFO  16:25:08,451 MuTect - [MUTECTOR] Processed 1077335295 reads in 2336 ms 
+INFO  16:25:08,758 MuTect - [MUTECTOR] Inspected 398000 potential candidates 
+INFO  16:25:09,331 ProgressMeter -   chr1:42899013        4.29e+07   26.5 m       37.1 s      1.4%        31.9 h    31.4 h 
+INFO  16:25:10,192 MuTect - [MUTECTOR] Processed 1078336133 reads in 1741 ms 
+INFO  16:25:11,529 MuTect - [MUTECTOR] Processed 1079336147 reads in 1337 ms 
+INFO  16:25:12,843 MuTect - [MUTECTOR] Processed 1080336484 reads in 1314 ms 
+INFO  16:25:13,646 MuTect - [MUTECTOR] Inspected 399000 potential candidates 
+INFO  16:25:14,514 MuTect - [MUTECTOR] Processed 1081336612 reads in 1671 ms 
+INFO  16:25:16,495 MuTect - [MUTECTOR] Processed 1082336662 reads in 1981 ms 
+INFO  16:25:17,528 MuTect - [MUTECTOR] Processed 1083336883 reads in 1033 ms 
+INFO  16:25:18,010 MuTect - [MUTECTOR] Inspected 400000 potential candidates 
+INFO  16:25:18,842 MuTect - [MUTECTOR] Processed 1084336883 reads in 1314 ms 
+INFO  16:25:20,076 MuTect - [MUTECTOR] Processed 1085336956 reads in 1234 ms 
+INFO  16:25:21,272 MuTect - [MUTECTOR] Inspected 401000 potential candidates 
+INFO  16:25:21,391 MuTect - [MUTECTOR] Processed 1086337737 reads in 1315 ms 
+INFO  16:25:22,412 MuTect - [MUTECTOR] Processed 1087338081 reads in 1021 ms 
+INFO  16:25:23,810 MuTect - [MUTECTOR] Processed 1088338293 reads in 1398 ms 
+INFO  16:25:25,339 MuTect - [MUTECTOR] Processed 1089338378 reads in 1529 ms 
+INFO  16:25:26,038 MuTect - [MUTECTOR] Inspected 402000 potential candidates 
+INFO  16:25:26,328 MuTect - [MUTECTOR] Processed 1090338488 reads in 989 ms 
+INFO  16:25:27,430 MuTect - [MUTECTOR] Processed 1091338537 reads in 1102 ms 
+INFO  16:25:28,682 MuTect - [MUTECTOR] Processed 1092338808 reads in 1252 ms 
+INFO  16:25:29,840 MuTect - [MUTECTOR] Processed 1093339216 reads in 1158 ms 
+INFO  16:25:30,961 MuTect - [MUTECTOR] Inspected 403000 potential candidates 
+INFO  16:25:30,968 MuTect - [MUTECTOR] Processed 1094339233 reads in 1128 ms 
+INFO  16:25:32,426 MuTect - [MUTECTOR] Processed 1095339488 reads in 1458 ms 
+INFO  16:25:33,450 MuTect - [MUTECTOR] Processed 1096340348 reads in 1024 ms 
+INFO  16:25:34,976 MuTect - [MUTECTOR] Inspected 404000 potential candidates 
+INFO  16:25:36,017 MuTect - [MUTECTOR] Processed 1097340761 reads in 2567 ms 
+INFO  16:25:37,171 MuTect - [MUTECTOR] Processed 1098340774 reads in 1154 ms 
+INFO  16:25:38,327 MuTect - [MUTECTOR] Processed 1099340875 reads in 1156 ms 
+INFO  16:25:39,045 MuTect - [MUTECTOR] Inspected 405000 potential candidates 
+INFO  16:25:39,687 MuTect - [MUTECTOR] Processed 1100341087 reads in 1360 ms 
+INFO  16:25:40,796 MuTect - [MUTECTOR] Processed 1101341252 reads in 1109 ms 
+INFO  16:25:42,179 MuTect - [MUTECTOR] Processed 1102342108 reads in 1383 ms 
+INFO  16:25:43,662 MuTect - [MUTECTOR] Inspected 406000 potential candidates 
+INFO  16:25:43,809 MuTect - [MUTECTOR] Processed 1103342281 reads in 1630 ms 
+INFO  16:25:45,264 MuTect - [MUTECTOR] Processed 1104342878 reads in 1455 ms 
+INFO  16:25:46,195 MuTect - [MUTECTOR] Processed 1105343094 reads in 931 ms 
+INFO  16:25:47,631 MuTect - [MUTECTOR] Processed 1106343405 reads in 1436 ms 
+INFO  16:25:48,092 MuTect - [MUTECTOR] Inspected 407000 potential candidates 
+INFO  16:25:49,341 MuTect - [MUTECTOR] Processed 1107344348 reads in 1710 ms 
+INFO  16:25:50,610 MuTect - [MUTECTOR] Processed 1108345107 reads in 1269 ms 
+INFO  16:25:51,782 MuTect - [MUTECTOR] Processed 1109345594 reads in 1172 ms 
+INFO  16:25:53,361 MuTect - [MUTECTOR] Processed 1110345947 reads in 1579 ms 
+INFO  16:25:54,605 MuTect - [MUTECTOR] Processed 1111346403 reads in 1244 ms 
+INFO  16:25:55,701 MuTect - [MUTECTOR] Inspected 408000 potential candidates 
+INFO  16:25:55,984 MuTect - [MUTECTOR] Processed 1112346794 reads in 1379 ms 
+INFO  16:25:57,540 MuTect - [MUTECTOR] Processed 1113346799 reads in 1556 ms 
+INFO  16:25:59,045 MuTect - [MUTECTOR] Processed 1114346834 reads in 1505 ms 
+INFO  16:26:00,557 MuTect - [MUTECTOR] Processed 1115347203 reads in 1512 ms 
+INFO  16:26:00,894 MuTect - [MUTECTOR] Inspected 409000 potential candidates 
+INFO  16:26:01,806 MuTect - [MUTECTOR] Processed 1116347230 reads in 1249 ms 
+INFO  16:26:02,733 MuTect - [MUTECTOR] Processed 1117347751 reads in 927 ms 
+INFO  16:26:04,031 MuTect - [MUTECTOR] Processed 1118348242 reads in 1297 ms 
+INFO  16:26:05,258 MuTect - [MUTECTOR] Processed 1119349185 reads in 1228 ms 
+INFO  16:26:05,657 MuTect - [MUTECTOR] Inspected 410000 potential candidates 
+INFO  16:26:06,211 MuTect - [MUTECTOR] Processed 1120349244 reads in 953 ms 
+INFO  16:26:07,215 MuTect - [MUTECTOR] Processed 1121349321 reads in 1004 ms 
+INFO  16:26:08,192 MuTect - [MUTECTOR] Processed 1122349840 reads in 977 ms 
+INFO  16:26:09,331 MuTect - [MUTECTOR] Processed 1123350220 reads in 1139 ms 
+INFO  16:26:09,345 ProgressMeter -   chr1:43908837        4.39e+07   27.5 m       37.6 s      1.4%        32.3 h    31.9 h 
+INFO  16:26:10,213 MuTect - [MUTECTOR] Inspected 411000 potential candidates 
+INFO  16:26:10,259 MuTect - [MUTECTOR] Processed 1124350335 reads in 928 ms 
+INFO  16:26:11,189 MuTect - [MUTECTOR] Processed 1125350895 reads in 929 ms 
+INFO  16:26:12,154 MuTect - [MUTECTOR] Processed 1126351240 reads in 966 ms 
+INFO  16:26:13,201 MuTect - [MUTECTOR] Processed 1127352213 reads in 1046 ms 
+INFO  16:26:15,076 MuTect - [MUTECTOR] Processed 1128352233 reads in 1876 ms 
+INFO  16:26:17,094 MuTect - [MUTECTOR] Processed 1129352938 reads in 2018 ms 
+INFO  16:26:17,412 MuTect - [MUTECTOR] Inspected 412000 potential candidates 
+INFO  16:26:18,180 MuTect - [MUTECTOR] Processed 1130353335 reads in 1085 ms 
+INFO  16:26:19,447 MuTect - [MUTECTOR] Processed 1131354120 reads in 1267 ms 
+INFO  16:26:20,434 MuTect - [MUTECTOR] Processed 1132354676 reads in 988 ms 
+INFO  16:26:21,278 MuTect - [MUTECTOR] Inspected 413000 potential candidates 
+INFO  16:26:21,464 MuTect - [MUTECTOR] Processed 1133354780 reads in 1030 ms 
+INFO  16:26:22,663 MuTect - [MUTECTOR] Processed 1134354908 reads in 1199 ms 
+INFO  16:26:23,857 MuTect - [MUTECTOR] Processed 1135355243 reads in 1194 ms 
+INFO  16:26:25,196 MuTect - [MUTECTOR] Processed 1136355270 reads in 1339 ms 
+INFO  16:26:25,982 MuTect - [MUTECTOR] Inspected 414000 potential candidates 
+INFO  16:26:26,449 MuTect - [MUTECTOR] Processed 1137355349 reads in 1253 ms 
+INFO  16:26:27,966 MuTect - [MUTECTOR] Processed 1138355780 reads in 1517 ms 
+INFO  16:26:30,023 MuTect - [MUTECTOR] Processed 1139355786 reads in 2057 ms 
+INFO  16:26:30,173 MuTect - [MUTECTOR] Inspected 415000 potential candidates 
+INFO  16:26:31,646 MuTect - [MUTECTOR] Processed 1140356055 reads in 1623 ms 
+INFO  16:26:32,978 MuTect - [MUTECTOR] Processed 1141356366 reads in 1332 ms 
+INFO  16:26:34,447 MuTect - [MUTECTOR] Processed 1142356645 reads in 1469 ms 
+INFO  16:26:34,904 MuTect - [MUTECTOR] Inspected 416000 potential candidates 
+INFO  16:26:35,885 MuTect - [MUTECTOR] Processed 1143356850 reads in 1438 ms 
+INFO  16:26:36,925 MuTect - [MUTECTOR] Processed 1144357554 reads in 1040 ms 
+INFO  16:26:37,961 MuTect - [MUTECTOR] Processed 1145357909 reads in 1036 ms 
+INFO  16:26:39,057 MuTect - [MUTECTOR] Processed 1146358228 reads in 1096 ms 
+INFO  16:26:40,144 MuTect - [MUTECTOR] Processed 1147358778 reads in 1087 ms 
+INFO  16:26:41,143 MuTect - [MUTECTOR] Processed 1148358794 reads in 999 ms 
+INFO  16:26:41,781 MuTect - [MUTECTOR] Inspected 417000 potential candidates 
+INFO  16:26:42,072 MuTect - [MUTECTOR] Processed 1149359144 reads in 929 ms 
+INFO  16:26:43,109 MuTect - [MUTECTOR] Processed 1150359146 reads in 1037 ms 
+INFO  16:26:44,463 MuTect - [MUTECTOR] Processed 1151360051 reads in 1354 ms 
+INFO  16:26:45,476 MuTect - [MUTECTOR] Processed 1152360323 reads in 1013 ms 
+INFO  16:26:45,851 MuTect - [MUTECTOR] Inspected 418000 potential candidates 
+INFO  16:26:47,021 MuTect - [MUTECTOR] Processed 1153361248 reads in 1544 ms 
+INFO  16:26:49,233 MuTect - [MUTECTOR] Processed 1154361819 reads in 2213 ms 
+INFO  16:26:49,928 MuTect - [MUTECTOR] Inspected 419000 potential candidates 
+INFO  16:26:50,847 MuTect - [MUTECTOR] Processed 1155362150 reads in 1614 ms 
+INFO  16:26:52,182 MuTect - [MUTECTOR] Processed 1156362731 reads in 1335 ms 
+INFO  16:26:53,125 MuTect - [MUTECTOR] Processed 1157362731 reads in 943 ms 
+INFO  16:26:54,076 MuTect - [MUTECTOR] Inspected 420000 potential candidates 
+INFO  16:26:55,482 MuTect - [MUTECTOR] Processed 1158362733 reads in 2356 ms 
+INFO  16:26:57,850 MuTect - [MUTECTOR] Processed 1159362793 reads in 2369 ms 
+INFO  16:26:58,671 MuTect - [MUTECTOR] Inspected 421000 potential candidates 
+INFO  16:26:59,643 MuTect - [MUTECTOR] Processed 1160362876 reads in 1793 ms 
+INFO  16:27:00,906 MuTect - [MUTECTOR] Processed 1161363269 reads in 1263 ms 
+INFO  16:27:01,873 MuTect - [MUTECTOR] Inspected 422000 potential candidates 
+INFO  16:27:02,271 MuTect - [MUTECTOR] Processed 1162363393 reads in 1365 ms 
+INFO  16:27:03,575 MuTect - [MUTECTOR] Processed 1163363642 reads in 1304 ms 
+INFO  16:27:04,290 MuTect - [MUTECTOR] Inspected 423000 potential candidates 
+INFO  16:27:05,021 MuTect - [MUTECTOR] Processed 1164363817 reads in 1446 ms 
+INFO  16:27:06,431 MuTect - [MUTECTOR] Processed 1165363955 reads in 1410 ms 
+INFO  16:27:07,236 MuTect - [MUTECTOR] Inspected 424000 potential candidates 
+INFO  16:27:07,997 MuTect - [MUTECTOR] Processed 1166364034 reads in 1566 ms 
+INFO  16:27:09,253 MuTect - [MUTECTOR] Processed 1167364194 reads in 1256 ms 
+INFO  16:27:09,373 ProgressMeter -   chr1:45271093        4.53e+07   28.5 m       37.8 s      1.5%        32.5 h    32.0 h 
+INFO  16:27:10,490 MuTect - [MUTECTOR] Processed 1168364883 reads in 1237 ms 
+INFO  16:27:11,236 MuTect - [MUTECTOR] Inspected 425000 potential candidates 
+INFO  16:27:11,538 MuTect - [MUTECTOR] Processed 1169365395 reads in 1048 ms 
+INFO  16:27:12,497 MuTect - [MUTECTOR] Processed 1170365584 reads in 958 ms 
+INFO  16:27:13,309 MuTect - [MUTECTOR] Inspected 426000 potential candidates 
+INFO  16:27:13,543 MuTect - [MUTECTOR] Processed 1171365662 reads in 1047 ms 
+INFO  16:27:15,708 MuTect - [MUTECTOR] Processed 1172365668 reads in 2165 ms 
+INFO  16:27:16,798 MuTect - [MUTECTOR] Inspected 427000 potential candidates 
+INFO  16:27:17,415 MuTect - [MUTECTOR] Processed 1173365963 reads in 1707 ms 
+INFO  16:27:18,566 MuTect - [MUTECTOR] Processed 1174366481 reads in 1151 ms 
+INFO  16:27:19,695 MuTect - [MUTECTOR] Processed 1175366611 reads in 1129 ms 
+INFO  16:27:20,298 MuTect - [MUTECTOR] Inspected 428000 potential candidates 
+INFO  16:27:20,654 MuTect - [MUTECTOR] Processed 1176366927 reads in 959 ms 
+INFO  16:27:21,892 MuTect - [MUTECTOR] Processed 1177367192 reads in 1238 ms 
+INFO  16:27:23,395 MuTect - [MUTECTOR] Inspected 429000 potential candidates 
+INFO  16:27:24,206 MuTect - [MUTECTOR] Processed 1178367349 reads in 2314 ms 
+INFO  16:27:25,376 MuTect - [MUTECTOR] Processed 1179367776 reads in 1170 ms 
+INFO  16:27:26,412 MuTect - [MUTECTOR] Processed 1180368551 reads in 1035 ms 
+INFO  16:27:27,055 MuTect - [MUTECTOR] Inspected 430000 potential candidates 
+INFO  16:27:27,745 MuTect - [MUTECTOR] Processed 1181368837 reads in 1334 ms 
+INFO  16:27:28,990 MuTect - [MUTECTOR] Processed 1182368950 reads in 1245 ms 
+INFO  16:27:30,102 MuTect - [MUTECTOR] Inspected 431000 potential candidates 
+INFO  16:27:31,078 MuTect - [MUTECTOR] Processed 1183369096 reads in 2088 ms 
+INFO  16:27:32,565 MuTect - [MUTECTOR] Processed 1184369236 reads in 1487 ms 
+INFO  16:27:34,321 MuTect - [MUTECTOR] Inspected 432000 potential candidates 
+INFO  16:27:34,368 MuTect - [MUTECTOR] Processed 1185369244 reads in 1803 ms 
+INFO  16:27:36,223 MuTect - [MUTECTOR] Processed 1186369774 reads in 1855 ms 
+INFO  16:27:37,426 MuTect - [MUTECTOR] Processed 1187369785 reads in 1203 ms 
+INFO  16:27:37,461 MuTect - [MUTECTOR] Inspected 433000 potential candidates 
+INFO  16:27:39,057 MuTect - [MUTECTOR] Processed 1188370129 reads in 1631 ms 
+INFO  16:27:40,614 MuTect - [MUTECTOR] Processed 1189370447 reads in 1557 ms 
+INFO  16:27:41,282 MuTect - [MUTECTOR] Inspected 434000 potential candidates 
+INFO  16:27:42,127 MuTect - [MUTECTOR] Processed 1190370633 reads in 1513 ms 
+INFO  16:27:43,477 MuTect - [MUTECTOR] Processed 1191370878 reads in 1350 ms 
+INFO  16:27:45,883 MuTect - [MUTECTOR] Processed 1192370879 reads in 2406 ms 
+INFO  16:27:45,889 MuTect - [MUTECTOR] Inspected 435000 potential candidates 
+INFO  16:27:48,065 MuTect - [MUTECTOR] Processed 1193371051 reads in 2182 ms 
+INFO  16:27:49,480 MuTect - [MUTECTOR] Processed 1194371631 reads in 1415 ms 
+INFO  16:27:49,522 MuTect - [MUTECTOR] Inspected 436000 potential candidates 
+INFO  16:27:50,771 MuTect - [MUTECTOR] Processed 1195371633 reads in 1291 ms 
+INFO  16:27:51,880 MuTect - [MUTECTOR] Processed 1196371975 reads in 1108 ms 
+INFO  16:27:52,776 MuTect - [MUTECTOR] Inspected 437000 potential candidates 
+INFO  16:27:52,966 MuTect - [MUTECTOR] Processed 1197372095 reads in 1086 ms 
+INFO  16:27:54,975 MuTect - [MUTECTOR] Processed 1198372385 reads in 2009 ms 
+INFO  16:27:56,192 MuTect - [MUTECTOR] Processed 1199372535 reads in 1218 ms 
+INFO  16:27:56,496 MuTect - [MUTECTOR] Inspected 438000 potential candidates 
+INFO  16:27:57,118 MuTect - [MUTECTOR] Processed 1200372775 reads in 926 ms 
+INFO  16:27:58,070 MuTect - [MUTECTOR] Processed 1201372940 reads in 951 ms 
+INFO  16:27:59,544 MuTect - [MUTECTOR] Inspected 439000 potential candidates 
+INFO  16:27:59,686 MuTect - [MUTECTOR] Processed 1202373033 reads in 1617 ms 
+INFO  16:28:00,634 MuTect - [MUTECTOR] Processed 1203373088 reads in 948 ms 
+INFO  16:28:01,613 MuTect - [MUTECTOR] Processed 1204373105 reads in 979 ms 
+INFO  16:28:02,166 MuTect - [MUTECTOR] Inspected 440000 potential candidates 
+INFO  16:28:02,923 MuTect - [MUTECTOR] Processed 1205373212 reads in 1310 ms 
+INFO  16:28:04,780 MuTect - [MUTECTOR] Processed 1206373686 reads in 1857 ms 
+INFO  16:28:05,259 MuTect - [MUTECTOR] Inspected 441000 potential candidates 
+INFO  16:28:06,138 MuTect - [MUTECTOR] Processed 1207373730 reads in 1358 ms 
+INFO  16:28:07,606 MuTect - [MUTECTOR] Inspected 442000 potential candidates 
+INFO  16:28:07,893 MuTect - [MUTECTOR] Processed 1208374421 reads in 1755 ms 
+INFO  16:28:09,380 ProgressMeter -   chr1:47024281        4.70e+07   29.5 m       37.7 s      1.5%        32.4 h    31.9 h 
+INFO  16:28:09,497 MuTect - [MUTECTOR] Processed 1209374655 reads in 1604 ms 
+INFO  16:28:10,203 MuTect - [MUTECTOR] Inspected 443000 potential candidates 
+INFO  16:28:10,568 MuTect - [MUTECTOR] Processed 1210374694 reads in 1071 ms 
+INFO  16:28:11,921 MuTect - [MUTECTOR] Processed 1211375303 reads in 1353 ms 
+INFO  16:28:13,736 MuTect - [MUTECTOR] Processed 1212375669 reads in 1815 ms 
+INFO  16:28:13,815 MuTect - [MUTECTOR] Inspected 444000 potential candidates 
+INFO  16:28:15,129 MuTect - [MUTECTOR] Processed 1213376079 reads in 1393 ms 
+INFO  16:28:16,104 MuTect - [MUTECTOR] Processed 1214376135 reads in 975 ms 
+INFO  16:28:17,648 MuTect - [MUTECTOR] Inspected 445000 potential candidates 
+INFO  16:28:17,656 MuTect - [MUTECTOR] Processed 1215376144 reads in 1552 ms 
+INFO  16:28:19,070 MuTect - [MUTECTOR] Processed 1216376292 reads in 1414 ms 
+INFO  16:28:21,067 MuTect - [MUTECTOR] Processed 1217376379 reads in 1996 ms 
+INFO  16:28:21,435 MuTect - [MUTECTOR] Inspected 446000 potential candidates 
+INFO  16:28:22,413 MuTect - [MUTECTOR] Processed 1218376453 reads in 1347 ms 
+INFO  16:28:24,017 MuTect - [MUTECTOR] Processed 1219376733 reads in 1604 ms 
+INFO  16:28:24,887 MuTect - [MUTECTOR] Inspected 447000 potential candidates 
+INFO  16:28:25,621 MuTect - [MUTECTOR] Processed 1220376765 reads in 1604 ms 
+INFO  16:28:27,140 MuTect - [MUTECTOR] Processed 1221377015 reads in 1519 ms 
+INFO  16:28:28,204 MuTect - [MUTECTOR] Inspected 448000 potential candidates 
+INFO  16:28:28,543 MuTect - [MUTECTOR] Processed 1222377193 reads in 1403 ms 
+INFO  16:28:30,205 MuTect - [MUTECTOR] Processed 1223377224 reads in 1662 ms 
+INFO  16:28:31,248 MuTect - [MUTECTOR] Processed 1224377243 reads in 1043 ms 
+INFO  16:28:31,843 MuTect - [MUTECTOR] Inspected 449000 potential candidates 
+INFO  16:28:32,912 MuTect - [MUTECTOR] Processed 1225377313 reads in 1664 ms 
+INFO  16:28:36,272 MuTect - [MUTECTOR] Inspected 450000 potential candidates 
+INFO  16:28:36,407 MuTect - [MUTECTOR] Processed 1226377313 reads in 3495 ms 
+INFO  16:28:39,944 MuTect - [MUTECTOR] Processed 1227377313 reads in 3537 ms 
+INFO  16:28:40,984 MuTect - [MUTECTOR] Inspected 451000 potential candidates 
+INFO  16:28:41,852 MuTect - [MUTECTOR] Processed 1228377445 reads in 1907 ms 
+INFO  16:28:43,090 MuTect - [MUTECTOR] Processed 1229377624 reads in 1239 ms 
+INFO  16:28:44,205 MuTect - [MUTECTOR] Inspected 452000 potential candidates 
+INFO  16:28:45,194 MuTect - [MUTECTOR] Processed 1230377760 reads in 2104 ms 
+INFO  16:28:47,156 MuTect - [MUTECTOR] Processed 1231377884 reads in 1962 ms 
+INFO  16:28:48,134 MuTect - [MUTECTOR] Inspected 453000 potential candidates 
+INFO  16:28:49,361 MuTect - [MUTECTOR] Processed 1232378172 reads in 2205 ms 
+INFO  16:28:54,196 MuTect - [MUTECTOR] Processed 1233378513 reads in 4834 ms 
+INFO  16:28:54,406 MuTect - [MUTECTOR] Inspected 454000 potential candidates 
+INFO  16:28:56,873 MuTect - [MUTECTOR] Processed 1234378861 reads in 2678 ms 
+INFO  16:28:58,653 MuTect - [MUTECTOR] Processed 1235378902 reads in 1780 ms 
+INFO  16:28:59,316 MuTect - [MUTECTOR] Inspected 455000 potential candidates 
+INFO  16:29:00,972 MuTect - [MUTECTOR] Processed 1236378924 reads in 2319 ms 
+INFO  16:29:03,002 MuTect - [MUTECTOR] Inspected 456000 potential candidates 
+INFO  16:29:03,026 MuTect - [MUTECTOR] Processed 1237378930 reads in 2054 ms 
+INFO  16:29:05,571 MuTect - [MUTECTOR] Processed 1238379098 reads in 2545 ms 
+INFO  16:29:07,547 MuTect - [MUTECTOR] Processed 1239379098 reads in 1976 ms 
+INFO  16:29:07,854 MuTect - [MUTECTOR] Inspected 457000 potential candidates 
+INFO  16:29:09,382 ProgressMeter -   chr1:51760357        5.18e+07   30.5 m       35.4 s      1.7%        30.4 h    29.9 h 
+INFO  16:29:09,393 MuTect - [MUTECTOR] Processed 1240379123 reads in 1846 ms 
+INFO  16:29:10,600 MuTect - [MUTECTOR] Processed 1241379379 reads in 1207 ms 
+INFO  16:29:10,625 MuTect - [MUTECTOR] Inspected 458000 potential candidates 
+INFO  16:29:12,151 MuTect - [MUTECTOR] Processed 1242379604 reads in 1551 ms 
+INFO  16:29:13,150 MuTect - [MUTECTOR] Inspected 459000 potential candidates 
+INFO  16:29:13,386 MuTect - [MUTECTOR] Processed 1243379611 reads in 1235 ms 
+INFO  16:29:15,329 MuTect - [MUTECTOR] Processed 1244379674 reads in 1943 ms 
+INFO  16:29:16,414 MuTect - [MUTECTOR] Inspected 460000 potential candidates 
+INFO  16:29:17,380 MuTect - [MUTECTOR] Processed 1245379732 reads in 2051 ms 
+INFO  16:29:18,568 MuTect - [MUTECTOR] Processed 1246379984 reads in 1188 ms 
+INFO  16:29:18,990 MuTect - [MUTECTOR] Inspected 461000 potential candidates 
+INFO  16:29:19,919 MuTect - [MUTECTOR] Processed 1247379989 reads in 1351 ms 
+INFO  16:29:20,939 MuTect - [MUTECTOR] Processed 1248380120 reads in 1020 ms 
+INFO  16:29:21,568 MuTect - [MUTECTOR] Inspected 462000 potential candidates 
+INFO  16:29:22,484 MuTect - [MUTECTOR] Processed 1249380164 reads in 1545 ms 
+INFO  16:29:24,602 MuTect - [MUTECTOR] Processed 1250380233 reads in 2118 ms 
+INFO  16:29:25,626 MuTect - [MUTECTOR] Inspected 463000 potential candidates 
+INFO  16:29:26,014 MuTect - [MUTECTOR] Processed 1251380515 reads in 1412 ms 
+INFO  16:29:28,404 MuTect - [MUTECTOR] Processed 1252381068 reads in 2390 ms 
+INFO  16:29:29,752 MuTect - [MUTECTOR] Processed 1253381347 reads in 1348 ms 
+INFO  16:29:30,024 MuTect - [MUTECTOR] Inspected 464000 potential candidates 
+INFO  16:29:31,602 MuTect - [MUTECTOR] Processed 1254381357 reads in 1850 ms 
+INFO  16:29:33,100 MuTect - [MUTECTOR] Processed 1255381501 reads in 1497 ms 
+INFO  16:29:33,109 MuTect - [MUTECTOR] Inspected 465000 potential candidates 
+INFO  16:29:34,417 MuTect - [MUTECTOR] Processed 1256381534 reads in 1318 ms 
+INFO  16:29:35,397 MuTect - [MUTECTOR] Inspected 466000 potential candidates 
+INFO  16:29:35,469 MuTect - [MUTECTOR] Processed 1257381585 reads in 1052 ms 
+INFO  16:29:36,640 MuTect - [MUTECTOR] Processed 1258381605 reads in 1171 ms 
+INFO  16:29:38,286 MuTect - [MUTECTOR] Processed 1259381605 reads in 1646 ms 
+INFO  16:29:38,989 MuTect - [MUTECTOR] Inspected 467000 potential candidates 
+INFO  16:29:39,692 MuTect - [MUTECTOR] Processed 1260381764 reads in 1405 ms 
+INFO  16:29:40,959 MuTect - [MUTECTOR] Processed 1261381886 reads in 1268 ms 
+INFO  16:29:41,190 MuTect - [MUTECTOR] Inspected 468000 potential candidates 
+INFO  16:29:42,762 MuTect - [MUTECTOR] Processed 1262381926 reads in 1803 ms 
+INFO  16:29:44,918 MuTect - [MUTECTOR] Processed 1263382007 reads in 2156 ms 
+INFO  16:29:45,435 MuTect - [MUTECTOR] Inspected 469000 potential candidates 
+INFO  16:29:46,798 MuTect - [MUTECTOR] Processed 1264382263 reads in 1880 ms 
+INFO  16:29:48,341 MuTect - [MUTECTOR] Processed 1265382622 reads in 1543 ms 
+INFO  16:29:48,623 MuTect - [MUTECTOR] Inspected 470000 potential candidates 
+INFO  16:29:49,780 MuTect - [MUTECTOR] Processed 1266382627 reads in 1439 ms 
+INFO  16:29:51,108 MuTect - [MUTECTOR] Inspected 471000 potential candidates 
+INFO  16:29:51,199 MuTect - [MUTECTOR] Processed 1267382908 reads in 1419 ms 
+INFO  16:29:52,557 MuTect - [MUTECTOR] Processed 1268382936 reads in 1358 ms 
+INFO  16:29:53,982 MuTect - [MUTECTOR] Inspected 472000 potential candidates 
+INFO  16:29:53,987 MuTect - [MUTECTOR] Processed 1269383262 reads in 1430 ms 
+INFO  16:29:55,069 MuTect - [MUTECTOR] Processed 1270383476 reads in 1082 ms 
+INFO  16:29:56,161 MuTect - [MUTECTOR] Inspected 473000 potential candidates 
+INFO  16:29:57,046 MuTect - [MUTECTOR] Processed 1271383522 reads in 1977 ms 
+INFO  16:29:58,383 MuTect - [MUTECTOR] Processed 1272383586 reads in 1337 ms 
+INFO  16:29:59,450 MuTect - [MUTECTOR] Inspected 474000 potential candidates 
+INFO  16:29:59,495 MuTect - [MUTECTOR] Processed 1273383751 reads in 1112 ms 
+INFO  16:30:00,747 MuTect - [MUTECTOR] Processed 1274383984 reads in 1252 ms 
+INFO  16:30:01,620 MuTect - [MUTECTOR] Inspected 475000 potential candidates 
+INFO  16:30:02,022 MuTect - [MUTECTOR] Processed 1275384733 reads in 1275 ms 
