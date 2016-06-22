@@ -35,4 +35,10 @@ samtools sort -T VarScan_output/patient_$PATIENT_ID/N.temp -o VarScan_output/pat
 samtools mpileup -f hg19/genome.fa VarScan_output/patient_$PATIENT_ID/patient_$PATIENT_ID-N.bam > VarScan_output/patient_$PATIENT_ID/patient_$PATIENT_ID-N.pileup
 
 cd VarScan_output/patient_$PATIENT_ID
-java -jar /export/apps/VarScan.v2.4.2.jar somatic patient_$PATIENT_ID-N.pileup patient_$PATIENT_ID-T.pileup patient_$PATIENT_ID.snp
+java -jar /export/apps/VarScan.v2.4.2.jar somatic patient_$PATIENT_ID-N.pileup patient_$PATIENT_ID-T.pileup patient_$PATIENT_ID --min-coverage 10 --min-var-freq 0.08 --somatic-p-value 0.05
+
+java -jar /export/apps/VarScan.v2.4.2.jar processSomatic patient_$PATIENT_ID.snp
+java -jar /export/apps/VarScan.v2.4.2.jar processSomatic patient_$PATIENT_ID.indel
+java -jar /export/apps/VarScan.v2.4.2.jar somaticFilter patient_$PATIENT_ID.snp.Somatic.hc --indel-file patient_$PATIENT_ID.indel --output-file patient_$PATIENT_ID.snp.Somatic.hc.filter
+
+java -jar /export/apps/VarScan.v2.4.2.jar somatic patient_$PATIENT_ID-N.pileup patient_$PATIENT_ID-T.pileup patient_$PATIENT_ID --output-vcf 1 --min-coverage 10 --min-var-freq 0.08 --somatic-p-value 0.05

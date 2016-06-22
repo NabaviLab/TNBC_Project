@@ -1,0 +1,40 @@
+Normal Pileup: patient_085-N.pileup
+Tumor Pileup: patient_085-T.pileup
+Min coverage:	10x for Normal, 10x for Tumor
+Min reads2:	2
+Min strands2:	1
+Min var freq:	0.08
+Min freq for hom:	0.75
+Normal purity:	1.0
+Tumor purity:	1.0
+Min avg qual:	15
+P-value thresh:	0.99
+Somatic p-value:	0.05
+216122226 positions in tumor
+215105313 positions shared in normal
+75857958 had sufficient coverage for comparison
+0 were called Reference
+3 were mixed SNP-indel calls and filtered
+75857864 were called Germline
+0 were called LOH
+0 were called Somatic
+91 were called Unknown
+0 were called Variant
+Reading input from patient_085.basename.snp
+Opening output files: patient_085.basename.snp.Somatic patient_085.basename.snp.Germline patient_085.basename.snp.LOH 
+Reading input from patient_085.basename.indel
+Opening output files: patient_085.basename.indel.Somatic patient_085.basename.indel.Germline patient_085.basename.indel.LOH 
+Window size:	10
+Window SNPs:	3
+Indel margin:	3
+Reading input from patient_085.basename.snp.Somatic.hc
+0 cluster SNPs identified
+Reading input from patient_085.basename.snp.Somatic.hc
+0 variants in input stream
+0 failed to meet coverage requirement
+0 failed to meet reads2 requirement
+0 failed to meet varfreq requirement
+0 failed to meet p-value requirement
+0 in SNP clusters were removed
+0 were removed near indels
+0 passed filters
