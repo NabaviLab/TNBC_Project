@@ -28,7 +28,8 @@ cd $WORK_DIR
 PATIENT_ID=$1
 mkdir VarScan_output/patient_$PATIENT_ID
 
-samtools sort -T VarScan_output/patient_$PATIENT_ID/T.temp -o VarScan_output/patient_$PATIENT_ID/patient_$PATIENT_ID-T.bam -O bam -m 8G BWA_output/p_DS_bkm_$PATIENT_ID-T.sam 
+samtools sort -T VarScan_output/patient_$PATIENT_ID/T1.temp -o VarScan_output/patient_$PATIENT_ID/patient_$PATIENT_ID-T.bam -O bam -m 8G BWA_output/p_DS_bkm_$PATIENT_ID-T.sam
+
 samtools mpileup -f hg19/genome.fa VarScan_output/patient_$PATIENT_ID/patient_$PATIENT_ID-T.bam > VarScan_output/patient_$PATIENT_ID/patient_$PATIENT_ID-T.pileup
 
 samtools sort -T VarScan_output/patient_$PATIENT_ID/N.temp -o VarScan_output/patient_$PATIENT_ID/patient_$PATIENT_ID-N.bam -O bam -m 8G BWA_output/p_DS_bkm_$PATIENT_ID-N.sam 
