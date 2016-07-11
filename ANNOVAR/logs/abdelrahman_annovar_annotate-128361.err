@@ -1,0 +1,12 @@
+NOTICE: The --geneanno operation is set to ON by default
+NOTICE: Output files were written to p112-SomaticMutation.variant_function, p112-SomaticMutation.exonic_variant_function
+NOTICE: Reading gene annotation from /home/abdelrahman/annovar/humandb/hg19_refGene.txt ... Done with 52068 transcripts (including 11837 without coding sequence annotation) for 26464 unique genes
+NOTICE: Processing next batch with 621 unique variants in 621 input lines
+NOTICE: Reading FASTA sequences from /home/abdelrahman/annovar/humandb/hg19_refGeneMrna.fa ... Done with 299 sequences
+WARNING: A total of 356 sequences will be ignored due to lack of correct ORF annotation
+NOTICE: The --geneanno operation is set to ON by default
+NOTICE: Output files were written to p112.variant_function, p112.exonic_variant_function
+NOTICE: Reading gene annotation from /home/abdelrahman/annovar/humandb/hg19_refGene.txt ... Done with 52068 transcripts (including 11837 without coding sequence annotation) for 26464 unique genes
+NOTICE: Processing next batch with 934496 unique variants in 934496 input lines
+NOTICE: Reading FASTA sequences from /home/abdelrahman/annovar/humandb/hg19_refGeneMrna.fa ... Done with 33568 sequences
+WARNING: A total of 356 sequences will be ignored due to lack of correct ORF annotation
