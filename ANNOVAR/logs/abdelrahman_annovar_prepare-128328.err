@@ -1,0 +1,10 @@
+NOTICE: for SNPs, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, RMS mapping quality, quality by depth, if these information can be recognized automatically
+NOTICE: for indels, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, read count supporting indel call, RMS mapping quality, if these information can be recognized automatically
+NOTICE: Read 614 lines and wrote 0 different variants at 572 genomic positions (572 SNPs and 0 indels)
+NOTICE: Among 572 different variants at 572 positions, 0 are heterozygotes, 0 are homozygotes
+NOTICE: Among 572 SNPs, 268 are transitions, 304 are transversions (ratio=0.88)
+NOTICE: for SNPs, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, RMS mapping quality, quality by depth, if these information can be recognized automatically
+NOTICE: for indels, column 6 and beyond MAY BE heterozygosity status, quality score, read depth, read count supporting indel call, RMS mapping quality, if these information can be recognized automatically
+NOTICE: Read 1475229 lines and wrote 0 different variants at 1475186 genomic positions (1475186 SNPs and 0 indels)
+NOTICE: Among 1475186 different variants at 1475186 positions, 0 are heterozygotes, 0 are homozygotes
+NOTICE: Among 1475186 SNPs, 874607 are transitions, 600579 are transversions (ratio=1.46)
