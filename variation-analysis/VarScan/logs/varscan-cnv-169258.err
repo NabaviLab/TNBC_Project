@@ -1,0 +1,24 @@
+Normal Pileup: patient_086-N.pileup
+Tumor Pileup: patient_086-T.pileup
+Min coverage:	10
+Min avg qual:	15
+P-value thresh:	0.01
+246488690 positions in tumor
+245149145 positions shared in normal
+101421809 had sufficient coverage for comparison
+1251726 raw copynumber segments with size > 10
+1246041 good copynumber segments with depth > 10
+Min coverage:	20
+Reading input from patient_086.copynumber
+-0.4475747 was the average log2 of copy number change
+Copy number change by GC content bin:
+bin	regions	avg_log2	mean_sd
+0	845676	-0.4475747	0.0
+Reading input from patient_086.copynumber
+2492082 raw regions parsed
+845676 met min depth
+845676 met min size
+144879 regions (12850799 bp) were called amplification (log2 > 0.25)
+191335 regions (16808290 bp) were called neutral
+509462 regions (43009279 bp) were called deletion (log2 <-0.25)
+77986 regions (6022289 bp) were called homozygous deletion (normal cov >= 20 and tumor cov <= 5)

@@ -1,0 +1,158 @@
+Normal Pileup: patient_130-N.pileup
+Tumor Pileup: patient_130-T.pileup
+Min coverage:	10
+Min avg qual:	15
+P-value thresh:	0.01
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+Not resetting normal file because chr10 < chr9
+258141854 positions in tumor
+257382443 positions shared in normal
+104410297 had sufficient coverage for comparison
+1173757 raw copynumber segments with size > 10
+1168936 good copynumber segments with depth > 10
+Min coverage:	20
+Reading input from patient_130.copynumber
+0.9339266 was the average log2 of copy number change
+Copy number change by GC content bin:
+bin	regions	avg_log2	mean_sd
+0	885933	0.9339266	0.0
+Reading input from patient_130.copynumber
+2337872 raw regions parsed
+885933 met min depth
+885933 met min size
+796647 regions (77763214 bp) were called amplification (log2 > 0.25)
+64052 regions (6023556 bp) were called neutral
+25234 regions (2350044 bp) were called deletion (log2 <-0.25)
+122 regions (9181 bp) were called homozygous deletion (normal cov >= 20 and tumor cov <= 5)
