@@ -1,0 +1,42 @@
+Using 4 process(es)...
+Read '001t6/2' found mapping on 1225 genes!
+Found 93023 reads with poly-A/C/G/T/N tails (equal or more 12 repeat nucleotides)
+Total number of input reads = 9523318
+Total number of reads written in the output = 9516732
+Using 4 process(es)...
+0.18448 % reads clipped due to low quality (less or equal than Q5) at 3' end (17556 out of 9516732)!
+Found 4020 reads with poly-A/C/G/T/N tails (equal or more 12 repeat nucleotides)
+Total number of input reads = 1551351
+Total number of reads written in the output = 1551309
+Using 4 process(es)...
+0.00477 % reads clipped due to low quality (less or equal than Q5) at 3' end (74 out of 1551309)!
+8 processor(s) found!
+4 CPU(s) will be used!
+Counting the records in the input file...
+ - 1394241 records found in the input file!
+Splitting the input file into 4 pieces...
+ - writing part 1
+       wrote 348561 sequences
+ - writing part 2
+       wrote 348561 sequences
+ - writing part 3
+       wrote 348561 sequences
+ - writing part 4
+       wrote 348558 sequences
+Launching BLAT in parallel...
+-->JOB:1-----------------------------------------------------------------
+/home/abdelrahman/fusioncatcher/bin/blat-filter-fusion.sh /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/gene-gene.2bit /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmpkbnJ7d /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmp8Tjc6d /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmpwhgQXw -noHead -stepSize=5 -tileSize=11 -minScore=30 -t=DNA -q=RNA -repMatch=2253 -minIdentity=30 -maxIntron=1295624
+-->JOB:2-----------------------------------------------------------------
+/home/abdelrahman/fusioncatcher/bin/blat-filter-fusion.sh /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/gene-gene.2bit /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmp5B519H /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmpawUONt /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmpdXFilx -noHead -stepSize=5 -tileSize=11 -minScore=30 -t=DNA -q=RNA -repMatch=2253 -minIdentity=30 -maxIntron=1295624
+-->JOB:3-----------------------------------------------------------------
+/home/abdelrahman/fusioncatcher/bin/blat-filter-fusion.sh /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/gene-gene.2bit /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmp5eFquG /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmpGEMtRP /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmpynJZVG -noHead -stepSize=5 -tileSize=11 -minScore=30 -t=DNA -q=RNA -repMatch=2253 -minIdentity=30 -maxIntron=1295624
+-->JOB:4-----------------------------------------------------------------
+/home/abdelrahman/fusioncatcher/bin/blat-filter-fusion.sh /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/gene-gene.2bit /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmptDFF5W /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmptk39WH /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/038_EOS_responder/tmp/tmpt41tII -noHead -stepSize=5 -tileSize=11 -minScore=30 -t=DNA -q=RNA -repMatch=2253 -minIdentity=30 -maxIntron=1295624
+-------------------------------------------------------------------------
+Waiting for BLAT to finish running...
+BLAT finished running.
+-------------------------------------------------------------------------
+Joining BLAT's output files...
+Done.
+Fixing PSL...
+Sorting PSL...

@@ -1,0 +1,47 @@
+Using 4 process(es)...
+Read '00nhP/2' found mapping on 1225 genes!
+Using 4 process(es)...
+Read '0006S/2' found mapping on 1225 genes!
+Found 233319 reads with poly-A/C/G/T/N tails (equal or more 12 repeat nucleotides)
+Total number of input reads = 9413128
+Total number of reads written in the output = 9393383
+Using 4 process(es)...
+0.20147 % reads clipped due to low quality (less or equal than Q5) at 3' end (18925 out of 9393383)!
+Found 9060 reads with poly-A/C/G/T/N tails (equal or more 12 repeat nucleotides)
+Total number of input reads = 1500822
+Total number of reads written in the output = 1500723
+Using 4 process(es)...
+0.00473 % reads clipped due to low quality (less or equal than Q5) at 3' end (71 out of 1500723)!
+8 processor(s) found!
+4 CPU(s) will be used!
+Counting the records in the input file...
+ - 1252987 records found in the input file!
+Splitting the input file into 4 pieces...
+ - writing part 1
+       wrote 313247 sequences
+ - writing part 2
+       wrote 313247 sequences
+ - writing part 3
+       wrote 313247 sequences
+ - writing part 4
+       wrote 313246 sequences
+Launching BLAT in parallel...
+-->JOB:1-----------------------------------------------------------------
+/home/abdelrahman/fusioncatcher/bin/blat-filter-fusion.sh /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/gene-gene.2bit /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmpbhaOeG /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmpxzo9Sn /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmpmpz2NV -noHead -stepSize=5 -tileSize=11 -minScore=30 -t=DNA -q=RNA -repMatch=2253 -minIdentity=30 -maxIntron=1426777
+-->JOB:2-----------------------------------------------------------------
+/home/abdelrahman/fusioncatcher/bin/blat-filter-fusion.sh /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/gene-gene.2bit /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmp7ECHey /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmpJeaj4E /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmpR010Rj -noHead -stepSize=5 -tileSize=11 -minScore=30 -t=DNA -q=RNA -repMatch=2253 -minIdentity=30 -maxIntron=1426777
+-->JOB:3-----------------------------------------------------------------
+/home/abdelrahman/fusioncatcher/bin/blat-filter-fusion.sh /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/gene-gene.2bit /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmp3KTQgH /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmpjKtbTP /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmpjHHQwQ -noHead -stepSize=5 -tileSize=11 -minScore=30 -t=DNA -q=RNA -repMatch=2253 -minIdentity=30 -maxIntron=1426777
+-->JOB:4-----------------------------------------------------------------
+/home/abdelrahman/fusioncatcher/bin/blat-filter-fusion.sh /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/gene-gene.2bit /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmpnJRKRP /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmp63q2pZ /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/tmp/tmprazhP1 -noHead -stepSize=5 -tileSize=11 -minScore=30 -t=DNA -q=RNA -repMatch=2253 -minIdentity=30 -maxIntron=1426777
+-------------------------------------------------------------------------
+Waiting for BLAT to finish running...
+BLAT finished running.
+-------------------------------------------------------------------------
+Joining BLAT's output files...
+Done.
+Fixing PSL...
+Sorting PSL...
+Processing PSL...
+Sorting again...
+The end.

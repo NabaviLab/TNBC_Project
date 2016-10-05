@@ -1,0 +1,24 @@
+WARNING: Cannot restart automatically because the previous log file '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/fusioncatcher.log' cannot be found!
+The workflow will be restarted from the beginning with step 1!
+overlap = 15
+Reading...
+ -  /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-f-0_R1.fastq
+ -  /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-r-1_R2.fastq
+Using 4 process(es)...
+Reading... 10000000 reads
+Reading... 20000000 reads
+Reading... 30000000 reads
+Reading... 40000000 reads
+Reading... 50000000 reads
+Total count mate reads = 55501624
+Read length = 76
+Writing the statistics... /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps_fr_0.txt
+Count overlapping pair-reads = 24604167 [44.331%]
+Count wasted nucleotides = 1140150799 [30.487%]
+Most common fragment size = 115 [540294 counts]
+Starting...
+No changes are done!
+Done.
+Converting...
+Auto-detect found SANGER FASTQ format!
+The end.

@@ -1,0 +1,991 @@
+Checking Python version...
+  * Compatible Python version found!
+Checking size of installed RAM memory ...
+  * 32225 MB of RAM memory found!
+Checking FusionCatcher version...
+Log of the pipeline:
+--------------------------------------------------------------------------------
+Starting execution with step 1.
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 1   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+================================================
+Software version: fusioncatcher.py 0.99.6a beta
+================================================
+
+
+"  \
+> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 2   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+Software version: fusioncatcher.py 0.99.6a beta
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/fusioncatcher.log
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 3   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 4   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+APPENDING to file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt'.
+>===================================
+>GENOME INFORMATION:
+>===================================
+>from file: '/common/opt/bioinformatics/fusioncatcher/data/ensembl_v84/version.txt'
+>
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 5   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Skipping from erasing '/common/opt/bioinformatics/fusioncatcher/data/ensembl_v84/version.txt' (size: 903 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 6   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+APPENDING to file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt'.
+>===================================
+>Genome FASTA files:
+>===================================
+>from file: '/common/opt/bioinformatics/fusioncatcher/data/ensembl_v84/genome_information.txt'
+>
+>
+>
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 7   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Skipping from erasing '/common/opt/bioinformatics/fusioncatcher/data/ensembl_v84/genome_information.txt' (size: 98 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 8   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+Linux:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 9   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+cat \
+/etc/issue  \
+2>&1  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 10   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+Python:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 11   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:0m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+python_version.py \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 12   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+BioPython:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 13   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+biopython_version.py \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 14   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+===========
+TOOLS:
+===========
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 15   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+SORT:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 16   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+sort \
+--version  \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 17   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+BOWTIE:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 18   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+bowtie \
+--version  \
+|  \
+head -2 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 19   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+PIGZ:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 20   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+PXZ:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 21   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+fastq-dump (from SRA Toolkit):
+--------------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 22   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+fastq-dump \
+2>&1  \
+|  \
+tail -2 \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 23   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+GNU Parallel:
+--------------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 24   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+parallel \
+--version  \
+2>&1  \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 25   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+SAMTools:
+---------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 26   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+samtools \
+2>&1  \
+|  \
+head -3 \
+|  \
+tail -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 27   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+liftOver:
+---------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 28   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+liftOver \
+2>&1  \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 29   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+SeqTK:
+---------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 30   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+seqtk \
+2>&1  \
+|  \
+head -3 \
+|  \
+tail -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 31   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+sed:
+---------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 32   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+sed \
+--version  \
+2>&1  \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 33   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+awk:
+---------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 34   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+awk \
+-Wversion  \
+2>&1  \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt \
+||  \
+awk  \
+--version  \
+2>&1  \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 35   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+BLAT:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 36   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+blat \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 37   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+faToTwoBit (from BLAT toolbox):
+----------------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 38   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+faToTwoBit \
+2>&1  \
+> /dev/null \
+|  \
+head -1 \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 39   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+STAR:
+------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 40   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+STAR \
+--version  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 41   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+
+
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 42   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 43   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+APPENDING to file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt'.
+>===================
+>CONFIGURATION.CFG:
+>===================
+>from file: '/home/abdelrahman/fusioncatcher/etc/configuration.cfg'
+>
+>
+>
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 44   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Skipping from erasing '/home/abdelrahman/fusioncatcher/etc/configuration.cfg' (size: 1452 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 45   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+============
+DATA DIRECTORY:
+============
+/common/opt/bioinformatics/fusioncatcher/data/ensembl_v84/
+It is not a link!
+
+
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 46   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+Version of the data build matches the version of pipeline version!
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 47   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+============
+MEMORY:
+============
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 48   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+free \
+-m  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 49   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+Total installed RAM memory = 32225 MB"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 50   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+
+
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+The input '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ' is a directory...
+Input files (which contain the short reads):
+/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ/R1.fastq.gz
+/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ/R2.fastq.gz
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 51   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+APPENDING to file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt'.
+>
+>Input files (which contain the short reads):
+>--------------------------------------------
+>/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ/R1.fastq.gz
+>/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ/R2.fastq.gz
+>
+>
+>
+Protecting from future deletion attempts '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ/R1.fastq.gz'
+Protecting from future deletion attempts '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ/R2.fastq.gz'
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 52   Time: 08:46   Date: 2016-09-22 (elapsed time: 0d:0h:1m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+gzip \
+-d  \
+-f  \
+-c  \
+ /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ/R1.fastq.gz \
+> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 2 hour(s), 8 minute(s), and 33 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 53   Time: 10:54   Date: 2016-09-22 (elapsed time: 0d:2h:9m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+gzip \
+-d  \
+-f  \
+-c  \
+ /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/FASTQ/R2.fastq.gz \
+> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 6 minute(s), and 54 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 54   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+
+First 8 lines of input FASTQ file: /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq
+-------------------------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 55   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+head \
+-8 /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 1 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 56   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+
+First 8 lines of input FASTQ file: /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq
+-------------------------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 57   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+head \
+-8 /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 1 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 58   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+
+Last 8 lines of input FASTQ file: /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq
+-------------------------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 59   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+tail \
+-8 /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 60   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+printf \
+"
+
+Last 8 lines of input FASTQ file: /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq
+-------------------------
+"  \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 61   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+tail \
+-8 /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq \
+>> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 62   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+overlap.py \
+--input_1 /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq \
+--input_2 /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq \
+--processes 4 \
+--fail-gracefully  \
+--output /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps__0.txt \
+2> /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps_error__0.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 63   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
++-->EXECUTING workflow's IF...
+Result of IF = TRUE [Unique Id = #DIFFERENT_SIZES_OF_READS_OVERLAP_0#]
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 64   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Erasing '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps_error__0.txt' (size: 464 bytes)
+==> Erasing file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps_error__0.txt' (size: 464 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 65   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Erasing '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps__0.txt' (size: 87 bytes)
+==> Erasing file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps__0.txt' (size: 87 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 66   Time: 11:01   Date: 2016-09-22 (elapsed time: 0d:2h:16m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+lengths_reads.py \
+--input /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq \
+--output /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_lengths_original_reads_f_0.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 7 minute(s), and 33 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 67   Time: 11:09   Date: 2016-09-22 (elapsed time: 0d:2h:24m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+lengths_reads.py \
+--input /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq \
+--output /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_lengths_original_reads_r_0.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 6 minute(s), and 30 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 68   Time: 11:15   Date: 2016-09-22 (elapsed time: 0d:2h:30m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 69   Time: 11:15   Date: 2016-09-22 (elapsed time: 0d:2h:30m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Erasing '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_lengths_original_reads_f_0.txt' (size: 126 bytes)
+==> Erasing file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_lengths_original_reads_f_0.txt' (size: 126 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 70   Time: 11:15   Date: 2016-09-22 (elapsed time: 0d:2h:30m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Erasing '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_lengths_original_reads_r_0.txt' (size: 126 bytes)
+==> Erasing file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_lengths_original_reads_r_0.txt' (size: 126 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 71   Time: 11:15   Date: 2016-09-22 (elapsed time: 0d:2h:30m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+padding-fastq.py \
+--input /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq \
+--output /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-f-0_R1.fastq \
+--size 76
+--------------------------------------------------------------------------------
++-->EXECUTING...
+==> Erasing file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-0_R1.fastq' (size: 11650233551 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 7 minute(s), and 51 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 72   Time: 11:23   Date: 2016-09-22 (elapsed time: 0d:2h:38m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+padding-fastq.py \
+--input /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq \
+--output /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-r-1_R2.fastq \
+--size 76
+--------------------------------------------------------------------------------
++-->EXECUTING...
+==> Erasing file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-1_R2.fastq' (size: 11633186337 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 7 minute(s), and 5 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 73   Time: 11:30   Date: 2016-09-22 (elapsed time: 0d:2h:45m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Erasing '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_lengths_original_reads_fr_0.txt' (size: 2 bytes)
+==> Erasing file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_lengths_original_reads_fr_0.txt' (size: 2 bytes)
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 74   Time: 11:30   Date: 2016-09-22 (elapsed time: 0d:2h:45m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+overlap.py \
+--input_1 /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-f-0_R1.fastq \
+--input_2 /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/init-r-1_R2.fastq \
+--processes 4 \
+--output /archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps_fr_0.txt
+--------------------------------------------------------------------------------
++-->EXECUTING...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 23 minute(s), and 7 second(s)
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 75   Time: 11:53   Date: 2016-09-22 (elapsed time: 0d:3h:8m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+
+--------------------------------------------------------------------------------
++-->MOCK EXECUTION (i.e. code executed outside of workflow)...
+--------------------------------------------------------------------------------
+==> Execution time: 0 day(s), 0 hour(s), 0 minute(s), and 0 second(s)
+APPENDING to file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/info.txt'.
+>
+>
+>
+>Pair-reads overlappings (after padding):
+>----------------------------------------
+>from file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps_fr_0.txt'
+>
+>
+>
+////////////////////////////////////////////////////////////////////////////////
+  Running: step = 76   Time: 11:53   Date: 2016-09-22 (elapsed time: 0d:3h:8m)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+==> Current working directory: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792'
+Erasing '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps_fr_0.txt' (size: 3696 bytes)
+==> Erasing file: '/archive/NabaviLab/TNBC_Project/fastq_raw_data/RNAseq_30814792/SNabavi_FFPE_RNASeq_May2016-30814792/062_TNBC_responder/log_overlaps_fr_0.txt' (size: 3696 bytes)
+-----------------------------
