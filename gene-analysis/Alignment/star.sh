@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #$ -N STAR
 #$ -M abdelrahman@engr.uconn.edu
 #$ -m bea

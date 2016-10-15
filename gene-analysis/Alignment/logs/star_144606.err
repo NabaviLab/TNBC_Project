@@ -1,3 +1,0 @@
-terminate called after throwing an instance of 'std::bad_alloc'
-  what():  std::bad_alloc
-/opt/gridengine/default/spool/compute-1-4/job_scripts/144606: line 19: 12368 Aborted                 (core dumped) STAR --runThreadN 4 --runMode genomeGenerate --genomeDir hg19 --genomeFastaFiles hg19/genome.fa --sjdbGTFfile hg19/annotations/hg19-annotations-ensembl.gtf --sjdbOverhang 75

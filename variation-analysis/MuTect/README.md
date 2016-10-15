@@ -11,4 +11,5 @@ dbSNP file used:  ```dbsnp_132_b37.leftAligned.vcf```
 
 ## Hardware
 The computation was run on the BBC cluster (bbcsrv3.biotech.uconn.edu).
+
 [see cluster configuration](http://bioinformatics.uconn.edu/hardware)

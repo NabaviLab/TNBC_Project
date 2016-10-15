@@ -6,4 +6,5 @@ No potential errors or warnings. See full result reports in the results director
 
 ## Hardware
 The computation was run on the BBC cluster (bbcsrv3.biotech.uconn.edu).
+
 [see cluster configuration](http://bioinformatics.uconn.edu/hardware)

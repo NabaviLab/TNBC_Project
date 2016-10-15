@@ -5,4 +5,5 @@ We set the maximum java heap size to 14G to run the sorting faster. Why 14GB? As
 
 ## Hardware
 The computation was run on the BBC cluster (bbcsrv3.biotech.uconn.edu).
+
 [see cluster configuration](http://bioinformatics.uconn.edu/hardware)

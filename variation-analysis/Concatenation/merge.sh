@@ -1,3 +1,13 @@
+#!/bin/bash
+#$ -N merge
+#$ -M abdelrahman@engr.uconn.edu
+#$ -m n
+#$ -S /bin/bash
+#$ -cwd
+#$ -pe smp 1
+#$ -o $JOB_ID.out"
+#$ -e $JOB_ID.err"
+
 patient_id=$1
 mkdir Patients/p_DS_bkm_$patient_id
 

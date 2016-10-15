@@ -1,33 +1,18 @@
-#!/bin/bash -l
-# this is a simple qsub submission script for running a serial (single-threaded) job
-
-# use the Bash shell to execute the job
+#!/bin/bash
+#$ -N align_bwa
+#$ -M abdelrahman@engr.uconn.edu
+#$ -m n
 #$ -S /bin/bash
-
-# Give the job a name
-#$ -N abdelrahman_bwa
-
-# send the job output to a file.  $JOB_ID will be substitued with the actual job number
-#$ -o $HOME/TNBC_Project/BWA/abdelrahman_bwa-$JOB_ID.out
-
-# send the job error messages to a file
-#$ -e $HOME/TNBC_Project/BWA/abdelrahman_bwa-$JOB_ID.err
-
-# define a variable for your working directory - replace this with the actual directory name
-# this directory should already exist
-WORK_DIR=$HOME/Patients
-
-# change to the $WORK_DIR
-cd $WORK_DIR
-
-# Execute the job from the current working directory
 #$ -cwd
+#$ -pe smp 4
+#$ -o $JOB_ID.out"
+#$ -e $JOB_ID.err"
 
-# now run the actual job - replace this with the program you want to run along with any command line arguments
 
-# bwa index hg19/genome.fa
+WORK_DIR=$HOME/Patients
+cd $WORK_DIR
+bwa index hg19/genome.fa
 
-
-PATIENT_ID=135
-bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/N-R1.fastq.gz p_DS_bkm_$PATIENT_ID/N-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-N.sam
-bwa mem -t 8 hg19/genome.fa p_DS_bkm_$PATIENT_ID/T-R1.fastq.gz p_DS_bkm_$PATIENT_ID/T-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-T.sam
+PATIENT_ID=$1
+bwa mem -t 4 hg19/genome.fa p_DS_bkm_$PATIENT_ID/N-R1.fastq.gz p_DS_bkm_$PATIENT_ID/N-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-N.sam
+bwa mem -t 4 hg19/genome.fa p_DS_bkm_$PATIENT_ID/T-R1.fastq.gz p_DS_bkm_$PATIENT_ID/T-R2.fastq.gz > BWA_output/p_DS_bkm_$PATIENT_ID-T.sam

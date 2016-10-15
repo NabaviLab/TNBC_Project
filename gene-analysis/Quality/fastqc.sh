@@ -1,5 +1,5 @@
 #!/bin/bash
-#$ -N concatenate
+#$ -N quality_fastqc
 #$ -M abdelrahman@engr.uconn.edu
 #$ -m n
 #$ -S /bin/bash
